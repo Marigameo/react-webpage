@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './HomeCare.css'
 // import {Link} from "react-router-dom";
-import homeCareImg from '../assets/img/login-banner.png'
+import illustration from '../assets/img/home-care/illustration.svg'
 import hOne from '../assets/img/home-care/01.jpg'
 import hTwo from '../assets/img/home-care/02.jpg'
 import hThree from '../assets/img/home-care/03.jpg'
@@ -25,7 +25,7 @@ export default class Blog extends Component {
             <section className="container">
                 <article className="row home-care-section-two">
                     <div className="col-lg-6">
-                    <img src={homeCareImg} alt="home-care-img-section" />
+                    <img src={illustration} alt="home-care-img-section" />
                     </div>
                     <div className="col-lg-6">
                         <h1>Home Care Services</h1>
