@@ -21,7 +21,6 @@ export default class FeedBack extends Component {
     };
     return (
       <div className="container">
-        <h2> Multiple items </h2>
         <Slider {...settings}>
           <div>
             <div className="feedback" style={{ width: 400 }}>

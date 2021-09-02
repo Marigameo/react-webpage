@@ -123,10 +123,9 @@ const Home = () => {
     <div className="col-lg-4">
         <div className="section-header ">
             <h2>Health and Well-being Information</h2>
-            <p>Articles to make you healthier and smarter.</p>
         </div>
         <div className="about-content">
-            <p>Easy-to-Read health information from our medical experts enables people to ask themselves if they have been living in the right way as per health is concerned.</p>					
+            <p>Easy-to-Read health information from our medical experts enables people to live in a better way as per health is concerned.</p>					
             <a href={() => false}>Read More..</a>
         </div>
     </div>

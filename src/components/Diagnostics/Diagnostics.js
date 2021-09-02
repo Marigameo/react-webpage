@@ -44,7 +44,7 @@ const Diagnostics = () => {
   <SimpleSlider/>
 
 
-		  <section className="work-section">
+		  <section className="work-section" id="view-btn">
 		  <div className=" text-center container">
 			<h2>How does Home Sample Pickup Work?</h2>
 			<div className="row">
@@ -64,10 +64,9 @@ const Diagnostics = () => {
 		  </div>
 		  </section>
 
-			<section className="section section-blogs" id="aff-blogs">
+			<section id="aff-blogs" className="section section-blogs">
+				<article id="view-btn">
 				<div className="container">
-				
-			
 					<div className="section-header text-center">
 						<h2>Affordable health Packages</h2>
 						<p className="sub-title">Every time you book a test with Medatu, we connect you with the most leading and certified labs located near you.</p>
@@ -92,14 +91,13 @@ const Diagnostics = () => {
 					</div>
 					</div>
 					</div>
-			
-					<div className="container text-center"> 
-						<a href="blog-list.html" className="btn view-btn">View All</a>
-					</div>
+					<button className="btn view-btn">View More</button>
+				</article>
 			</section>
 
            
-			<section id="browse-section">
+			<section id="view-btn" >
+				<div id="browse-section">
 				<div className="container-fluid">
 					<div className="section-header text-center">
 						<h2>Popular Categories</h2><br/><br/>
@@ -226,10 +224,9 @@ const Diagnostics = () => {
 							</div>
 						</div>
 					</div>
-					<div className="container text-center"> 
-						<a href="blog-list.html" className="btn view-btn">View All</a>
-					</div>
 				</div>
+				</div>
+				<button className="btn view-btn">View More</button>
 			</section>
 	
 			<section id="top-tests">
@@ -326,10 +323,10 @@ const Diagnostics = () => {
 				
 			</section>
 
-			<section className="section section-blogs">
-				<div className="container">
+			<section id="view-btn" className="section section-blogs">
 				
-			
+				<div className="container">
+
 					<div className="section-header text-center">
 						<h2>Featured Labs</h2>
 						<p className="sub-title">Every time you book a test with Medatu, we connect you with the most leading and certified labs located near you.</p>
@@ -356,9 +353,7 @@ const Diagnostics = () => {
 					</div>
 					</div>
 			
-					<div className="container text-center"> 
-						<a href="blog-list.html" className="btn view-btn">View All</a>
-					</div>
+					<button className="btn view-btn">View More</button>
 				
 			</section>
 <Feedback/>
