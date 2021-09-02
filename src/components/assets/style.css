@@ -5168,7 +5168,7 @@ body .multi-optn {
 	color: #fdfdfd;
 }
 .browse-widget:hover .arrows {
-	transform: translate(0, -320%);
+	transform: translate(0, -420%);
 	background-color: #fdfdfd;
 }
 .browse-widget:hover .arrows i {
@@ -5784,8 +5784,8 @@ body .multi-optn {
  	-webkit-transform: rotate(140deg)
 }
 .doc-booking .book-slider .slick-next:before {
-	transform: rotate(320deg);
- 	-webkit-transform: rotate(320deg)
+	transform: rotate(420deg);
+ 	-webkit-transform: rotate(420deg)
 }
 .doc-booking .book-slider .slick-prev:before, .doc-booking .book-slider .slick-next:before{
 	font-family: 'slick';
@@ -9928,7 +9928,7 @@ ul.benifits-col li i{
   margin: 20px 0;
   float: right;
   background: white;
-  width: 320px;
+  width: 420px;
   position: absolute;
   right: 0;
   top: 99%;
@@ -11432,12 +11432,12 @@ ul.benifits-col li i{
 		padding-top: 3rem !important;
 	}
 	.dropdown .selected-value input {
-		width: 320px !important;
+		width: 420px !important;
 		padding-right: 0 !important;
 		margin-bottom: .8rem !important;
 	}
 	.location-search-input {
-		width: 320px !important;
+		width: 420px !important;
 		margin-bottom: .8rem !important;
 	}
 	.feature-text {
@@ -11926,7 +11926,7 @@ ul.benifits-col li i{
 		width: 12rem !important;
 	}
 	.search-info {
-		max-width: 320px !important;
+		max-width: 420px !important;
 	}
 .banner-home {
 	max-height: 50vh !important;
@@ -12370,5 +12370,5 @@ font-size: 10px;
 	outline: none;
 	padding: 10px 52px 10px 40px;
 	transition: all 200ms ease;
-	width: 14rem;
+	width: 18rem;
   }

@@ -122,7 +122,7 @@ const Home = () => {
 <div className="row">
     <div className="col-lg-4">
         <div className="section-header ">
-            <h2>Health and Well-being Information</h2>
+            <h2>Healthcare Services at the Convenience of your Home</h2>
         </div>
         <div className="about-content">
             <p>Easy-to-Read health information from our medical experts enables people to live in a better way as per health is concerned.</p>					
@@ -149,7 +149,7 @@ const Home = () => {
             <a href="/blog">10 foods for Healthy Heart</a> 
         </h3>
         
-        <p>Eating Heart-healthy foods can minimize your risk of heart diseases.</p>
+        <p>Eating healthy diet might help minimize the risk of heart diseases.</p>
     </div>
 </div>
 </div>
@@ -171,7 +171,7 @@ const Home = () => {
                 <h3 className="title">
                     <a href="#/">10 Common COVID-19 Myths You Shouldn’t believe</a> 
                 </h3>
-                <p>Myths and facts about COVID-19 that will awe you completely</p>
+                <p>It is time to separate fact from fiction.</p>
             </div>
         </div>	
     </div>

@@ -39,7 +39,7 @@ class Placesapi extends React.Component {
                 <div className="form-group search-location">
 
 
-                    <input  {...getInputProps({placeholder: 'Search Places ...', className: 'location-search-input',})}type="text" className="form-control" id="location" placeholder="Search Location"/>
+                    <input  {...getInputProps({placeholder: 'Search Places ..', className: 'location-search-input',})}type="text" className="form-control" id="location" placeholder="Search Location"/>
                     <div className="autocomplete-dropdown-container">
                         {loading && <div>Loading...</div>}
                         {suggestions.map(suggestion => {
