@@ -137,7 +137,7 @@ const Home = () => {
 <div className="doctor-blog profile-widget">
     <div className="doc-img">
         {/* <a href="/blog"> */}
-        <Link as={Link} to="/blog" target="_blank" rel="noopener noreferrer">
+        <Link as={Link} to="/blog">
         <img className="img-fluid" alt="User" src={docOne}/>
         </Link>
         {/* </a> */}
@@ -158,7 +158,7 @@ const Home = () => {
         <div className="doctor-blog profile-widget">
             <div className="doc-img">
                 {/* <a href="#/"> */}
-                   <Link as={Link} to="/blog2" target="_blank" rel="noopener noreferrer">
+                   <Link as={Link} to="/blog2">
 
                     <img className="img-fluid" alt="User" src={docTwo}/>
                     </Link>
