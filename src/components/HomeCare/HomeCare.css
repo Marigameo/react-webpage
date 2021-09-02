@@ -25,8 +25,7 @@
     width: 80%;
 }
 .home-care-banner {
-    padding-top: 8rem;
-    background-image: url(../assets/img/banner-img.png);
+    background-image: url(../assets/img/home-care-banner.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -39,13 +38,12 @@
     width: 100vw;
 }
 .home-care-header h1 {
+    padding-top: 4rem;
 	font-size: 2.566rem !important;
 	color: #151515;
 	font-weight: 200 !important;
-}
-.home-care-header p {
-	font-size: 1.424rem !important;
-	color: #151515;
-	margin-bottom: 1rem;
-	font-weight: 700 !important;
+    letter-spacing: .103rem;
+    line-break:strict;
+    padding-bottom: 2rem;
+    border-bottom: .5px solid black;
 }
