@@ -81,7 +81,7 @@ const Home = () => {
             </div>
             <div className="body-two text-center">
                 <h3 className="h3-two">Home Care</h3>
-                <h6 className="h6-two">Healthcare Services at Home</h6>
+                <h6 className="h6-two">Healthcare Services at the Convenience of your Home</h6>
                 <div className="text-center">
                 <button id="section-btn">Book Now</button>
                 </div>
@@ -122,7 +122,7 @@ const Home = () => {
 <div className="row">
     <div className="col-lg-4">
         <div className="section-header ">
-            <h2>Healthcare Services at the Convenience of your Home</h2>
+            <h2>Information for your health and wellness</h2>
         </div>
         <div className="about-content">
             <p>Easy-to-Read health information from our medical experts enables people to live in a better way as per health is concerned.</p>					

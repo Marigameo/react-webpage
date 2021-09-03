@@ -52,8 +52,6 @@ const Footer = () => {
                             </li>
                                 <li><a href="register.html">How It Works</a>
                             </li>
-                                <li><a href="booking.html">Blog</a>
-                            </li>
                                 <li><a href="patient-dashboard.html">FAQs</a>
                             </li>
                             <li><a href="register.html">Careers</a>
@@ -63,7 +61,7 @@ const Footer = () => {
                     </div>
                     <div className="col-lg-2 col-md-6">
                     <div className="footer-widget footer-menu">
-                        <h2 className="footer-title">For Patients</h2>
+                        <h2 className="footer-title">For People</h2>
                         <ul>
                                 <li><a href="search.html">Language</a>
                             </li>
@@ -79,7 +77,7 @@ const Footer = () => {
                             </li>
                                 <li><a href="booking.html">For Women</a>
                             </li>
-                                <li><a href="patient-dashboard.html">Help Center</a>
+                                <li><a href="patient-dashboard.html">Help Centre</a>
                             </li>
                         </ul>
                     </div>
@@ -90,11 +88,9 @@ const Footer = () => {
                         <ul>
                                 <li><a href="search.html">Doctor’s Profile</a>
                             </li>
-                                <li><a href="login.html">Hospital</a>
+                                <li><a href="login.html">Hospitals</a>
                             </li>
                                 <li><a href="register.html">Diagnostic Labs</a>
-                            </li>
-                                <li><a href="booking.html">Booking</a>
                             </li>
                                 <li><a href="patient-dashboard.html">Insurance carriers</a>
                             </li>

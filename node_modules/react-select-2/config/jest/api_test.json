@@ -1,0 +1,4 @@
+ {
+     "verbose": true,
+     "testPathDirs": ["src/api/__tests_!_"]
+ }
