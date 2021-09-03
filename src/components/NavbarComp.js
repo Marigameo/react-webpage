@@ -75,13 +75,16 @@ export default class NavbarComp extends Component {
                 <Nav.Link as={Link} to="/about">For Women</Nav.Link>
                 </li>
                 <li className="has-submenu">
+                    <a href="#/">Medatu Clinic</a>
+                </li>
+                {/* <li className="has-submenu">
                     <a href="#/">More&nbsp;<FontAwesomeIcon icon={faChevronDown}/></a>  
                     <ul className="submenu">
                         <li><a href="#/">Hospitals</a></li>
                         <li><a href="#/">Health Insurance</a></li>
                         <li><a href="#/">Medical Tourism</a></li>
                     </ul>
-                </li>
+                </li> */}
                 
             </ul>		 
         </div>		 

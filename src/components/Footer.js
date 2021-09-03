@@ -73,10 +73,6 @@ const Footer = () => {
                             </li>
                                 <li><a href="patient-dashboard.html">Book Lab Test</a>
                             </li>
-                            <li><a href="register.html">Health Insurance</a>
-                            </li>
-                                <li><a href="booking.html">For Women</a>
-                            </li>
                                 <li><a href="patient-dashboard.html">Help Centre</a>
                             </li>
                         </ul>
@@ -88,11 +84,11 @@ const Footer = () => {
                         <ul>
                                 <li><a href="search.html">Doctor’s Profile</a>
                             </li>
-                                <li><a href="login.html">Hospitals</a>
+                                <li><a href="login.html">Pharmacies</a>
                             </li>
                                 <li><a href="register.html">Diagnostic Labs</a>
                             </li>
-                                <li><a href="patient-dashboard.html">Insurance carriers</a>
+                            <li><a href="register.html">Hospitals</a>
                             </li>
                         </ul>
                     </div>

@@ -67,8 +67,8 @@ const Home = () => {
                 <img src={threeTwo} alt="#/"/>
             </div>
             <div className="body-two text-center">
-                <h3 className="h3-two">Pregnancy packages</h3>
-                <h6 className="h6-two">Buy Complete Pregnancy pacakges</h6>
+                <h3 className="h3-two">Pregnancy Packages</h3>
+                <h6 className="h6-two">Buy Complete Pregnancy Packages</h6>
                 <div className="text-center">
                 <button id="section-btn">Book Now</button>
                 </div>

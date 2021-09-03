@@ -50,7 +50,7 @@ export default class Responsive extends Component {
         <div className="container">
                 <div className="section-header text-center">
                     <h2>Clinics and Specialities</h2>
-                    <p className="sub-title">Professionals With Over 10+ Years of Experience Across All Specialties. Book An In-Clinic Consultation with Just a Click!</p>
+                    <p className="sub-title">Professionals With Over 10+ Years of Experience Across All Specialities. Book An In-Clinic Consultation with Just a Click!</p>
                 </div>
         <Slider {...settings}>
         <div className="speicality-item text-center">
@@ -75,19 +75,19 @@ export default class Responsive extends Component {
           <div className="speicality-img">
             <img src={sFour} className="img-fluid" alt="Speciality"/>
           </div>
-          <p>Cardiologist</p>
+          <p>Cardiology</p>
         </div>	
         <div className="speicality-item text-center">
           <div className="speicality-img">
             <img src={sFive} className="img-fluid" alt="Speciality"/>
           </div>
-          <p>Dentist</p>
+          <p>Dentistry</p>
         </div>	
         <div className="speicality-item text-center">
           <div className="speicality-img">
             <img src={sSix} className="img-fluid" alt="Speciality"/>
           </div>
-          <p>Ophthalmologist</p>
+          <p>Ophthalmology</p>
         </div>	
         <div className="speicality-item text-center">
           <div className="speicality-img">
