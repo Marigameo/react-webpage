@@ -1,10 +1,37 @@
-import React, {Component} from 'react';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars, faStar, faStarHalf, faThLarge } from '@fortawesome/free-solid-svg-icons';
+import docOne from '../assets/img/doctors/book-doc-01.jpg'
+import docTwo from '../assets/img/doctors/book-doc-02.jpg'
+import docThree from '../assets/img/doctors/book-doc-03.jpg'
+import docFour from '../assets/img/doctors/book-doc-04.jpg'
+import docFive from '../assets/img/doctors/book-doc-05.jpg'
+import iOne from '../assets/img/specialities/specialities-01.png'
+import iTwo from '../assets/img/specialities/specialities-02.png'
+import iThree from '../assets/img/specialities/specialities-03.png'
+import iFour from '../assets/img/specialities/specialities-04.png'
+import iFive from '../assets/img/specialities/specialities-05.png'
 
 const DocList = () => {
     return ( 
         <main>
 
 		<div className="main-wrapper">
+
+		<div className="breadcrumb-bar">
+				<div className="container-fluid">
+					<div className="row align-items-center">
+						<div className="col-md-12 col-12">
+							<nav aria-label="breadcrumb" className="page-breadcrumb">
+								<ol className="breadcrumb">
+									<li className="breadcrumb-item"><a href="index.html">Home</a></li>
+									<li className="breadcrumb-item active" aria-current="page">Blog</li>
+								</ol>
+							</nav>
+							<h2 className="breadcrumb-title">Blog Grid</h2>
+						</div>
+					</div>
+				</div>
+			</div>
 
 			<div className="content">
 				<div className="container-fluid">
@@ -19,8 +46,8 @@ const DocList = () => {
 
 							<div className="col-md-6 col-auto">
 								<div className="view-icons">
-									<a href="map-grid.html" className="grid-view"><i className="fas fa-th-large"></i></a>
-									<a href="map-list.html" className="list-view active"><i className="fas fa-bars"></i></a>
+									<a href="map-grid.html" className="grid-view"><FontAwesomeIcon icon={faThLarge}/></a>
+									<a href="map-list.html" className="list-view active"><FontAwesomeIcon icon={faBars}/></a>
 								</div>
 								<div className="sort-by d-sm-block d-none">
 									<span className="sortby-fliter">
@@ -42,43 +69,43 @@ const DocList = () => {
 									<div className="doc-info-left">
 										<div className="doctor-img">
 											<a href="doctor-profile.html">
-												<img src="../img/doctors/doctor-thumb-01.jpg" className="img-fluid" alt="User Image"/>
+												<img src={docOne} className="img-fluid" alt="userImg"/>
 											</a>
 										</div>
 										<div className="doc-info-cont">
 											<h4 className="doc-name"><a href="doctor-profile.html">Dr. Ruby Perrin</a></h4>
 											<p className="doc-speciality">MDS - Periodontology and Oral Implantology, BDS</p>
 											<h5 className="doc-department">
-                                                <img src="../img/specialities/specialities-05.png" className="img-fluid" alt="Speciality"/>Dentist</h5>
+                                                <img src={iOne} className="img-fluid" alt="Speciality"/>Dentist</h5>
 											<div className="rating">
-												<i className="fas fa-star filled"></i>
-												<i className="fas fa-star filled"></i>
-												<i className="fas fa-star filled"></i>
-												<i className="fas fa-star filled"></i>
-												<i className="fas fa-star"></i>
+												<FontAwesomeIcon icon={faStar}/>
+												<FontAwesomeIcon icon={faStar}/>
+												<FontAwesomeIcon icon={faStar}/>
+												<FontAwesomeIcon icon={faStar}/>
+												<FontAwesomeIcon icon={faStarHalf}/>
 												<span className="d-inline-block average-rating">(17)</span>
 											</div>
 											<div className="clinic-details">
 												<p className="doc-location"><i className="fas fa-map-marker-alt"></i> Florida, USA</p>
 												<ul className="clinic-gallery">
 													<li>
-														<a href="../img/features/feature-01.jpg" data-fancybox="gallery">
-															<img src="../img/features/feature-01.jpg" alt="Feature"/>
+														<a href={docTwo} data-fancybox="gallery">
+															<img src={docTwo} alt="Feature"/>
 														</a>
 													</li>
 													<li>
-														<a href="../img/features/feature-02.jpg" data-fancybox="gallery">
-															<img  src="../img/features/feature-02.jpg" alt="Feature"/>
+														<a href={docFive} data-fancybox="gallery">
+															<img  src={docFive} alt="Feature"/>
 														</a>
 													</li>
 													<li>
-														<a href="../img/features/feature-03.jpg" data-fancybox="gallery">
-															<img src="../img/features/feature-03.jpg" alt="Feature"/>
+														<a href={docThree} data-fancybox="gallery">
+															<img src={docThree} alt="Feature"/>
 														</a>
 													</li>
 													<li>
-														<a href="../img/features/feature-04.jpg" data-fancybox="gallery">
-															<img src="../img/features/feature-04.jpg" alt="Feature"/>
+														<a href={docFour} data-fancybox="gallery">
+															<img src={docFour} alt="Feature"/>
 														</a>
 													</li>
 												</ul>
@@ -113,42 +140,42 @@ const DocList = () => {
 									<div className="doc-info-left">
 										<div className="doctor-img">
 											<a href="doctor-profile.html">
-												<img src="../img/doctors/doctor-thumb-02.jpg" className="img-fluid" alt="User Image"/>
+												<img src={docTwo} className="img-fluid" alt="userImg"/>
 											</a>
 										</div>
 										<div className="doc-info-cont">
 											<h4 className="doc-name"><a href="doctor-profile.html">Dr. Darren Elder</a></h4>
 											<p className="doc-speciality">BDS, MDS - Oral & Maxillofacial Surgery</p>
-											<h5 className="doc-department"><img src="../img/specialities/specialities-05.png" className="img-fluid" alt="Speciality"/>Dentist</h5>
+											<h5 className="doc-department"><img src={iTwo} className="img-fluid" alt="Speciality"/>Dentist</h5>
 											<div className="rating">
-												<i className="fas fa-star filled"></i>
-												<i className="fas fa-star filled"></i>
-												<i className="fas fa-star filled"></i>
-												<i className="fas fa-star filled"></i>
-												<i className="fas fa-star"></i>
+												<FontAwesomeIcon icon={faStar}/>
+												<FontAwesomeIcon icon={faStar}/>
+												<FontAwesomeIcon icon={faStar}/>
+												<FontAwesomeIcon icon={faStar}/>
+												<FontAwesomeIcon icon={faStarHalf}/>
 												<span className="d-inline-block average-rating">(35)</span>
 											</div>
 											<div className="clinic-details">
 												<p className="doc-location"><i className="fas fa-map-marker-alt"></i> Newyork, USA</p>
 												<ul className="clinic-gallery">
 													<li>
-														<a href="../img/features/feature-01.jpg" data-fancybox="gallery">
-															<img src="../img/features/feature-01.jpg" alt="Feature"/>
+														<a href={docOne} data-fancybox="gallery">
+															<img src={docOne} alt="Feature"/>
 														</a>
 													</li>
 													<li>
-														<a href="../img/features/feature-02.jpg" data-fancybox="gallery">
-															<img  src="../img/features/feature-02.jpg" alt="Feature"/>
+														<a href={docThree} data-fancybox="gallery">
+															<img  src={docThree} alt="Feature"/>
 														</a>
 													</li>
 													<li>
-														<a href="../img/features/feature-03.jpg" data-fancybox="gallery">
-															<img src="../img/features/feature-03.jpg" alt="Feature"/>
+														<a href={docFour} data-fancybox="gallery">
+															<img src={docFour} alt="Feature"/>
 														</a>
 													</li>
 													<li>
-														<a href="../img/features/feature-04.jpg" data-fancybox="gallery">
-															<img src="../img/features/feature-04.jpg" alt="Feature"/>
+														<a href={docFive} data-fancybox="gallery">
+															<img src={docFive} alt="Feature"/>
 														</a>
 													</li>
 												</ul>
@@ -183,42 +210,42 @@ const DocList = () => {
 									<div className="doc-info-left">
 										<div className="doctor-img">
 											<a href="doctor-profile.html">
-												<img src="../img/doctors/doctor-thumb-03.jpg" className="img-fluid" alt="User Image"/>
+												<img src={docThree} className="img-fluid" alt="userImg"/>
 											</a>
 										</div>
 										<div className="doc-info-cont">
 											<h4 className="doc-name"><a href="doctor-profile.html">Dr. Deborah Angel</a></h4>
 											<p className="doc-speciality">MBBS, MD - General Medicine, DNB - Cardiology</p>
-											<p className="doc-department"><img src="../img/specialities/specialities-04.png" className="img-fluid" alt="Speciality"/>Cardiology</p>
+											<p className="doc-department"><img src={iThree} className="img-fluid" alt="Speciality"/>Cardiology</p>
 											<div className="rating">
-												<i className="fas fa-star filled"></i>
-												<i className="fas fa-star filled"></i>
-												<i className="fas fa-star filled"></i>
-												<i className="fas fa-star filled"></i>
-												<i className="fas fa-star"></i>
+												<FontAwesomeIcon icon={faStar}/>
+												<FontAwesomeIcon icon={faStar}/>
+												<FontAwesomeIcon icon={faStar}/>
+												<FontAwesomeIcon icon={faStar}/>
+												<FontAwesomeIcon icon={faStarHalf}/>
 												<span className="d-inline-block average-rating">(27)</span>
 											</div>
 											<div className="clinic-details">
 												<p className="doc-location"><i className="fas fa-map-marker-alt"></i> Georgia, USA</p>
 												<ul className="clinic-gallery">
 													<li>
-														<a href="../img/features/feature-01.jpg" data-fancybox="gallery">
-															<img src="../img/features/feature-01.jpg" alt="Feature"/>
+														<a href={docOne} data-fancybox="gallery">
+															<img src={docOne} alt="Feature"/>
 														</a>
 													</li>
 													<li>
-														<a href="../img/features/feature-02.jpg" data-fancybox="gallery">
-															<img  src="../img/features/feature-02.jpg" alt="Feature"/>
+														<a href={docTwo} data-fancybox="gallery">
+															<img  src={docTwo} alt="Feature"/>
 														</a>
 													</li>
 													<li>
-														<a href="../img/features/feature-03.jpg" data-fancybox="gallery">
-															<img src="../img/features/feature-03.jpg" alt="Feature"/>
+														<a href={docFour} data-fancybox="gallery">
+															<img src={docFour} alt="Feature"/>
 														</a>
 													</li>
 													<li>
-														<a href="../img/features/feature-04.jpg" data-fancybox="gallery">
-															<img src="../img/features/feature-04.jpg" alt="Feature"/>
+														<a href={docFive} data-fancybox="gallery">
+															<img src={docFive} alt="Feature"/>
 														</a>
 													</li>
 												</ul>
@@ -253,42 +280,42 @@ const DocList = () => {
 									<div className="doc-info-left">
 										<div className="doctor-img">
 											<a href="doctor-profile.html">
-												<img src="../img/doctors/doctor-thumb-04.jpg" className="img-fluid" alt="User Image"/>
+												<img src={docFour} className="img-fluid" alt="userImg"/>
 											</a>
 										</div>
 										<div className="doc-info-cont">
 											<h4 className="doc-name"><a href="doctor-profile.html">Dr. Sofia Brient</a></h4>
 											<p className="doc-speciality">MBBS, MS - General Surgery, MCh - Urology</p>
-											<p className="doc-department"><img src="../img/specialities/specialities-01.png" className="img-fluid" alt="Speciality"/>Urology</p>
+											<p className="doc-department"><img src={iFour} className="img-fluid" alt="Speciality"/>Urology</p>
 											<div className="rating">
-												<i className="fas fa-star filled"></i>
-												<i className="fas fa-star filled"></i>
-												<i className="fas fa-star filled"></i>
-												<i className="fas fa-star filled"></i>
-												<i className="fas fa-star"></i>
+												<FontAwesomeIcon icon={faStar}/>
+												<FontAwesomeIcon icon={faStar}/>
+												<FontAwesomeIcon icon={faStar}/>
+												<FontAwesomeIcon icon={faStar}/>
+												<FontAwesomeIcon icon={faStarHalf}/>
 												<span className="d-inline-block average-rating">(4)</span>
 											</div>
 											<div className="clinic-details">
 												<p className="doc-location"><i className="fas fa-map-marker-alt"></i> Louisiana, USA</p>
 												<ul className="clinic-gallery">
 													<li>
-														<a href="../img/features/feature-01.jpg" data-fancybox="gallery">
-															<img src="../img/features/feature-01.jpg" alt="Feature"/>
+														<a href={docOne} data-fancybox="gallery">
+															<img src={docOne} alt="Feature"/>
 														</a>
 													</li>
 													<li>
-														<a href="../img/features/feature-02.jpg" data-fancybox="gallery">
-															<img  src="../img/features/feature-02.jpg" alt="Feature"/>
+														<a href={docTwo} data-fancybox="gallery">
+															<img  src={docTwo} alt="Feature"/>
 														</a>
 													</li>
 													<li>
-														<a href="../img/features/feature-03.jpg" data-fancybox="gallery">
-															<img src="../img/features/feature-03.jpg" alt="Feature"/>
+														<a href={docThree} data-fancybox="gallery">
+															<img src={docThree} alt="Feature"/>
 														</a>
 													</li>
 													<li>
-														<a href="../img/features/feature-04.jpg" data-fancybox="gallery">
-															<img src="../img/features/feature-04.jpg" alt="Feature"/>
+														<a href={docFour} data-fancybox="gallery">
+															<img src={docFour} alt="Feature"/>
 														</a>
 													</li>
 												</ul>
@@ -323,42 +350,42 @@ const DocList = () => {
 									<div className="doc-info-left">
 										<div className="doctor-img">
 											<a href="doctor-profile.html">
-												<img src="../img/doctors/doctor-thumb-06.jpg" className="img-fluid" alt="User Image"/>
+												<img src={docFive} className="img-fluid" alt="userImg"/>
 											</a>
 										</div>
 										<div className="doc-info-cont">
 											<h4 className="doc-name"><a href="doctor-profile.html">Dr. Katharine Berthold</a></h4>
 											<p className="doc-speciality">MS - Orthopaedics, MBBS, M.Ch - Orthopaedics</p>
-											<p className="doc-department"><img src="../img/specialities/specialities-03.png" className="img-fluid" alt="Speciality"/>Orthopaedics</p>
+											<p className="doc-department"><img src={iFive} className="img-fluid" alt="Speciality"/>Orthopaedics</p>
 											<div className="rating">
-												<i className="fas fa-star filled"></i>
-												<i className="fas fa-star filled"></i>
-												<i className="fas fa-star filled"></i>
-												<i className="fas fa-star filled"></i>
-												<i className="fas fa-star"></i>
+												<FontAwesomeIcon icon={faStar}/>
+												<FontAwesomeIcon icon={faStar}/>
+												<FontAwesomeIcon icon={faStar}/>
+												<FontAwesomeIcon icon={faStar}/>
+												<FontAwesomeIcon icon={faStarHalf}/>
 												<span className="d-inline-block average-rating">(52)</span>
 											</div>
 											<div className="clinic-details">
 												<p className="doc-location"><i className="fas fa-map-marker-alt"></i> Texas, USA</p>
 												<ul className="clinic-gallery">
 													<li>
-														<a href="../img/features/feature-01.jpg" data-fancybox="gallery">
-															<img src="../img/features/feature-01.jpg" alt="Feature"/>
+														<a href={docTwo} data-fancybox="gallery">
+															<img src={docTwo} alt="Feature"/>
 														</a>
 													</li>
 													<li>
-														<a href="../img/features/feature-02.jpg" data-fancybox="gallery">
-															<img  src="../img/features/feature-02.jpg" alt="Feature"/>
+														<a href={docThree} data-fancybox="gallery">
+															<img  src={docThree} alt="Feature"/>
 														</a>
 													</li>
 													<li>
-														<a href="../img/features/feature-03.jpg" data-fancybox="gallery">
-															<img src="../img/features/feature-03.jpg" alt="Feature"/>
+														<a href={docFour} data-fancybox="gallery">
+															<img src={docFour} alt="Feature"/>
 														</a>
 													</li>
 													<li>
-														<a href="../img/features/feature-04.jpg" data-fancybox="gallery">
-															<img src="../img/features/feature-04.jpg" alt="Feature"/>
+														<a href={docOne} data-fancybox="gallery">
+															<img src={docOne} alt="Feature"/>
 														</a>
 													</li>
 												</ul>
@@ -388,7 +415,7 @@ const DocList = () => {
 						</div>
 							
 					<div className="load-more text-center">
-						<a className="btn btn-sm" href="javascript:void(0);">Load More</a>	
+						<a className="btn btn-sm" href="#/">Load More</a>	
 					</div>
 	            </div>
 	            

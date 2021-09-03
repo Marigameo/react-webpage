@@ -6176,16 +6176,16 @@ body .multi-optn {
 }
 .clinic-booking a.view-pro-btn:hover, .clinic-booking a.view-pro-btn:focus {
 	background: #373B7A; 
-	color: #fdfdfd;
+	color: #fdfdfd !important;
 }
 .clinic-booking a.apt-btn {
     background-color: #373B7A;
-    color: #fdfdfd;
+    color: #fdfdfd !important;
 }
 .clinic-booking a.apt-btn:hover, .clinic-booking a.apt-btn:focus {
-	background-color: #0db9f2;
-	border-color: #0db9f2;
-	color: #fdfdfd;
+	background-color: #0db9f2 !important;
+	border-color: #0db9f2 !important;
+	color: #151515 !important;
 }
 .load-more {
 	margin-bottom: 30px;
@@ -9752,14 +9752,15 @@ body .multi-optn {
 	width: 44px;
 	height: 44px;
 }
-.view-icons a:hover {
-	border-color: #373B7A;
-	color: #373B7A;
+.view-icons:hover a:hover {
+	background-color: #373B7A !important;
+	border: none !important;
+	color: #fdfdfd !important;
 }
 .view-icons a.active {
-    background-color: #373B7A;
-	border-color: #373B7A;
-	color: #fdfdfd;
+    background-color: #fdfdfd !important;
+	border-color: #373B7A !important;
+	color: #373B7A !important;
 }
 
 
