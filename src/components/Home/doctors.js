@@ -9,6 +9,7 @@ import '@popperjs/core/dist/umd/popper.min';
 import 'jquery/dist/jquery.min';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar,faStarHalfAlt } from '@fortawesome/free-solid-svg-icons';
+import {Link} from "react-router-dom";
 
 import bookDocOne from "../assets/img/doctors/book-doc-01.jpg";
 import bookDocTwo from "../assets/img/doctors/book-doc-02.jpg";
@@ -166,7 +167,9 @@ export default class MultipleItems extends Component {
                     </div>
                 </article>
         </Slider>
-        <button className=" btn view-btn">View More</button>
+        <Link to="/doctors">
+            <button className=" btn view-btn">View More</button>
+        </Link>
       </section>
     );
   }
