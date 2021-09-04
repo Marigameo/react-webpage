@@ -48,7 +48,7 @@ class Placesapi extends React.Component {
                             : 'suggestion-item';
                             // inline style for demonstration purpose
                             const style = suggestion.active
-                            ? { backgroundColor: 'rgba(238, 238, 232, .2)',padding: ".5rem",  cursor: 'pointer' }
+                            ? { backgroundColor: '#eeeeee',padding: ".5rem",  cursor: 'pointer' }
                             : { backgroundColor: '#fdfdfd',padding: ".5rem", cursor: 'pointer' };
                             return (
                             <div

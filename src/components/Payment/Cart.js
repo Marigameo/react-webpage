@@ -56,7 +56,7 @@ export default function Cart() {
 											<td className="text-center">$19</td>
 											<td className="text-right">
 												<div className="table-action">
-													<a href="javascript:void(0);" className="btn btn-sm bg-danger-light">
+													<a href="#/" className="btn btn-sm bg-danger-light">
 														<i className="fas fa-times"></i>
 													</a>
 												</div>
@@ -91,7 +91,7 @@ export default function Cart() {
 											<td className="text-center">$22</td>
 											<td className="text-right">
 												<div className="table-action">
-													<a href="javascript:void(0);" className="btn btn-sm bg-danger-light">
+													<a href="#/" className="btn btn-sm bg-danger-light">
 														<i className="fas fa-times"></i>
 													</a>
 												</div>
@@ -126,7 +126,7 @@ export default function Cart() {
 											<td className="text-center">$10</td>
 											<td className="text-right">
 												<div className="table-action">
-													<a href="javascript:void(0);" className="btn btn-sm bg-danger-light">
+													<a href="#/" className="btn btn-sm bg-danger-light">
 														<i className="fas fa-times"></i>
 													</a>
 												</div>
@@ -161,7 +161,7 @@ export default function Cart() {
 											<td className="text-center">$26</td>
 											<td className="text-right">
 												<div className="table-action">
-													<a href="javascript:void(0);" className="btn btn-sm bg-danger-light">
+													<a href="#/" className="btn btn-sm bg-danger-light">
 														<i className="fas fa-times"></i>
 													</a>
 												</div>
@@ -196,7 +196,7 @@ export default function Cart() {
 											<td className="text-center">$12</td>
 											<td className="text-right">
 												<div className="table-action">
-													<a href="javascript:void(0);" className="btn btn-sm bg-danger-light">
+													<a href="#/" className="btn btn-sm bg-danger-light">
 														<i className="fas fa-times"></i>
 													</a>
 												</div>
