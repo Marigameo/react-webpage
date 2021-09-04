@@ -225,6 +225,9 @@ table.table td h2 span {
 .card-table .card-body {
     padding: 0;
 }
+.card-body {
+	background-color: rgb(55,59,122,.05);
+}
 .card-table .card-body .table > thead > tr > th {
     border-top: 0;
 }
@@ -766,12 +769,20 @@ button.bg-danger:hover {
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 	background-color: #fdfdfd;
 }
+.btn-md {
+	color: #fdfdfd !important;
+	margin-top: .5rem !important;
+}
+.btn-block {
+	margin-bottom: 1rem !important;
+}
 .card {
     border: 1px solid #f0f0f0;
     margin-bottom: 1.875rem;
 }
 .card-body {
 	padding: 1.5rem;
+	border-radius: .5rem;
 }
 .card-title {
     margin-bottom: 15px;
@@ -836,6 +847,7 @@ button.bg-danger:hover {
 }
 .text-sm {
 	font-size: .875rem !important;
+	margin-bottom: 1rem;
 }
 .text-lg {
 	font-size: 1.25rem !important;
@@ -5894,7 +5906,7 @@ body .multi-optn {
 }
 .cal-icon:after {
 	color: #979797;
-    content: '\f073';
+    content: '\f073' !important;
 	display: block;
     font-family: "Font Awesome 5 Free";
     font-size: 18px;
@@ -6734,9 +6746,11 @@ body .multi-optn {
 	padding-bottom: 0;
 }
 .submit-section.proceed-btn {
-	margin: 0 0 30px;
+	margin: 0 0 30px !important;
 }
-
+.submit-section button {
+	margin-bottom: 2rem !important;
+}
 /*-----------------
 	19. Checkout
 -----------------------*/
@@ -6931,13 +6945,17 @@ body .multi-optn {
 	padding: 50px 20px;
 }
 .success-cont {
-    text-align: center;
+    text-align: center !important;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
 }
-.success-cont i {
+#check {
 	-webkit-box-align: center;
 	-ms-flex-align: center;
 	align-items: center;
-    color: #fdfdfd;
+    color: #fdfdfd !important;
     width: 60px;
     height: 60px;
     border: 2px solid #373B7A !important;
@@ -6948,8 +6966,9 @@ body .multi-optn {
 	justify-content: center;
 	-webkit-justify-content: center;
 	-ms-flex-pack: center;
-    font-size: 30px;
+    font-size: 20px !important;
     margin-bottom: 30px;
+	padding: .5rem;
     background-color: #373B7A;
 }
 .success-cont h3 {
@@ -8156,6 +8175,9 @@ body .multi-optn {
     font-size: 18px;
     min-width: 120px;
 }
+.submit-btn button {
+	color: #fdfdfd !important;
+}
 .submit-section .submit-btn + .submit-btn {
     margin-left: 15px;
 }
@@ -9322,7 +9344,7 @@ body .multi-optn {
 	margin-right: 10px;
 }
 .tags-widget .card-body {
-	padding-bottom: 1rem;
+	padding-bottom: 1rem !important;
 }
 .tags {
 	list-style: none;
@@ -11684,7 +11706,7 @@ ul.benifits-col li i{
 		margin-bottom: 0.9375rem;
 	}
 	.card-body {
-		padding: 1.25rem;
+		padding: 1.25rem !important;
 	}
 	.card-header {
 		padding: .75rem 1.25rem;

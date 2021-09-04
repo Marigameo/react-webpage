@@ -11,7 +11,8 @@ import '@popperjs/core/dist/umd/popper.min';
 import 'jquery/dist/jquery.min';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBookmark } from '@fortawesome/free-solid-svg-icons';
-//images 
+import {Link} from "react-router-dom";
+
 //images 
 import threeOne from "../assets/img/three/1.png";
 import threeTwo from "../assets/img/three/2.png";
@@ -20,7 +21,6 @@ import main from "../assets/img/app/main.png";
 import docOne from "../assets/img/blog/blog-1.jpg"
 import docTwo from "../assets/img/blog/blog-2.jpg"
 import PlacesInput from './app/PlacesInput';
-import {Link} from "react-router-dom";
 
 const Home = () => {
 
@@ -81,7 +81,7 @@ const Home = () => {
             </div>
             <div className="body-two text-center">
                 <h3 className="h3-two">Home Care</h3>
-                <h6 className="h6-two">Healthcare Services at the Convenience of your Home</h6>
+                <h6 className="h6-two">Healthcare Services at the Convenience <br/>of your Home</h6>
                 <div className="text-center">
                 <button id="section-btn">Book Now</button>
                 </div>

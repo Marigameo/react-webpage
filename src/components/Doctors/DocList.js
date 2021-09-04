@@ -1,3 +1,5 @@
+import {Link} from "react-router-dom";
+import React,{useEffect} from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faStar, faStarHalf, faThLarge } from '@fortawesome/free-solid-svg-icons';
 import docOne from '../assets/img/doctors/book-doc-01.jpg'
@@ -12,6 +14,9 @@ import iFour from '../assets/img/specialities/specialities-04.png'
 import iFive from '../assets/img/specialities/specialities-05.png'
 
 const DocList = () => {
+	useEffect(() => {
+        window.scroll(0,0)
+    }, )
     return ( 
         <main>
 
@@ -127,7 +132,7 @@ const DocList = () => {
 										</div>
 										<div className="clinic-booking">
 											<a className="view-pro-btn" href="doctor-profile.html">Video Call</a>
-											<a className="apt-btn" href="detail-page.html">Book Appointment</a>
+											<Link to="/doctor" className="apt-btn">Book Appointment</Link>
 										</div>
 									</div>
 								</div>
@@ -197,7 +202,7 @@ const DocList = () => {
 										</div>
 										<div className="clinic-booking">
 											<a className="view-pro-btn" href="doctor-profile.html">Video Call</a>
-											<a className="apt-btn" href="detail-page.html">Book Appointment</a>
+												<Link to="/doctor" className="apt-btn">Book Appointment</Link>
 										</div>
 									</div>
 								</div>
@@ -267,7 +272,7 @@ const DocList = () => {
 										</div>
 										<div className="clinic-booking">
 											<a className="view-pro-btn" href="doctor-profile.html">Video Call</a>
-											<a className="apt-btn" href="detail-page.html">Book Appointment</a>
+												<Link to="/doctor" className="apt-btn">Book Appointment</Link>
 										</div>
 									</div>
 								</div>
@@ -337,7 +342,7 @@ const DocList = () => {
 										</div>
 										<div className="clinic-booking">
 											<a className="view-pro-btn" href="doctor-profile.html">Video Call</a>
-											<a className="apt-btn" href="detail-page.html">Book Appointment</a>
+												<Link to="/doctor" className="apt-btn">Book Appointment</Link>
 										</div>
 									</div>
 								</div>
@@ -407,7 +412,7 @@ const DocList = () => {
 										</div>
 										<div className="clinic-booking">
 											<a className="view-pro-btn" href="doctor-profile.html">Video Call</a>
-											<a className="apt-btn" href="detail-page.html">Book Appointment</a>
+												<Link to="/doctor" className="apt-btn">Book Appointment</Link>
 										</div>
 									</div>
 								</div>
