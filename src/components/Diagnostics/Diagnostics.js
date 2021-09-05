@@ -23,26 +23,27 @@ import Feedback from './feedback';
 const Diagnostics = () => {
 	return ( 
 <>
-  
+  <div style={{paddingTop: '120px'}}></div>
   <SimpleSlider/>
 
 
 		  <section className="work-section" id="view-btn">
 		  <div className=" text-center container">
-			<h2>How does Home Sample Pickup Work?</h2>
+			<h2>Medatu offers the facility of Home Sample Collection. You just need to follow some simple steps to book a home collection visit.</h2>
 			<div className="row">
+			<div className="col-lg-4">
+					<img src={iconOne} alt=""/>
+					<h6> To book a home visit, simply add your convenient time and location. Our certified professional from Medatu will be at your doorstep.</h6>
+				</div>
 			<div className="col-lg-4">
 					<img src={iconThree} alt=""/>
 					<h6> Our certified professionals will treat you with utmost safety and follow strict hygiene protocols while collecting samples from you.</h6>
 				</div>
 				<div className="col-lg-4">
-					<img src={iconOne} alt=""/>
-					<h6> To book a home visit, simply add your convenient time and location. Our certified professional from Medatu will be at your doorstep.</h6>
-				</div>
-			 	<div className="col-lg-4">
 					<img src={iconTwo} alt=""/>
-					<h6>Medatu offers the facility of Home Sample Collection. You just need to follow some simple steps to book a home collection visit.</h6>
+					<h6>Get your Lab Reports online withing 24 hours.</h6>
 				</div>
+
 			</div>
 		  </div>
 		  </section>

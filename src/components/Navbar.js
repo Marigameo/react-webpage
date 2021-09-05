@@ -34,6 +34,7 @@ import PaymentSuccess from './Payment/PaymentSuccess';
 import PharmacySearch from './Pharmacy/PharmacySearch';
 import ProductDescription from './Pharmacy/ProductDescription';
 import Cart from './Payment/Cart';
+import ComingSoon from '../components/ComingSoon/ComingSoon'
 
 export default class NavbarComp extends Component {
     render() {
@@ -78,7 +79,7 @@ export default class NavbarComp extends Component {
                 <Nav.Link as={Link} to="/pharmacy-search">Pharmacy</Nav.Link>
                 </li>
                 <li className="has-submenu">
-                <Nav.Link as={Link} to="/about">For Women</Nav.Link>
+                <Nav.Link as={Link} to="/coming-soon">For Women</Nav.Link>
                 </li>
                 <li className="has-submenu">
                     <a href="#/">Medatu Clinic</a>
@@ -105,6 +106,7 @@ export default class NavbarComp extends Component {
 </header>
 
 <Switch>
+  
     <Route path="/home-care">
         <HomeCare/>
     </Route>
@@ -116,6 +118,9 @@ export default class NavbarComp extends Component {
     </Route>
     <Route path="/pharmacy-search">
         <PharmacySearch/>
+    </Route>
+    <Route path="/coming-soon">
+        <ComingSoon/>
     </Route>
     <Route path="/blog">
         <Blog1 />
@@ -141,6 +146,7 @@ export default class NavbarComp extends Component {
     <Route path="/about">
         <AboutUs/>
     </Route>
+
     <Route path="/">
         <Home />
     </Route>

@@ -1,0 +1,15 @@
+.mb-3 {
+    width: 30%;
+    height:inherit;
+}
+.form-control {
+    margin-right: .8rem;
+}
+.form-control:focus {
+    border-color: #919191;
+    box-shadow: none;
+}
+#coming-soon {
+    width: 100vw;
+    height: 100vh;
+}
