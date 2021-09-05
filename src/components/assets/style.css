@@ -11743,8 +11743,11 @@ ul.benifits-col li i{
 	.navbar-brand.logo img {
 		height: 40px;
 	}
+	.section-p{
+		padding-left: 8px;
+	}
 	.slick-track {
-		height: 13rem !important;
+		height: 26rem !important;
 	}
 	.view-btn {
 		margin: .3rem !important;
