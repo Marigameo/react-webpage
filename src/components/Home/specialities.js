@@ -161,7 +161,7 @@ export default class Responsive extends Component {
           <div className="speicality-img">
             <img src={sSixteen} className="img-fluid" alt="Speciality"/>
           </div>
-          <p>Gynecology</p>
+          <p>Gynaecology</p>
         </div>	
         <div className="speicality-item text-center">
           <div className="speicality-img">

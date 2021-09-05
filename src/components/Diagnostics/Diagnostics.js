@@ -1,6 +1,5 @@
 import React from 'react';
 import './Diagnostics.css'
-import PlacesInput from '../Home/app/PlacesInput';
 import SimpleSlider from './caroussel';
 import '../../../node_modules/swiper/swiper-bundle.css';
 import 'bootstrap/dist/js/bootstrap.min';
@@ -24,22 +23,6 @@ import Feedback from './feedback';
 const Diagnostics = () => {
 	return ( 
 <>
-<section className="section section-search">
-        <div className="container-fluid">
-            <div className="banner-wrapper">
-                <div className="banner-header text-center">
-            
-               <section className="diag-search">
-			   <div className="banner-search">
-                <PlacesInput/> 
-            	</div>
-			   </section>
-            
-                </div>
-            </div>
-           
-        </div>
-    </section>
   
   <SimpleSlider/>
 
@@ -48,17 +31,17 @@ const Diagnostics = () => {
 		  <div className=" text-center container">
 			<h2>How does Home Sample Pickup Work?</h2>
 			<div className="row">
+			<div className="col-lg-4">
+					<img src={iconThree} alt=""/>
+					<h6> Our certified professionals will treat you with utmost safety and follow strict hygiene protocols while collecting samples from you.</h6>
+				</div>
 				<div className="col-lg-4">
 					<img src={iconOne} alt=""/>
 					<h6> To book a home visit, simply add your convenient time and location. Our certified professional from Medatu will be at your doorstep.</h6>
 				</div>
-				<div className="col-lg-4">
+			 	<div className="col-lg-4">
 					<img src={iconTwo} alt=""/>
-					<h6>Get your lab reports online within 24 hours.</h6>
-				</div>
-				<div className="col-lg-4">
-					<img src={iconThree} alt=""/>
-					<h6> Our certified professionals will treat you with utmost safety and follow strict hygiene protocols while collecting samples from you.</h6>
+					<h6>Medatu offers the facility of Home Sample Collection. You just need to follow some simple steps to book a home collection visit.</h6>
 				</div>
 			</div>
 		  </div>
