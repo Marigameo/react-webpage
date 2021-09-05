@@ -9,6 +9,20 @@ import sFour from "../assets/img/specialities/specialities-04.png";
 import sFive from "../assets/img/specialities/specialities-05.png";
 import sSix from "../assets/img/specialities/specialities-06.png";
 import sSeven from "../assets/img/specialities/specialities-07.png";
+import sEight from "../assets/img/specialities/specialities-08.png";
+import sNine from "../assets/img/specialities/specialities-09.png";
+import sTen from "../assets/img/specialities/specialities-10.png";
+import sEleven from "../assets/img/specialities/specialities-11.png";
+import sTwelve from "../assets/img/specialities/specialities-12.png";
+import sThirteen from "../assets/img/specialities/specialities-13.png";
+import sFourteen from "../assets/img/specialities/specialities-14.png";
+import sFifteen from "../assets/img/specialities/specialities-15.png";
+import sSixteen from "../assets/img/specialities/specialities-16.png";
+import sSeventeen from "../assets/img/specialities/specialities-17.png";
+import sEighteen from "../assets/img/specialities/specialities-18.png";
+import sNineteen from "../assets/img/specialities/specialities-19.png";
+import sTwenty from "../assets/img/specialities/specialities-20.png";
+import sTwentyOne from "../assets/img/specialities/specialities-21.png";
 
 export default class Responsive extends Component {
   render() {
@@ -94,6 +108,90 @@ export default class Responsive extends Component {
             <img src={sSeven} className="img-fluid" alt="Speciality"/>
           </div>
           <p>Paediatrics</p>
+        </div>
+                <div className="speicality-item text-center">
+          <div className="speicality-img">
+            <img src={sEight} className="img-fluid" alt="Speciality"/>
+          </div>
+          <p>Oncology</p>
+        </div>	
+        <div className="speicality-item text-center">
+          <div className="speicality-img">
+            <img src={sNine} className="img-fluid" alt="Speciality"/>
+          </div>
+          <p>Allergy</p>
+        </div>	
+        <div className="speicality-item text-center">
+          <div className="speicality-img">
+            <img src={sTen} className="img-fluid" alt="Speciality"/>
+          </div>
+          <p>Diet</p>
+        </div>	
+        <div className="speicality-item text-center">
+          <div className="speicality-img">
+            <img src={sEleven} className="img-fluid" alt="Speciality"/>
+          </div>
+          <p>Pulmonology</p>
+        </div>	
+        <div className="speicality-item text-center">
+          <div className="speicality-img">
+            <img src={sTwelve} className="img-fluid" alt="Speciality"/>
+          </div>
+          <p>Endocrinology</p>
+        </div>	
+        <div className="speicality-item text-center">
+          <div className="speicality-img">
+            <img src={sThirteen} className="img-fluid" alt="Speciality"/>
+          </div>
+          <p>General Physician</p>
+        </div>	
+        <div className="speicality-item text-center">
+          <div className="speicality-img">
+            <img src={sFourteen} className="img-fluid" alt="Speciality"/>
+          </div>
+          <p>ENT Doctor</p>
+        </div>	
+        <div className="speicality-item text-center">
+          <div className="speicality-img">
+            <img src={sFifteen} className="img-fluid" alt="Speciality"/>
+          </div>
+          <p>Dermatology</p>
+        </div>	
+        <div className="speicality-item text-center">
+          <div className="speicality-img">
+            <img src={sSixteen} className="img-fluid" alt="Speciality"/>
+          </div>
+          <p>Gynecology</p>
+        </div>	
+        <div className="speicality-item text-center">
+          <div className="speicality-img">
+            <img src={sSeventeen} className="img-fluid" alt="Speciality"/>
+          </div>
+          <p>Gastroenterology</p>
+        </div>	
+        <div className="speicality-item text-center">
+          <div className="speicality-img">
+            <img src={sEighteen} className="img-fluid" alt="Speciality"/>
+          </div>
+          <p>Ayurvedic</p>
+        </div>
+        <div className="speicality-item text-center">
+          <div className="speicality-img">
+            <img src={sNineteen} className="img-fluid" alt="Speciality"/>
+          </div>
+          <p>Homeopathy</p>
+        </div>	
+        <div className="speicality-item text-center">
+          <div className="speicality-img">
+            <img src={sTwenty} className="img-fluid" alt="Speciality"/>
+          </div>
+          <p>Physical Therapy</p>
+        </div>	
+        <div className="speicality-item text-center">
+          <div className="speicality-img">
+            <img src={sTwentyOne} className="img-fluid" alt="Speciality"/>
+          </div>
+          <p>Veterinary</p>
         </div>
         </Slider>
         </div>
