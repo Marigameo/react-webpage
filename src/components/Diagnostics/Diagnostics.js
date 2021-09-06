@@ -173,76 +173,76 @@ const Diagnostics = () => {
 				<button className="btn view-btn">View More</button>
 			</section>
 	
-			<section id="view-btn">
-	<article id="top-tests">
-				<div className="section-header text-center">
-					<h2>Top Rated-tests</h2>
-				</div>
-				<article className="top-test-sec">
-					<div className="container">
-						<div className="row">
-							<div className="col-lg-4" id="top-test-col">
-								<div className="top-test">
-									<div className="top-test-1">
-										<img className="top-test-img" src={topOne} alt=""/>
-										<h4>Lorem, ipsum.</h4>
-									</div>
-									<h5>lorem ipsum doro</h5>
-									<p>Lorem, ipsum dolor Lorem ipsum dolor sit.</p>
-								</div>
-								<div className="top-test">
-									<h5>lorem ipsum doro</h5>
-									<p>Lorem, ipsum dolor Lorem ipsum dolor sit.</p>
-								</div>
-								<div className="top-test">
-									<h5>lorem ipsum doro</h5>
-									<p>Lorem, ipsum dolor Lorem ipsum dolor sit.</p>
-								</div>
-								
+	<section id="top-tests">
+	<article id="view-btn">
+		<div className="section-header text-center">
+			<h2>Top Rated-tests</h2>
+		</div>
+		<article className="top-test-sec">
+			<div className="container">
+				<div className="row">
+					<div className="col-lg-4" id="top-test-col">
+						<div className="top-test">
+							<div className="top-test-1">
+								<img className="top-test-img" src={topOne} alt=""/>
+								<h4>Lorem, ipsum.</h4>
 							</div>
-							<div className="col-lg-4" id="top-test-col">
-								<div className="top-test">
-									<div className="top-test-1">
-										<img className="top-test-img" src={topOne} alt=""/>
-										<h4>Lorem, ipsum.</h4>
-									</div>
-									<h5>lorem ipsum doro</h5>
-									<p>Lorem, ipsum dolor Lorem ipsum dolor sit.</p>
-								</div>
-								<div className="top-test">
-									<h5>lorem ipsum doro</h5>
-									<p>Lorem, ipsum dolor Lorem ipsum dolor sit.</p>
-								</div>
-								<div className="top-test">
-									<h5>lorem ipsum doro</h5>
-									<p>Lorem, ipsum dolor Lorem ipsum dolor sit.</p>
-								</div>
-								
-							</div>
-							<div className="col-lg-4" id="top-test-col">
-								<div className="top-test">
-									<div className="top-test-1">
-										<img className="top-test-img" src={topOne} alt=""/>
-										<h4>Lorem, ipsum.</h4>
-									</div>
-									<h5>lorem ipsum doro</h5>
-									<p>Lorem, ipsum dolor Lorem ipsum dolor sit.</p>
-								</div>
-								<div className="top-test">
-									<h5>lorem ipsum doro</h5>
-									<p>Lorem, ipsum dolor Lorem ipsum dolor sit.</p>
-								</div>
-								<div className="top-test">
-									<h5>lorem ipsum doro</h5>
-									<p>Lorem, ipsum dolor Lorem ipsum dolor sit.</p>
-								</div>
-								
-							</div>
+							<h5>lorem ipsum doro</h5>
+							<p>Lorem, ipsum dolor Lorem ipsum dolor sit.</p>
 						</div>
+						<div className="top-test">
+							<h5>lorem ipsum doro</h5>
+							<p>Lorem, ipsum dolor Lorem ipsum dolor sit.</p>
+						</div>
+						<div className="top-test">
+							<h5>lorem ipsum doro</h5>
+							<p>Lorem, ipsum dolor Lorem ipsum dolor sit.</p>
+						</div>
+						
 					</div>
-				</article>
-			</article>
-			<button className="btn view-btn">View More</button>
+					<div className="col-lg-4" id="top-test-col">
+						<div className="top-test">
+							<div className="top-test-1">
+								<img className="top-test-img" src={topOne} alt=""/>
+								<h4>Lorem, ipsum.</h4>
+							</div>
+							<h5>lorem ipsum doro</h5>
+							<p>Lorem, ipsum dolor Lorem ipsum dolor sit.</p>
+						</div>
+						<div className="top-test">
+							<h5>lorem ipsum doro</h5>
+							<p>Lorem, ipsum dolor Lorem ipsum dolor sit.</p>
+						</div>
+						<div className="top-test">
+							<h5>lorem ipsum doro</h5>
+							<p>Lorem, ipsum dolor Lorem ipsum dolor sit.</p>
+						</div>
+						
+					</div>
+					<div className="col-lg-4" id="top-test-col">
+						<div className="top-test">
+							<div className="top-test-1">
+								<img className="top-test-img" src={topOne} alt=""/>
+								<h4>Lorem, ipsum.</h4>
+							</div>
+							<h5>lorem ipsum doro</h5>
+							<p>Lorem, ipsum dolor Lorem ipsum dolor sit.</p>
+						</div>
+						<div className="top-test">
+							<h5>lorem ipsum doro</h5>
+							<p>Lorem, ipsum dolor Lorem ipsum dolor sit.</p>
+						</div>
+						<div className="top-test">
+							<h5>lorem ipsum doro</h5>
+							<p>Lorem, ipsum dolor Lorem ipsum dolor sit.</p>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<button className="btn view-btn">View More</button>
+	</article>
 	</section>
 
 			<section id="view-btn" className="section section-blogs">

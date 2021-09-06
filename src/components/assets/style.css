@@ -1478,6 +1478,7 @@ button.bg-danger:hover {
     overflow: hidden;
     margin: 0;
     padding: 0;
+	height: 300px;
 }
 .slick-list:focus {
     outline: none;
