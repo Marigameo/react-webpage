@@ -173,7 +173,8 @@ const Diagnostics = () => {
 				<button className="btn view-btn">View More</button>
 			</section>
 	
-			<section id="top-tests">
+			<section id="view-btn">
+	<article id="top-tests">
 				<div className="section-header text-center">
 					<h2>Top Rated-tests</h2>
 				</div>
@@ -201,11 +202,7 @@ const Diagnostics = () => {
 									<h5>lorem ipsum doro</h5>
 									<p>Lorem, ipsum dolor Lorem ipsum dolor sit.</p>
 								</div>
-								<div className="top-test">
-									<h5>lorem ipsum doro</h5>
-									<p>Lorem, ipsum dolor Lorem ipsum dolor sit.</p>
-									<button type="button" className="btn btn-success">Know More</button>
-								</div>
+								
 							</div>
 							<div className="col-lg-4" id="top-test-col">
 								<div className="top-test">
@@ -228,11 +225,7 @@ const Diagnostics = () => {
 									<h5>lorem ipsum doro</h5>
 									<p>Lorem, ipsum dolor Lorem ipsum dolor sit.</p>
 								</div>
-								<div className="top-test">
-									<h5>lorem ipsum doro</h5>
-									<p>Lorem, ipsum dolor Lorem ipsum dolor sit.</p>
-									<button type="button" className="btn btn-success">Know More</button>
-								</div>
+								
 							</div>
 							<div className="col-lg-4" id="top-test-col">
 								<div className="top-test">
@@ -255,17 +248,14 @@ const Diagnostics = () => {
 									<h5>lorem ipsum doro</h5>
 									<p>Lorem, ipsum dolor Lorem ipsum dolor sit.</p>
 								</div>
-								<div className="top-test">
-									<h5>lorem ipsum doro</h5>
-									<p>Lorem, ipsum dolor Lorem ipsum dolor sit.</p>
-									<button type="button" className="btn btn-success">Know More</button>
-								</div>
+								
 							</div>
 						</div>
 					</div>
 				</article>
-				
-			</section>
+			</article>
+			<button className="btn view-btn">View More</button>
+	</section>
 
 			<section id="view-btn" className="section section-blogs">
 				
