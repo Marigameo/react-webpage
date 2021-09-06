@@ -11,6 +11,7 @@ import Slider from "react-slick";
 import slideOne from '../assets/img/slider.png'
 
 export default class SimpleSlider extends Component {
+
   render() {
     const settings = {
       dots: false,
@@ -20,7 +21,8 @@ export default class SimpleSlider extends Component {
       slidesToScroll: 1
     };
     return (
-      <div className="container">
+      <div className="container-fluid">
+        <h1>Lorem, ipsum dolor.</h1>
         <Slider {...settings}>
           <div>
             <img src={slideOne} alt="slideOne" />

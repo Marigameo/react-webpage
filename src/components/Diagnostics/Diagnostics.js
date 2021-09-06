@@ -293,9 +293,8 @@ const Diagnostics = () => {
 					</div>
 			
 					<button className="btn view-btn">View More</button>
-				
 			</section>
-<Feedback/>
+		<Feedback/>
 </>
 	 );
 }
