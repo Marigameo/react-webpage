@@ -12245,7 +12245,7 @@ padding-top: 6rem;
 }
 
 .top-test:hover {
-	background-color: rgba(238, 227, 238, 0.2);
+	background-color: rgba(215, 215, 240, 0.2);
 }
 .top-test p {
 	font-weight: 200;
@@ -12301,6 +12301,10 @@ font-size: 10px;
 	font-size: 14px;
 	font-weight: 200 ;
 	margin-bottom: 1rem;
+}
+.work-section h2 {
+	padding: 2rem 6rem;
+	font-size: 26px !important;
 }
 .work-section {
 	padding: 4rem;

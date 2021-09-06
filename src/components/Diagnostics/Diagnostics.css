@@ -4,6 +4,9 @@
     justify-content: center;
     align-items: center;
 }
-.slick-list {
-    height: 300px !important;
+#view-btn {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: column !important;
 }

@@ -19,15 +19,11 @@ import blogThree from "../../components/assets/img/blog/blog-03.jpg"
 import specialityIcon from '../../components/assets/img/specialities/specialities-01.png'
 import topOne from "../../components/assets/img/specialities/specialities-01.png"
 import Feedback from './feedback';
-import PlacesInput from '../Home/app/PlacesInput';
-
+import Search from './search'
 const Diagnostics = () => {
 	return ( 
 <>
-  <div style={{paddingTop: '120px'}}></div>
-  <section className="container">
-  <PlacesInput/>
-  </section>
+<Search />
   <SimpleSlider/>
 
 
@@ -177,9 +173,8 @@ const Diagnostics = () => {
 				<button className="btn view-btn">View More</button>
 			</section>
 	
-			
-	<section id="top-tests">
-	<article id="view-btn">
+			<section id="view-btn">
+	<article id="top-tests">
 				<div className="section-header text-center">
 					<h2>Top Rated-tests</h2>
 				</div>
@@ -246,9 +241,9 @@ const Diagnostics = () => {
 						</div>
 					</div>
 				</article>
-				<button className="btn view-btn">View More</button>
-				</article>
-			</section>
+			</article>
+			<button className="btn view-btn">View More</button>
+	</section>
 
 			<section id="view-btn" className="section section-blogs">
 				
@@ -281,8 +276,9 @@ const Diagnostics = () => {
 					</div>
 			
 					<button className="btn view-btn">View More</button>
+				
 			</section>
-		<Feedback/>
+<Feedback/>
 </>
 	 );
 }
