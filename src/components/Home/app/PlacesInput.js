@@ -1,5 +1,5 @@
 import React from 'react'
-import DoctorSearch from '.'
+import DoctorSearch from './DoctorSearch'
 import PlacesAutocomplete, {
   geocodeByAddress,
   getLatLng,
@@ -45,7 +45,7 @@ class PlacesInput extends React.Component {
                       : 'suggestion-item';
                       // inline style for demonstration purpose
                       const style = suggestion.active
-                      ? { backgroundColor: 'rgba(238, 238, 232, .2)',padding: ".5rem",  cursor: 'pointer' }
+                      ? { backgroundColor: 'rgba(238, 238, 232, .9)',padding: ".5rem",  cursor: 'pointer' }
                       : { backgroundColor: '#fdfdfd',padding: ".5rem", cursor: 'pointer' };
                       return (
                       <div

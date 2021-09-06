@@ -1,30 +1,16 @@
-import React from 'react';
+import React from 'react'
 import PlacesAutocomplete, {
   geocodeByAddress,
   getLatLng,
 } from 'react-places-autocomplete';
+import DropDown from './DropDown';
  
-import {Dropdown} from 'react-bootstrap/'
-import {Link} from "react-router-dom";
 class PlacesInput extends React.Component {
-
   constructor(props) {
     super(props);
-    this.state = { address: '',
-    user: null
-  };
-   
+    this.state = { address: ''};
   }
   
-componentDidMount(){
-  fetch("https://jsonplaceholder.typicode.com/users").then((resp) => {
-    resp.json().then((result) => {
-      console.log("result",result)
-      this.setState({user:result.data})
-    })
-  })
-}
-
   handleChange = address => {
     this.setState({ address });
   };
@@ -50,45 +36,36 @@ componentDidMount(){
             <form className="form-design" action="assets/webpages/list.html">
 
             <div className='search-location'>
-            <input 
-            {...getInputProps({placeholder: 'Search Places ...', className: 'location-search-input',})}
-            type="text"  placeholder="Search Location"/>    
+            <input  {...getInputProps({placeholder: 'Search Places ...', className: 'location-search-input',})}type="text" id="location" placeholder="Search Location"/>                
+              <div className="autocomplete-dropdown-container">
+                  {loading && <div>Loading...</div>}
+                  {suggestions.map(suggestion => {
+                      const className = suggestion.active
+                      ? 'suggestion-item--active'
+                      : 'suggestion-item';
+                      // inline style for demonstration purpose
+                      const style = suggestion.active
+                      ? { backgroundColor: 'rgba(238, 238, 232, .2)',padding: ".5rem",  cursor: 'pointer' }
+                      : { backgroundColor: '#fdfdfd',padding: ".5rem", cursor: 'pointer' };
+                      return (
+                      <div
+                          {...getSuggestionItemProps(suggestion, {
+                          className,
+                          style,
+                          })}
+                      >
+                        <span>{suggestion.description}</span>
+                        </div>
+                        );
+                    })}
+                  </div>
             </div>
 
             <div className="search-info">
-              
-  <Dropdown>
-  <Dropdown.Toggle style={{backgroundColor:"#fff",color: "black",height: "45px"}} id="dropdown-basic">
-   Search for Doctors or Symptoms
-  </Dropdown.Toggle>
-
-  <Dropdown.Menu>
-  
-    <Dropdown.Item ><Link as={Link} to="/pharmacy-search">Test</Link></Dropdown.Item>
-    <Dropdown.Item ><Link as={Link} to="/pharmacy-search">Pregnancy Test</Link> </Dropdown.Item>
-    <Dropdown.Item ><Link as={Link} to="/pharmacy-search">T3 T4 TSH </Link></Dropdown.Item>
-  </Dropdown.Menu>
-</Dropdown>
+              <DropDown/>
             </div>
           
             </form>
-
-            <p style={{color:"black"}}>
-              {
-                this.state.user ?
-                this.state.user.map((item,i)=>
-                <div>
-                <p>
-                  {i}
-                  
-                  {item.title}
-                  
-                  </p>
-                  </div>
-                  ) 
-                  : null
-              }
-            </p>
           </div>
         </div>
         )}

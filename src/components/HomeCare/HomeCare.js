@@ -8,11 +8,15 @@ import hThree from '../assets/img/home-care/03.jpg'
 import hFour from '../assets/img/home-care/04.jpg'
 import hFive from '../assets/img/home-care/05.jpg'
 import hSix from '../assets/img/home-care/06.jpg'
+import PlacesInput from '../Home/app/PlacesInput'
 
 export default class Blog extends Component {
     render() {
         return (
             <main className="main-wrapper">
+           <section style={{padding: '8rem 0 1rem 10rem'}}>
+           <PlacesInput/>
+           </section>
             
             <section className="home-care-banner">
                <article className="banner-design">

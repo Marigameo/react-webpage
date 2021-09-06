@@ -7,7 +7,7 @@ import '@popperjs/core/dist/umd/popper.min';
 import 'jquery/dist/jquery.min';
 import PlacesInput from './dropdown/Placeinput';
 
-export default function search() {
+export default function Search() {
     return (
         <main style={{padding: '8rem 10rem 0 14rem'}}>
             <PlacesInput/> 

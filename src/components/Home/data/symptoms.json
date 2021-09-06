@@ -1,0 +1,22 @@
+[
+  { "id": 1, "name": "General Practitioner" },
+  { "id": 2, "name": "Ophthalmologist/Eye Doctor" },
+  { "id": 3, "name": "Otolaryngologist/ENT doctor" },
+  { "id": 4, "name": "Dermatologist" },
+  { "id": 5, "name": "Orthopaedic Physicians" },
+  { "id": 6, "name": "Gynaecologist" },
+  { "id": 7, "name": "Cardiologists" },
+  { "id": 8, "name": "Dentists" },
+  { "id": 9, "name": "Paediatrician" },
+  { "id": 10, "name": "Oncologists" },
+  { "id": 11, "name": "Dietitian" },
+  { "id": 12, "name": "Allergist" },
+  { "id": 13, "name": "Neurologists" },
+  { "id": 14, "name": "Pulmonologist" },
+  { "id": 15, "name": "Endocrinologist" },
+  { "id": 16, "name": "Gastroenterologists" },
+  { "id": 17, "name": "Ayurvedic practitioner" },
+  { "id": 18, "name": "Homeopathy Practitioner" },
+  { "id": 19, "name": "Physical therapist" },
+  { "id": 20, "name": "Veterinarians" }
+]

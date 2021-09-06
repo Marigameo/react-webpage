@@ -1924,7 +1924,9 @@ button.bg-danger:hover {
 .header-navbar-rht .dropdown-toggle::after {
 	display: none;
 }
-
+.dropdown-toggle::after {
+margin-left: 4rem;
+}
 
 .header-navbar-rht li .dropdown-menu::before {
 	content: "";
@@ -12410,4 +12412,25 @@ font-size: 10px;
 	transition: all 200ms ease;
 	width: 22rem;
   }
-  
+#diag-search {
+	background: #fdfdfd url(img/location.png) no-repeat 10px center;
+	line-height: 1.5;
+	font-size: 1rem;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border-radius:.3rem;
+	box-sizing: border-box;
+	cursor: default;
+	outline: none;
+	padding: 10px 52px 10px 40px;
+	transition: all 200ms ease;
+	width: 22rem;
+	color: rgb(102, 102, 102);
+}
+#d-menu {
+	width: 100%;
+}
+#d-item {
+	height: 2rem;
+	border: rgb(114, 114, 114) .02 solid;
+}

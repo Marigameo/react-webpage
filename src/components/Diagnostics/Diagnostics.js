@@ -1,5 +1,6 @@
 import React from 'react';
 import './Diagnostics.css'
+import Search from './Search'
 import SimpleSlider from './caroussel';
 import '../../../node_modules/swiper/swiper-bundle.css';
 import 'bootstrap/dist/js/bootstrap.min';
@@ -19,14 +20,12 @@ import blogThree from "../../components/assets/img/blog/blog-03.jpg"
 import specialityIcon from '../../components/assets/img/specialities/specialities-01.png'
 import topOne from "../../components/assets/img/specialities/specialities-01.png"
 import Feedback from './feedback';
-import Search from './search'
+
 const Diagnostics = () => {
 	return ( 
-<>
-<Search />
-  <SimpleSlider/>
-
-
+		<>
+ 		  <Search />
+  		  <SimpleSlider/>
 		  <section className="work-section" id="view-btn">
 		  <div className=" text-center container">
 			<h2>Medatu offers the facility of Home Sample Collection. You just need to follow some simple steps to book a home collection visit.</h2>
@@ -278,7 +277,11 @@ const Diagnostics = () => {
 					<button className="btn view-btn">View More</button>
 				
 			</section>
-<Feedback/>
+
+			<section id="view-btn" style={{padding: '2rem'}}>
+				<h3 style={{paddingTop: '2rem'}}>What People Say about Us</h3>
+				<Feedback/>
+			</section>
 </>
 	 );
 }

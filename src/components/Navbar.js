@@ -22,7 +22,7 @@ import logo from "../components/assets/img/logo.png"
 import Home from './Home/Home';
 import Diagnostics from './Diagnostics/Diagnostics';
 
-// import About from './About'
+// import About from './About';
 import HomeCare from './HomeCare/HomeCare';
 import AboutUs from './AboutUs/AboutUs';
 import Blog1 from './Blogs/BlogPage'
@@ -82,7 +82,7 @@ export default class NavbarComp extends Component {
                 <Nav.Link as={Link} to="/coming-soon">For Women</Nav.Link>
                 </li>
                 <li className="has-submenu">
-                    <a href="#/">Medatu Clinic</a>
+                    <a href="#/">M Clinic</a>
                 </li>
                 {/* <li className="has-submenu">
                     <a href="#/">More&nbsp;<FontAwesomeIcon icon={faChevronDown}/></a>  

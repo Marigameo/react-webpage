@@ -1,4 +1,5 @@
 import React, {useState, useEffect, useRef} from "react";
+import { Link } from "react-router-dom";
 
 export default function Dropdown({options, prop, value, onChange, id, label}) {
     const [open, setOpen] = useState(false);
@@ -21,10 +22,16 @@ export default function Dropdown({options, prop, value, onChange, id, label}) {
         )
     }
 
+    function displayValue() {
+      if(query.length > 0) return query
+      if(value) return value[label]
+      return '';
+    }
+
   return <div className="dropdown">
     <div className="control" onClick={() => setOpen((prev ) => !prev)}>
       <div className="selected-value">
-          <input type="text" ref={ref} placeholder={value ? value[label] : prop} value={value || query} onChange={e => 
+          <input type="text" ref={ref} placeholder={value ? value[label] : prop} value={displayValue} onChange={e => 
           {
               setQuery(e.target.value)
               onChange(null)
@@ -40,7 +47,7 @@ export default function Dropdown({options, prop, value, onChange, id, label}) {
               onChange(option)
               setOpen(false)
               setQuery('')
-          }}>{option[label]}</div>
+          }}><Link as={Link} to="/pharmacy-search">{option[label]}</Link></div>
         ))
       }
       <option value=""></option>

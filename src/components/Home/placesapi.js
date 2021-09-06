@@ -5,7 +5,7 @@ import PlacesAutocomplete, {
   geocodeByAddress,
   getLatLng,
 } from 'react-places-autocomplete';
-import DoctorSearch from './app';
+import Symptoms from './app/DoctorSearch';
  
 class Placesapi extends React.Component {
   constructor(props) {
@@ -48,7 +48,7 @@ class Placesapi extends React.Component {
                             : 'suggestion-item';
                             // inline style for demonstration purpose
                             const style = suggestion.active
-                            ? { backgroundColor: 'rgba(238, 238, 232, .9)',padding: ".5rem",  cursor: 'pointer' }
+                            ? { backgroundColor: 'rgba(238, 238, 232)',padding: ".5rem",  cursor: 'pointer' }
                             : { backgroundColor: '#fdfdfd',padding: ".5rem", cursor: 'pointer' };
                             return (
                             <div
@@ -65,7 +65,7 @@ class Placesapi extends React.Component {
 
                 </div>
                 <div className="form-group search-info">
-                <DoctorSearch className="form-control"/>
+                <Symptoms className="form-control"/>
               
                 </div>
                 <button id="search-btn" type="submit" className="btn btn-primary search-btn mt-0"><FontAwesomeIcon icon={faSearch}/><span>Search</span></button>
