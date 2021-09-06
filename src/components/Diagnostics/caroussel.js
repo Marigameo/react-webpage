@@ -22,7 +22,6 @@ export default class SimpleSlider extends Component {
     };
     return (
       <div className="container-fluid">
-        <h1>Lorem, ipsum dolor.</h1>
         <Slider {...settings}>
           <div>
             <img src={slideOne} alt="slideOne" />
