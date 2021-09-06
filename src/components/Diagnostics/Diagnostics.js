@@ -19,11 +19,15 @@ import blogThree from "../../components/assets/img/blog/blog-03.jpg"
 import specialityIcon from '../../components/assets/img/specialities/specialities-01.png'
 import topOne from "../../components/assets/img/specialities/specialities-01.png"
 import Feedback from './feedback';
+import PlacesInput from '../Home/app/PlacesInput';
 
 const Diagnostics = () => {
 	return ( 
 <>
   <div style={{paddingTop: '120px'}}></div>
+  <section className="container">
+  <PlacesInput/>
+  </section>
   <SimpleSlider/>
 
 
