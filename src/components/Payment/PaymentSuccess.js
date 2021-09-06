@@ -21,7 +21,8 @@ export default function PaymentSuccess() {
 									<div class="success-cont">
 										<FontAwesomeIcon icon={faCheck} id="check"/>
 										<h3>Payment Successfully!</h3>
-										<p class="mb-0">Product ID: 245468</p>
+										<p class="mb-0">Product ID: 245468</p><br/>
+										<button type="button" class="btn btn-success">Check your Invoice</button>
 									</div>
 								</div>
 							</div>
