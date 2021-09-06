@@ -177,8 +177,9 @@ const Diagnostics = () => {
 				<button className="btn view-btn">View More</button>
 			</section>
 	
-			<section id="view-btn">
-	<article id="top-tests">
+			
+	<section id="top-tests">
+	<article id="view-btn">
 				<div className="section-header text-center">
 					<h2>Top Rated-tests</h2>
 				</div>
@@ -257,9 +258,9 @@ const Diagnostics = () => {
 						</div>
 					</div>
 				</article>
-			</article>
-			<button className="btn view-btn">View More</button>
-	</section>
+				<button className="btn view-btn">View More</button>
+				</article>
+			</section>
 
 			<section id="view-btn" className="section section-blogs">
 				

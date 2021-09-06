@@ -3115,6 +3115,7 @@ html.menu-opened body {
 	font-weight: 500;
     max-width: 600px;
     margin: 15px auto 0;
+	text-align: center;
 }
 .section-header p {
     color: #151a80;
@@ -3505,6 +3506,12 @@ html.menu-opened body {
 .row.row-sm > div {
     padding-left: 3px;
     padding-right: 3px;
+}
+#view-btn {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: column !important;
 }
 .view-btn {
     color: #373B7A !important;
@@ -12157,7 +12164,7 @@ ul.benifits-col li i{
 }
 #aff-blogs {
 	padding: 2rem !important;
-	background-color: #eeeeee;
+	background-color: #f7f8fc;
 }
 #aff-section {
 	background-color: #eaf7ff;
