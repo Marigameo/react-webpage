@@ -82,12 +82,12 @@ const Diagnostics = () => {
            
 			<section id="view-btn" >
 				<div id="browse-section">
-				<div className="container-fluid">
+				<div className="container">
 					<div className="section-header text-center">
 						<h2>Popular Categories</h2><br/><br/>
 					</div>
 					<div className="row">
-						<div className="col-lg-2 col-md-3">
+						<div className="col-lg-3 col-md-3">
 							<div className="brower-box">
 								<div>
 									<div className="brower-img">
@@ -97,7 +97,7 @@ const Diagnostics = () => {
 								</div>
 							</div>
 						</div>
-						<div className="col-lg-2 col-md-3">
+						<div className="col-lg-3 col-md-3">
 							<div className="brower-box">
 								<div>
 									<div className="brower-img">
@@ -107,7 +107,7 @@ const Diagnostics = () => {
 								</div>
 							</div>
 						</div>
-						<div className="col-lg-2 col-md-3">
+						<div className="col-lg-3 col-md-3">
 							<div className="brower-box">
 								<div>
 									<div className="brower-img">
@@ -117,7 +117,7 @@ const Diagnostics = () => {
 								</div>
 							</div>
 						</div>
-						<div className="col-lg-2 col-md-3">
+						<div className="col-lg-3 col-md-3">
 							<div className="brower-box">
 								<div>
 									<div className="brower-img">
@@ -127,83 +127,43 @@ const Diagnostics = () => {
 								</div>
 							</div>
 						</div>
-						<div className="col-lg-2 col-md-3">
+						<div className="col-lg-3 col-md-3">
 							<div className="brower-box">
 								<div>
 									<div className="brower-img">
 										<img src={specialityIcon} alt=""/>
 									</div>
-									<h4>Joint Pain</h4>
+									<h4>COVID-19</h4>
 								</div>
 							</div>
 						</div>
-						<div className="col-lg-2 col-md-3">
+						<div className="col-lg-3 col-md-3">
 							<div className="brower-box">
 								<div>
 									<div className="brower-img">
 										<img src={specialityIcon} alt=""/>
 									</div>
-									<h4>Women’s Health</h4>
+									<h4>Full Body Checkup</h4>
 								</div>
 							</div>
 						</div>
-						<div className="col-lg-2 col-md-3">
+						<div className="col-lg-3 col-md-3">
 							<div className="brower-box">
 								<div>
 									<div className="brower-img">
 										<img src={specialityIcon} alt=""/>
 									</div>
-									<h4>Men’s Health</h4>
+									<h4>Fever</h4>
 								</div>
 							</div>
 						</div>
-						<div className="col-lg-2 col-md-3">
+						<div className="col-lg-3 col-md-3">
 							<div className="brower-box">
 								<div>
 									<div className="brower-img">
 										<img src={specialityIcon} alt=""/>
 									</div>
-									<h4>Hormone</h4>
-								</div>
-							</div>
-						</div>
-						<div className="col-lg-2 col-md-3">
-							<div className="brower-box">
-								<div>
-									<div className="brower-img">
-										<img src={specialityIcon} alt=""/>
-									</div>
-									<h4>Cancer</h4>
-								</div>
-							</div>
-						</div>
-						<div className="col-lg-2 col-md-3">
-							<div className="brower-box">
-								<div>
-									<div className="brower-img">
-										<img src={specialityIcon} alt=""/>
-									</div>
-									<h4>Heart</h4>
-								</div>
-							</div>
-						</div>
-						<div className="col-lg-2 col-md-3">
-							<div className="brower-box">
-								<div>
-									<div className="brower-img">
-										<img src={specialityIcon} alt=""/>
-									</div>
-									<h4>Liver</h4>
-								</div>
-							</div>
-						</div>
-						<div className="col-lg-2 col-md-3">
-							<div className="brower-box">
-								<div>
-									<div className="brower-img">
-										<img src={specialityIcon} alt=""/>
-									</div>
-									<h4>Lungs</h4>
+									<h4>Diabetes</h4>
 								</div>
 							</div>
 						</div>
