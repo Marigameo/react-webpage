@@ -203,10 +203,6 @@ const Diagnostics = () => {
 									<h5>lorem ipsum doro</h5>
 									<p>Lorem, ipsum dolor Lorem ipsum dolor sit.</p>
 								</div>
-								<div className="top-test">
-									<h5>lorem ipsum doro</h5>
-									<p>Lorem, ipsum dolor Lorem ipsum dolor sit.</p>
-								</div>
 								
 							</div>
 							<div className="col-lg-4" id="top-test-col">
@@ -226,10 +222,6 @@ const Diagnostics = () => {
 									<h5>lorem ipsum doro</h5>
 									<p>Lorem, ipsum dolor Lorem ipsum dolor sit.</p>
 								</div>
-								<div className="top-test">
-									<h5>lorem ipsum doro</h5>
-									<p>Lorem, ipsum dolor Lorem ipsum dolor sit.</p>
-								</div>
 								
 							</div>
 							<div className="col-lg-4" id="top-test-col">
@@ -238,10 +230,6 @@ const Diagnostics = () => {
 										<img className="top-test-img" src={topOne} alt=""/>
 										<h4>Lorem, ipsum.</h4>
 									</div>
-									<h5>lorem ipsum doro</h5>
-									<p>Lorem, ipsum dolor Lorem ipsum dolor sit.</p>
-								</div>
-								<div className="top-test">
 									<h5>lorem ipsum doro</h5>
 									<p>Lorem, ipsum dolor Lorem ipsum dolor sit.</p>
 								</div>
