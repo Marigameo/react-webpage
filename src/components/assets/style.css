@@ -222,13 +222,10 @@ table.table td h2 span {
 .table-bordered td {
 	border-color: rgba(0, 0, 0, 0.05);
 }
-.card-table .card-body {
+.card-table {
     padding: 0;
 }
-.card-body {
-	background-color: rgb(55,59,122,.05);
-}
-.card-table .card-body .table > thead > tr > th {
+.card-table .table > thead > tr > th {
     border-top: 0;
 }
 .card-table .table tr td:first-child,
@@ -781,8 +778,15 @@ button.bg-danger:hover {
     margin-bottom: 1.875rem;
 }
 .card-body {
-	padding: 1.5rem;
+	padding: 1.5rem !important;
+	margin: .5rem;
 	border-radius: .5rem;
+	background-color: rgb(55,59,122,.05);
+}
+.doc-content {
+	padding: 4rem 0 2rem;
+	margin-bottom: 4rem;
+	border-bottom: 1px solid rgb(89, 89, 133);
 }
 .card-title {
     margin-bottom: 15px;
@@ -6951,7 +6955,7 @@ body .multi-optn {
 	align-items: center;
 	display:flex;
 }
-.success-card .card-body {
+.success-card {
 	padding: 50px 20px;
 }
 .success-cont {
@@ -8134,7 +8138,7 @@ body .multi-optn {
 .upload-wrap .upload-images + .upload-images {
 	margin-left: 20px;
 }
-.contact-card .card-body {
+.contact-card {
 	padding-bottom: 0.625rem;
 }
 .custom_price_cont {
@@ -9353,7 +9357,7 @@ body .multi-optn {
 	font-size: 18px;
 	margin-right: 10px;
 }
-.tags-widget .card-body {
+.tags-widget {
 	padding-bottom: 1rem !important;
 }
 .tags {
@@ -11714,9 +11718,6 @@ ul.benifits-col li i{
 	}
 	.card {
 		margin-bottom: 0.9375rem;
-	}
-	.card-body {
-		padding: 1.25rem !important;
 	}
 	.card-header {
 		padding: .75rem 1.25rem;

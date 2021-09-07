@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import Slider from "react-slick";
 
 //images
@@ -141,7 +142,9 @@ export default class Responsive extends Component {
         </div>	
         <div className="speicality-item text-center">
           <div className="speicality-img">
+            <Link to='/doctors'>
             <img src={sThirteen} className="img-fluid" alt="Speciality"/>
+            </Link> 
           </div>
           <p>General Physician</p>
         </div>	

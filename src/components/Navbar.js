@@ -53,9 +53,7 @@ export default class NavbarComp extends Component {
                 </span>
             </a>
             <Nav.Link as={Link} to="/">
-            {/* <a href="#/" className="navbar-br/and logo"> */}
               <img src={logo} className="img-fluid" alt="Logo"/>
-            {/* </a> */}
             </Nav.Link>
         </div>
         <div className="main-menu-wrapper">

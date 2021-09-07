@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/react-webpage/static/css/main.0b67e431.chunk.css",
-    "main.js": "/react-webpage/static/js/main.c12ce103.chunk.js",
-    "main.js.map": "/react-webpage/static/js/main.c12ce103.chunk.js.map",
+    "main.css": "/react-webpage/static/css/main.9cfc160d.chunk.css",
+    "main.js": "/react-webpage/static/js/main.b7594059.chunk.js",
+    "main.js.map": "/react-webpage/static/js/main.b7594059.chunk.js.map",
     "runtime-main.js": "/react-webpage/static/js/runtime-main.fb16f4a0.js",
     "runtime-main.js.map": "/react-webpage/static/js/runtime-main.fb16f4a0.js.map",
     "static/css/2.6cd95d89.chunk.css": "/react-webpage/static/css/2.6cd95d89.chunk.css",
-    "static/js/2.5b4d1f96.chunk.js": "/react-webpage/static/js/2.5b4d1f96.chunk.js",
-    "static/js/2.5b4d1f96.chunk.js.map": "/react-webpage/static/js/2.5b4d1f96.chunk.js.map",
+    "static/js/2.fab60ce3.chunk.js": "/react-webpage/static/js/2.fab60ce3.chunk.js",
+    "static/js/2.fab60ce3.chunk.js.map": "/react-webpage/static/js/2.fab60ce3.chunk.js.map",
     "static/js/3.eeec0a2b.chunk.js": "/react-webpage/static/js/3.eeec0a2b.chunk.js",
     "static/js/3.eeec0a2b.chunk.js.map": "/react-webpage/static/js/3.eeec0a2b.chunk.js.map",
     "index.html": "/react-webpage/index.html",
     "static/css/2.6cd95d89.chunk.css.map": "/react-webpage/static/css/2.6cd95d89.chunk.css.map",
-    "static/css/main.0b67e431.chunk.css.map": "/react-webpage/static/css/main.0b67e431.chunk.css.map",
-    "static/js/2.5b4d1f96.chunk.js.LICENSE.txt": "/react-webpage/static/js/2.5b4d1f96.chunk.js.LICENSE.txt",
+    "static/css/main.9cfc160d.chunk.css.map": "/react-webpage/static/css/main.9cfc160d.chunk.css.map",
+    "static/js/2.fab60ce3.chunk.js.LICENSE.txt": "/react-webpage/static/js/2.fab60ce3.chunk.js.LICENSE.txt",
     "static/media/01.3ffa3828.jpg": "/react-webpage/static/media/01.3ffa3828.jpg",
     "static/media/02.11e11af0.jpg": "/react-webpage/static/media/02.11e11af0.jpg",
     "static/media/03.b01a6f4b.jpg": "/react-webpage/static/media/03.b01a6f4b.jpg",
@@ -55,8 +55,8 @@
   "entrypoints": [
     "static/js/runtime-main.fb16f4a0.js",
     "static/css/2.6cd95d89.chunk.css",
-    "static/js/2.5b4d1f96.chunk.js",
-    "static/css/main.0b67e431.chunk.css",
-    "static/js/main.c12ce103.chunk.js"
+    "static/js/2.fab60ce3.chunk.js",
+    "static/css/main.9cfc160d.chunk.css",
+    "static/js/main.b7594059.chunk.js"
   ]
 }
