@@ -70,73 +70,97 @@ export default class Responsive extends Component {
         <Slider {...settings}>
         <div className="speicality-item text-center">
           <div className="speicality-img">
+            <Link to='/doctors'>
             <img src={sOne} className="img-fluid" alt="Speciality"/>
+            </Link>
           </div>
           <p>Urology</p>
         </div>	
         <div className="speicality-item text-center">
           <div className="speicality-img">
+            <Link to='/doctors'>
             <img src={sTwo} className="img-fluid" alt="Speciality"/>
+            </Link>
           </div>
           <p>Neurology</p>
         </div>	
         <div className="speicality-item text-center">
           <div className="speicality-img">
+            <Link to='/doctors'>
             <img src={sThree} className="img-fluid" alt="Speciality"/>
+            </Link>
           </div>
           <p>Orthopaedics</p>
         </div>	
         <div className="speicality-item text-center">
           <div className="speicality-img">
+            <Link to='/doctors'>
             <img src={sFour} className="img-fluid" alt="Speciality"/>
+            </Link>
           </div>
           <p>Cardiology</p>
         </div>	
         <div className="speicality-item text-center">
           <div className="speicality-img">
+            <Link to='/doctors'>
             <img src={sFive} className="img-fluid" alt="Speciality"/>
+            </Link>
           </div>
           <p>Dentistry</p>
         </div>	
         <div className="speicality-item text-center">
           <div className="speicality-img">
+            <Link to='/doctors'>
             <img src={sSix} className="img-fluid" alt="Speciality"/>
+            </Link>
           </div>
           <p>Ophthalmology</p>
         </div>	
         <div className="speicality-item text-center">
           <div className="speicality-img">
+            <Link to='/doctors'>
             <img src={sSeven} className="img-fluid" alt="Speciality"/>
+            </Link>
           </div>
           <p>Paediatrics</p>
         </div>
                 <div className="speicality-item text-center">
           <div className="speicality-img">
+            <Link to='/doctors'>
             <img src={sEight} className="img-fluid" alt="Speciality"/>
+            </Link>
           </div>
           <p>Oncology</p>
         </div>	
         <div className="speicality-item text-center">
           <div className="speicality-img">
+            <Link to='/doctors'>
             <img src={sNine} className="img-fluid" alt="Speciality"/>
+            </Link>
           </div>
           <p>Allergy</p>
         </div>	
         <div className="speicality-item text-center">
           <div className="speicality-img">
+            <Link to='/doctors'>
             <img src={sTen} className="img-fluid" alt="Speciality"/>
+            </Link>
           </div>
           <p>Diet</p>
         </div>	
         <div className="speicality-item text-center">
           <div className="speicality-img">
+            <Link to='/doctors'>
             <img src={sEleven} className="img-fluid" alt="Speciality"/>
+            </Link>
           </div>
           <p>Pulmonology</p>
         </div>	
         <div className="speicality-item text-center">
           <div className="speicality-img">
+            <Link to='/doctors'>
             <img src={sTwelve} className="img-fluid" alt="Speciality"/>
+            </Link>
           </div>
           <p>Endocrinology</p>
         </div>	
@@ -150,49 +174,65 @@ export default class Responsive extends Component {
         </div>	
         <div className="speicality-item text-center">
           <div className="speicality-img">
+            <Link to='/doctors'>
             <img src={sFourteen} className="img-fluid" alt="Speciality"/>
+            </Link>
           </div>
           <p>ENT Doctor</p>
         </div>	
         <div className="speicality-item text-center">
           <div className="speicality-img">
+            <Link to='/doctors'>
             <img src={sFifteen} className="img-fluid" alt="Speciality"/>
+            </Link>
           </div>
           <p>Dermatology</p>
         </div>	
         <div className="speicality-item text-center">
           <div className="speicality-img">
+            <Link to='/doctors'>
             <img src={sSixteen} className="img-fluid" alt="Speciality"/>
+            </Link>
           </div>
           <p>Gynaecology</p>
         </div>	
         <div className="speicality-item text-center">
           <div className="speicality-img">
+            <Link to='/doctors'>
             <img src={sSeventeen} className="img-fluid" alt="Speciality"/>
+            </Link>
           </div>
           <p>Gastroenterology</p>
         </div>	
         <div className="speicality-item text-center">
           <div className="speicality-img">
+            <Link to='/doctors'>
             <img src={sEighteen} className="img-fluid" alt="Speciality"/>
+            </Link>
           </div>
           <p>Ayurvedic</p>
         </div>
         <div className="speicality-item text-center">
           <div className="speicality-img">
+            <Link to='/doctors'>
             <img src={sNineteen} className="img-fluid" alt="Speciality"/>
+            </Link>
           </div>
           <p>Homeopathy</p>
         </div>	
         <div className="speicality-item text-center">
           <div className="speicality-img">
+            <Link to='/doctors'>
             <img src={sTwenty} className="img-fluid" alt="Speciality"/>
+            </Link>
           </div>
           <p>Physical Therapy</p>
         </div>	
         <div className="speicality-item text-center">
           <div className="speicality-img">
+            <Link to='/doctors'>
             <img src={sTwentyOne} className="img-fluid" alt="Speciality"/>
+            </Link>
           </div>
           <p>Veterinary</p>
         </div>
