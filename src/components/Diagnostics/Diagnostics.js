@@ -186,16 +186,16 @@ const Diagnostics = () => {
 								<img className="top-test-img" src={topOne} alt=""/>
 								<h4>Lorem, ipsum.</h4>
 							</div>
-							<h5>lorem ipsum doro</h5>
-							<p>Lorem, ipsum dolor Lorem ipsum dolor sit.</p>
+							<h5> COVID-19</h5>
+							<p>COVID-19 infects different people in different way. The symptoms may be mild or severe.</p>
 						</div>
 						<div className="top-test">
-							<h5>lorem ipsum doro</h5>
-							<p>Lorem, ipsum dolor Lorem ipsum dolor sit.</p>
+							<h5>Complete Blood Count (CBC)</h5>
+							<p>A CBC is a blood test. It helps healthcare providers detect a range of disorders and conditions.</p>
 						</div>
 						<div className="top-test">
-							<h5>lorem ipsum doro</h5>
-							<p>Lorem, ipsum dolor Lorem ipsum dolor sit.</p>
+							<h5>Blood Typing</h5>
+							<p>Blood typing is also a blood test done to know the blood group of a person.</p>
 						</div>
 						
 					</div>
@@ -205,12 +205,12 @@ const Diagnostics = () => {
 								<img className="top-test-img" src={topOne} alt=""/>
 								<h4>Lorem, ipsum.</h4>
 							</div>
-							<h5>lorem ipsum doro</h5>
-							<p>Lorem, ipsum dolor Lorem ipsum dolor sit.</p>
+							<h5>Cholesterol Testing or Lipid Panel</h5>
+							<p>Cholesterol Testing or Lipid Panel is essential to avoid cardiovascular problems. </p>
 						</div>
 						<div className="top-test">
-							<h5>lorem ipsum doro</h5>
-							<p>Lorem, ipsum dolor Lorem ipsum dolor sit.</p>
+							<h5>Total Iron Binding Capacity (TIBC)</h5>
+							<p>TIBC test will establish total iron content in your blood. The iron in the blood is carried by a protein called transferrin which is basically produced by the liver. </p>
 						</div>
 						<div className="top-test">
 							<h5>lorem ipsum doro</h5>
