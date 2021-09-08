@@ -20,7 +20,7 @@ export default class FeedBack extends Component {
       slidesToScroll: 3
     };
     return (
-      <div className="container">
+      <div className="container-fluid">
         <Slider {...settings}>
           <div>
             <div className="feedback" style={{ width: 400 }}>

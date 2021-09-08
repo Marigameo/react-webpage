@@ -786,6 +786,7 @@ button.bg-danger:hover {
 .doc-content {
 	padding: 4rem 0 2rem;
 	margin-bottom: 4rem;
+	width: 50%;
 	border-bottom: 1px solid rgb(89, 89, 133);
 }
 .card-title {
@@ -9761,7 +9762,6 @@ body .multi-optn {
     position: fixed;
     right: 0;
     top: 115px;
-    z-index: 1029;
 }
 .map-listing {
     height: calc(100vh - 145px);
@@ -9773,7 +9773,7 @@ body .multi-optn {
     border: 0;
 	margin-bottom: 0;
 }
-.map-right .available-info {
+.map-right{
 	margin-bottom: 0;
 }
 .view-icons {
@@ -10395,7 +10395,7 @@ ul.benifits-col li i{
 	}
 	.map-right {
 		height: 450px;
-		position: static;
+		position:relative;
 		min-height: inherit;
 		margin-bottom: 30px;
 		padding-right: 15px;

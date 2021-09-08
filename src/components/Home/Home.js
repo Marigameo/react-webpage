@@ -113,10 +113,10 @@ const Home = () => {
 </section>     
 
 <MultipleItems/>
-            <section id="view-btn" style={{padding: '2rem'}}>
-				<h3 style={{paddingTop: '2rem'}}>What People Say about Us</h3>
-				<Feedback/>
-			</section>
+<section id="view-btn" style={{padding: '2rem'}}>
+    <h3 style={{paddingTop: '2rem'}}>What People Say about Us</h3>
+    <Feedback/>
+</section>
 
 <section className="section section-doctor">
 <div className="container">

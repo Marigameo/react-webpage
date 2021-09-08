@@ -3794,7 +3794,6 @@
   /* Content */
   .content section {
     padding: 60px 0 0 0;
-    display: none;
     max-width: 1230px;
     margin: 0 auto;
   }

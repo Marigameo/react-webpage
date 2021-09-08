@@ -16,7 +16,7 @@ import footerLogo from "../components/assets/img/footer-logo.png"
 
 const Footer = () => {
     return ( 
-        <footer className="footer">
+        <footer className="footer" style={{zIndex: '92222'}}>
         
         <div className="footer-top">
             <div className="container-fluid">

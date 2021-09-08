@@ -33,7 +33,7 @@ function Tab() {
 
       <div className="content-tabs">
         <div
-          className={toggleState === 1 ? "content  active-content" : "content"}
+          className={toggleState === 1 ? "content-main  active-content" : "content"}
         >
           <h2>What is RT-PCR test for COVID-19 and why is it necessary?</h2>
           <hr />
@@ -45,7 +45,7 @@ It has been made compulsory to get the RT-PCT test done if we are traveling to d
         </div>
 
         <div
-          className={toggleState === 2 ? "content  active-content" : "content"}
+          className={toggleState === 2 ? "content-main  active-content" : "content"}
         >
           <hr />
           <p>
@@ -54,7 +54,7 @@ It has been made compulsory to get the RT-PCT test done if we are traveling to d
         </div>
 
         <div
-          className={toggleState === 3 ? "content  active-content" : "content"}
+          className={toggleState === 3 ? "content-main  active-content" : "content"}
         >
           <hr />
           <h6 className='h6-tabs'>

@@ -37,12 +37,6 @@ const DocList = () => {
 					</div>
 				</div>
 			</div>
-			
-			<section className="container doc-content">
-			<h2>What does a General Practitioner do?</h2>
-			<p>A general practitioner is your first point of contact when you’re seeking treatment for basic physical or mental health.<br/>The list of their duties includes - assessing you with a physical exam and a review of your medical history. If required, they may order additional tests, recommend treatment, or connect you with a specialist. For emerging care, they can provide a consultation over the phone or through a video call.</p>
-			<button type="button" class="btn btn-success">Know More</button>
-			</section>
 
 			<div className="content">
 				<div className="container-fluid">
@@ -431,8 +425,13 @@ const DocList = () => {
 	            </div>
 	            
 	            <div className="col-xl-5 col-lg-12 map-right">
-	                <div id="map" className="map-listing"></div>
-	            
+			<section className="container"> 
+			<div className='doc-content'>
+			<h2>What does a General Practitioner do?</h2>
+			<p>A general practitioner is your first point of contact when you’re seeking treatment for basic physical or mental health.<br/>The list of their duties includes - assessing you with a physical exam and a review of your medical history. If required, they may order additional tests, recommend treatment, or connect you with a specialist. For emerging care, they can provide a consultation over the phone or through a video call.</p>
+			<button type="button" class="btn btn-success">Know More</button>
+			</div>
+			</section>
 	            </div>
 	            
 	        </div>
