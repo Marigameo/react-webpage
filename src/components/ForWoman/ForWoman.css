@@ -13,10 +13,7 @@
     padding: 10rem;
 }
 .fw-sec3 {
-    background-image: url(../assets/img/for-woman/sec-3.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+  background-color: #eff2f5;
     padding: 6rem;
 }
 .fw-sec4 {
