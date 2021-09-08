@@ -38,6 +38,7 @@ import ComingSoon from '../components/ComingSoon/ComingSoon'
 import Main from './Diagnostics/TopBlog/Main';
 import ForWoman from './ForWoman/ForWoman';
 import Invoice from './Payment/Invoice'
+import TestDetails from './Diagnostics/TestDetails';
 
 export default class NavbarComp extends Component {
     render() {
@@ -127,6 +128,9 @@ export default class NavbarComp extends Component {
     </Route>
     <Route path="/for-women">
         <ForWoman/>
+    </Route>
+    <Route path="/test-detail">
+        <TestDetails/>
     </Route>
     <Route path="/top-blog">
         <Main/>

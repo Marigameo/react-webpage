@@ -183,7 +183,7 @@ const Diagnostics = () => {
 
 					<div className="col-lg-4" id="top-test-col">
 						<div className="top-test">
-							<Link to='/top-blog'>
+							<Link to='/test-detail'>
 							<div className="top-test-1">
 								<img className="top-test-img" src={topOne} alt=""/>
 								<h4><br/>COVID-19</h4>
