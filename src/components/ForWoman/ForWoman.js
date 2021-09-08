@@ -116,6 +116,7 @@ const ForWoman = () => {
                     <div className="col-lg-11"><li>PAP Smear and Pelvic Examination</li></div>
                 </div>
             </ul>
+            <button type="button" class="btn btn-success">Book Now</button>
         </div>
     </div>
     
