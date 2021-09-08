@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/react-webpage/static/css/main.650abd10.chunk.css",
-    "main.js": "/react-webpage/static/js/main.8f173926.chunk.js",
-    "main.js.map": "/react-webpage/static/js/main.8f173926.chunk.js.map",
+    "main.css": "/react-webpage/static/css/main.06ce488b.chunk.css",
+    "main.js": "/react-webpage/static/js/main.698861c3.chunk.js",
+    "main.js.map": "/react-webpage/static/js/main.698861c3.chunk.js.map",
     "runtime-main.js": "/react-webpage/static/js/runtime-main.d04c57ba.js",
     "runtime-main.js.map": "/react-webpage/static/js/runtime-main.d04c57ba.js.map",
     "static/css/2.6cd95d89.chunk.css": "/react-webpage/static/css/2.6cd95d89.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.dcf96e46.chunk.js.map": "/react-webpage/static/js/3.dcf96e46.chunk.js.map",
     "index.html": "/react-webpage/index.html",
     "static/css/2.6cd95d89.chunk.css.map": "/react-webpage/static/css/2.6cd95d89.chunk.css.map",
-    "static/css/main.650abd10.chunk.css.map": "/react-webpage/static/css/main.650abd10.chunk.css.map",
+    "static/css/main.06ce488b.chunk.css.map": "/react-webpage/static/css/main.06ce488b.chunk.css.map",
     "static/js/2.1f17a5ae.chunk.js.LICENSE.txt": "/react-webpage/static/js/2.1f17a5ae.chunk.js.LICENSE.txt",
     "static/media/01.3ffa3828.jpg": "/react-webpage/static/media/01.3ffa3828.jpg",
     "static/media/02.11e11af0.jpg": "/react-webpage/static/media/02.11e11af0.jpg",
@@ -47,18 +47,19 @@
     "static/media/feature-05.e3e6c96e.jpg": "/react-webpage/static/media/feature-05.e3e6c96e.jpg",
     "static/media/footer-logo.40c41be2.png": "/react-webpage/static/media/footer-logo.40c41be2.png",
     "static/media/googleplay.0f101371.png": "/react-webpage/static/media/googleplay.0f101371.png",
-    "static/media/illustration-1.0077ed99.svg": "/react-webpage/static/media/illustration-1.0077ed99.svg",
+    "static/media/illustration-1.74bdfe11.svg": "/react-webpage/static/media/illustration-1.74bdfe11.svg",
+    "static/media/illustration-2.1c2407a2.svg": "/react-webpage/static/media/illustration-2.1c2407a2.svg",
     "static/media/illustration.23768ad4.svg": "/react-webpage/static/media/illustration.23768ad4.svg",
     "static/media/logo.f2967192.png": "/react-webpage/static/media/logo.f2967192.png",
     "static/media/main.26421e73.png": "/react-webpage/static/media/main.26421e73.png",
-    "static/media/ForWoman.css": "/react-webpage/static/media/sec-3.9eca406c.jpg",
+    "static/media/ForWoman.css": "/react-webpage/static/media/sec-2.3a040d42.jpg",
     "static/media/slider.35189df1.png": "/react-webpage/static/media/slider.35189df1.png"
   },
   "entrypoints": [
     "static/js/runtime-main.d04c57ba.js",
     "static/css/2.6cd95d89.chunk.css",
     "static/js/2.1f17a5ae.chunk.js",
-    "static/css/main.650abd10.chunk.css",
-    "static/js/main.8f173926.chunk.js"
+    "static/css/main.06ce488b.chunk.css",
+    "static/js/main.698861c3.chunk.js"
   ]
 }
