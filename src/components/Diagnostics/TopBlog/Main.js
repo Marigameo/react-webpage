@@ -4,7 +4,7 @@ import Tab from './Tab';
 function Main() {
 
   return (
-    <div>
+    <div style={{padding: '8rem'}}>
         <Tab />
     </div>
   );

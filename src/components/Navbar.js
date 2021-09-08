@@ -80,9 +80,6 @@ export default class NavbarComp extends Component {
                 <li className="has-submenu">
                 <Nav.Link as={Link} to="/coming-soon">For Women</Nav.Link>
                 </li>
-                <li className="has-submenu">
-                    <a href="#/">M Clinic</a>
-                </li>
                 {/* <li className="has-submenu">
                     <a href="#/">More&nbsp;<FontAwesomeIcon icon={faChevronDown}/></a>  
                     <ul className="submenu">
