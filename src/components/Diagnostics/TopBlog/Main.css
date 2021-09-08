@@ -47,3 +47,16 @@
   .active-content {
     display: block;
   }
+  .tabs {
+    padding: 1rem !important;
+  }
+  .bloc-tabs {
+    display: flex !important;
+  }
+  .lg-size {
+    margin-bottom: 12px;
+    width: 12px !important;  
+  }
+  h6 {
+    font-size: 18px;
+  }

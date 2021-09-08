@@ -15,19 +15,19 @@ function Tab() {
           className={toggleState === 1 ? "tabs active-tabs" : "tabs"}
           onClick={() => toggleTab(1)}
         >
-          Tab 1
+          RT-PCR test for COVID-19
         </button>
         <button
           className={toggleState === 2 ? "tabs active-tabs" : "tabs"}
           onClick={() => toggleTab(2)}
         >
-          Tab 2
+    Sample Collection
         </button>
         <button
           className={toggleState === 3 ? "tabs active-tabs" : "tabs"}
           onClick={() => toggleTab(3)}
         >
-          Tab 3
+       Result
         </button>
       </div>
 
@@ -35,39 +35,31 @@ function Tab() {
         <div
           className={toggleState === 1 ? "content  active-content" : "content"}
         >
-          <h2>Content 1</h2>
+          <h2>What is RT-PCR test for COVID-19 and why is it necessary?</h2>
           <hr />
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
-            praesentium incidunt quia aspernatur quasi quidem facilis quo nihil
-            vel voluptatum?
+          RT-PCR test deducts the presence of genetic material (ribonucleic acid or RNA) of the virus that causes COVID-19 (SARS-CoV-2). 
+RT-PCR test for COVID-19 is the best quality and accurate test to deduct the active infection in the body and get the proper treatment accordingly. It is required to get the RT-PCR test done if the early signs of COVID symptoms are visible. 
+It has been made compulsory to get the RT-PCT test done if we are traveling to different states. Since the increase in the number of cases in India has gone high, it is very much required to get this test done. It will be safe for you and for the entire family.
           </p>
         </div>
 
         <div
           className={toggleState === 2 ? "content  active-content" : "content"}
         >
-          <h2>Content 2</h2>
           <hr />
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
-            voluptatum qui adipisci.
+          RT-PCR test requires nose or throat swab or sample of saliva to accurately detect the presence of virus. The person who would be conducting the test will insert a long flexible swab with soft brush deep into your nose or back of throat and twirl for a few seconds. The sample will be sent to our certified laboratory. 
           </p>
         </div>
 
         <div
           className={toggleState === 3 ? "content  active-content" : "content"}
         >
-          <h2>Content 3</h2>
           <hr />
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos sed
-            nostrum rerum laudantium totam unde adipisci incidunt modi alias!
-            Accusamus in quia odit aspernatur provident et ad vel distinctio
-            recusandae totam quidem repudiandae omnis veritatis nostrum
-            laboriosam architecto optio rem, dignissimos voluptatum beatae
-            aperiam voluptatem atque. Beatae rerum dolores sunt.
-          </p>
+          <h6>
+          COVID positive means you are infected with COVID-19 virus and need treatment. COVID negative means you are not infected with COVID-19 virus. 
+          </h6>
         </div>
       </div>
     </div>
