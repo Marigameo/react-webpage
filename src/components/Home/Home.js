@@ -21,6 +21,7 @@ import main from "../assets/img/app/main.png";
 import docOne from "../assets/img/blog/blog-1.jpg"
 import docTwo from "../assets/img/blog/blog-2.jpg"
 import PlacesInput from './app/PlacesInput';
+import Feedback from './feedback';
 
 const Home = () => {
 
@@ -35,7 +36,7 @@ const Home = () => {
     <section className="banner-home">
         <article className="banner-design">
             <div className="banner-header">
-                <h1>Find a Doctor,<br/> Book a Medical Appointment.</h1>
+                <h1>Book a Medical Appointment.</h1>
                 <p>It’s Simple and Free!</p>
             </div>
             <div className="banner-search">
@@ -54,8 +55,7 @@ const Home = () => {
                 <img src={threeOne} alt="#/"/>
             </div>
             <div className="body-two text-center">
-                <h3 className="h3-two">Assess Your Health</h3>
-                <h6 className="h6-two">Assess your health with AI features</h6>
+                <h3 className="h3-two">Assess Your Health <br/>with AI features</h3>
                 <div className="text-center">
                 <button id="section-btn">Check Now</button>
                 </div>
@@ -67,8 +67,7 @@ const Home = () => {
                 <img src={threeTwo} alt="#/"/>
             </div>
             <div className="body-two text-center">
-                <h3 className="h3-two">Pregnancy Packages</h3>
-                <h6 className="h6-two">Buy Complete Pregnancy Packages</h6>
+                <h3 className="h3-two">Buy Complete <br/>Pregnancy Packages</h3>
                 <div className="text-center">
                 <button id="section-btn">Book Now</button>
                 </div>
@@ -80,8 +79,7 @@ const Home = () => {
                 <img src={threeThree} alt="#/"/>
             </div>
             <div className="body-two text-center">
-                <h3 className="h3-two">Home Care</h3>
-                <h6 className="h6-two">Healthcare Services at the Convenience <br/>of your Home</h6>
+                <h3 className="h3-two">Healthcare Services at<br/> your Home</h3>
                 <div className="text-center">
                 <button id="section-btn">Book Now</button>
                 </div>
@@ -98,10 +96,9 @@ const Home = () => {
             <div className="feature-text">
             <h2 className="mt-2">Medatu App coming soon</h2><br/>
                 <p>1000+ Online Healthcare Experts. Medatu makes It Easy to book a Virtual appointment anywhere in India.</p>
-                <p style={{fontSize: "12px", margin: "3rem 0 .3rem 0"}}>Enter your phone number to join the list.</p>
                 <div style={{fontSize: "14px !important"}}>
                     <input type="text" placeholder="Enter Your Phone Number" name="app" id="app"/>
-                    <button id="app-num">Download</button>
+                    <button id="app-num">Join The List</button>
                 </div>
             </div>
             </div>
@@ -116,6 +113,10 @@ const Home = () => {
 </section>     
 
 <MultipleItems/>
+            <section id="view-btn" style={{padding: '2rem'}}>
+				<h3 style={{paddingTop: '2rem'}}>What People Say about Us</h3>
+				<Feedback/>
+			</section>
 
 <section className="section section-doctor">
 <div className="container">
@@ -180,6 +181,7 @@ const Home = () => {
 </div>
 </div>
 </section>
+
 </main>
         </>
      );

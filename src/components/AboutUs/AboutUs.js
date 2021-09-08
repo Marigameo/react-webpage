@@ -1,4 +1,7 @@
-import React from 'react'
+import React from 'react';
+import iOne from '../assets/img/about/1.svg'
+import iTwo from '../assets/img/about/2.svg'
+import iThree from '../assets/img/about/3.svg'
 import {Container, Col, Row,} from 'react-bootstrap'
 import './aboutus.css';
 export default function AboutUs() {
@@ -23,15 +26,14 @@ covered.
     </p>
     </Col>
     <Col  >
-    2 of 2
+   <img src={iOne} width={400} height={400} alt="iOne" />
     </Col>
   </Row>
 </Container>
 </div>
 
-<div >
-<Container  className="container1">
-
+  <section className='sec-a2'>
+  <Container  className="container1">
   <Row>
     <Col>
     <h1>Why Choose Medatu?</h1>
@@ -58,14 +60,16 @@ better healthcare decisions.
   </Row>
 
   </Container>
-</div>
+  </section>
 
 <div className="sectioncolor">
-<Container  className="container1">
 
+
+<Container  className="container1">
   <Row>
-    <Col  >
-    <h1>Our Goal</h1>
+  <h1>Our Goal</h1>
+    <Col className='sec-a3-h'>
+   
     <p>
     Medatu is the name of the innovation, with the primary goal of
 streamlining physician’s work, optimizing systems, improving patient
@@ -80,7 +84,7 @@ accurate, comprehensive, and curated information that enable users to
 make better health decisions.
     </p>
     </Col>
-    <Col >2 of 2</Col>
+    <Col className='sec-a3'><img src={iTwo} alt="iTwo" width={500} height={500} /></Col>
   </Row>
 
   </Container>
@@ -88,21 +92,19 @@ make better health decisions.
 
 <div >
 <Container  className="container1">
-
+<h1 className='text-center'>Our Team</h1>
   <Row>
-    <Row><h1>Our Team</h1></Row>
-    <Col>
-
-   <p>1. Hajeera Almas M (Founder, CEO)</p>
-   <p>2. Ikram Pasha M (Co-Founder)</p>
-   <p>2. Ikram Pasha M (Co-Founder)</p>
+    <Col className='seclast-a'>
+   <h5>1. Hajeera Almas M (Founder, CEO)</h5>
+   <h5>2. Ikram Pasha M (Co-Founder)</h5>
+   <h5>2. Ikram Pasha M (Co-Founder)</h5>
     </Col>
-    <Col>2 of 3</Col>
-    <Col>
-    <p>4. Shobha N (Project head, technical)</p>
-    <p>5. Sumayasarwar (Business analyst and
+    <Col><img src={iThree} alt="iThree" width={400} height={400} /></Col>
+    <Col className='seclast-a'>
+    <h5>4. Shobha N (Project head, technical)</h5>
+    <h5>5. Sumayasarwar (Business analyst and
  operational head)
-</p>
+</h5>
     </Col>
   </Row>
 </Container>

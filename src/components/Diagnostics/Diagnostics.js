@@ -19,7 +19,6 @@ import blogTwo from "../../components/assets/img/blog/blog-02.jpg"
 import blogThree from "../../components/assets/img/blog/blog-03.jpg"
 import specialityIcon from '../../components/assets/img/specialities/specialities-01.png'
 import topOne from "../../components/assets/img/specialities/specialities-01.png"
-import Feedback from './feedback';
 import { Link } from 'react-router-dom';
 
 const Diagnostics = () => {
@@ -279,11 +278,6 @@ const Diagnostics = () => {
 			
 					<button className="btn view-btn">View More</button>
 				
-			</section>
-
-			<section id="view-btn" style={{padding: '2rem'}}>
-				<h3 style={{paddingTop: '2rem'}}>What People Say about Us</h3>
-				<Feedback/>
 			</section>
 </>
 	 );

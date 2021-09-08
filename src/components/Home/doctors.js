@@ -57,7 +57,6 @@ export default class MultipleItems extends Component {
     return (
       <section id="doctors">
             <div className="section-header text-center">
-                <h2>Top-Rated Doctors</h2>
                 <p className="section-p">Top Healthcare Professionals to Solve Your Health Issues.</p>
             </div>
         <Slider {...settings} className="container">
