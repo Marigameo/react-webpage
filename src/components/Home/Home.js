@@ -97,7 +97,7 @@ const Home = () => {
         <div className="col-md-4">
             <div className="feature-text">
             <h2 className="mt-2">Medatu App coming soon</h2><br/>
-                <p>1000+ Online Healthcare Experts. Medatu makes It Easy to book a Virtual appointment (Video consultation).</p>
+                <p>1000+ Online Healthcare Experts. Medatu makes It Easy to book a Virtual appointment.</p>
                 <p style={{fontSize: "12px", margin: "3rem 0 .3rem 0"}}>Enter your phone number to join the list.</p>
                 <div style={{fontSize: "14px !important"}}>
                     <input type="text" placeholder="Enter Your Phone Number" name="app" id="app"/>

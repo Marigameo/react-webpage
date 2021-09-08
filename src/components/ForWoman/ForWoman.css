@@ -1,0 +1,25 @@
+.fw-sec1 {
+    background-image: url(../assets/img/for-woman/sec-1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 8rem;
+}
+.fw-sec2 {
+    background-image: url(../assets/img/for-woman/sec-2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10rem;
+}
+.fw-sec3 {
+    background-image: url(../assets/img/for-woman/sec-3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 6rem;
+}
+.fw-sec4 {
+    background-color: #F5F5F5;
+    padding: 6rem;
+}
