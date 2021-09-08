@@ -69,13 +69,13 @@ export default class NavbarComp extends Component {
             </div>
             <ul className="main-nav" >
             <li className="has-submenu">
-                <Nav.Link as={Link} to="/home-care">Virtual Care</Nav.Link>
+                <Nav.Link as={Link} to="/coming-soon">Virtual Care</Nav.Link>
                 </li>
                 <li className="has-submenu">
                 <Nav.Link as={Link} to="/home-care">Home Care</Nav.Link>
                 </li>
                 <li className="has-submenu">
-                <Nav.Link as={Link} to="/pharmacy-search">Pharmacy</Nav.Link>
+                <Nav.Link as={Link} to="/coming-soon">Pharmacy</Nav.Link>
                 </li>
                 <li className="has-submenu">
                 <Nav.Link as={Link} to="/diagnostics">Diagnostics</Nav.Link>
