@@ -1,4 +1,5 @@
 import React from 'react'
+import Logo from '../assets/img/logo.png'
 
 export default function invoice() {
     return (
@@ -14,7 +15,7 @@ export default function invoice() {
 									<div className="row">
 										<div className="col-md-6">
 											<div className="invoice-logo">
-												<img src="assets/img/logo.png" alt="logo" />
+											<img src={Logo} alt="logo" />
 											</div>
 										</div>
 										<div className="col-md-6">

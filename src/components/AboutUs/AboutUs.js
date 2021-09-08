@@ -97,7 +97,7 @@ make better health decisions.
     <Col className='seclast-a'>
    <h5>1. Hajeera Almas M (Founder, CEO)</h5>
    <h5>2. Ikram Pasha M (Co-Founder)</h5>
-   <h5>2. Ikram Pasha M (Co-Founder)</h5>
+   <h5>2. Ilyas Pasha (COO)</h5>
     </Col>
     <Col><img src={iThree} alt="iThree" width={400} height={400} /></Col>
     <Col className='seclast-a'>
