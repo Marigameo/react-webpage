@@ -20,6 +20,7 @@ import blogThree from "../../components/assets/img/blog/blog-03.jpg"
 import specialityIcon from '../../components/assets/img/specialities/specialities-01.png'
 import topOne from "../../components/assets/img/specialities/specialities-01.png"
 import Feedback from './feedback';
+import { Link } from 'react-router-dom';
 
 const Diagnostics = () => {
 	return ( 
@@ -182,12 +183,14 @@ const Diagnostics = () => {
 				<div className="row">
 					<div className="col-lg-4" id="top-test-col">
 						<div className="top-test">
+							<Link to='/top-blog'>
 							<div className="top-test-1">
 								<img className="top-test-img" src={topOne} alt=""/>
 								<h4>Lorem, ipsum.</h4>
 							</div>
 							<h5> COVID-19</h5>
 							<p>COVID-19 infects different people in different way. The symptoms may be mild or severe.</p>
+							</Link>
 						</div>
 						<div className="top-test">
 							<h5>Complete Blood Count (CBC)</h5>

@@ -35,6 +35,7 @@ import PharmacySearch from './Pharmacy/PharmacySearch';
 import ProductDescription from './Pharmacy/ProductDescription';
 import Cart from './Payment/Cart';
 import ComingSoon from '../components/ComingSoon/ComingSoon'
+import Main from './Diagnostics/TopBlog/Main';
 
 export default class NavbarComp extends Component {
     render() {
@@ -120,6 +121,9 @@ export default class NavbarComp extends Component {
     <Route path="/coming-soon">
         <ComingSoon/>
     </Route>
+    <Route path="/top-blog">
+        <Main/>
+    </Route>
     <Route path="/blog">
         <Blog1 />
     </Route>
@@ -144,7 +148,6 @@ export default class NavbarComp extends Component {
     <Route path="/about">
         <AboutUs/>
     </Route>
-
     <Route path="/">
         <Home />
     </Route>
