@@ -5,7 +5,7 @@
   
   .active-tabs::before {
     content: "";
-    display: block;
+    display: block; 
     position: absolute;
     top: -5px;
     left: 50%;
