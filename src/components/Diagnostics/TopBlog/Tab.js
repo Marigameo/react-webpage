@@ -57,7 +57,7 @@ It has been made compulsory to get the RT-PCT test done if we are traveling to d
           className={toggleState === 3 ? "content  active-content" : "content"}
         >
           <hr />
-          <h6>
+          <h6 className='h6-tabs'>
           COVID positive means you are infected with COVID-19 virus and need treatment. COVID negative means you are not infected with COVID-19 virus. 
           </h6>
         </div>
