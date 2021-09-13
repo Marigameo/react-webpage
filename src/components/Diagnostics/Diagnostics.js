@@ -1,6 +1,6 @@
 import React from 'react';
 import './Diagnostics.css'
-import Search from './Search'
+import Search from './search'
 import SimpleSlider from './caroussel';
 import '../../../node_modules/swiper/swiper-bundle.css';
 import 'bootstrap/dist/js/bootstrap.min';

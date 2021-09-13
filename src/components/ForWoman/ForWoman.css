@@ -2,8 +2,18 @@
     background-image: url(../assets/img/for-woman/sec-1.jpg);
     background-position: center;
     background-size: cover;
+    width: auto;
+    height: 80vh;
     background-repeat: no-repeat;
     padding: 8rem;
+}
+.fw-sec1 .col-lg-5 {
+  padding: 8rem 0;
+} 
+.fw-sec1 p {
+    font-size: larger;
+    font-weight: 500;
+    padding-top: .6rem;
 }
 .fw-sec2 {
     background-image: url(../assets/img/for-woman/sec-2.jpg);

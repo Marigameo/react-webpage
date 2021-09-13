@@ -7,18 +7,14 @@ import { faCheck } from '@fortawesome/free-solid-svg-icons';
 const ForWoman = () => {
     return ( 
         <main style={{paddingTop: '5.2rem'}}>
+            
             <section className='fw-sec1'>
                 <article className='container'>
                 <div className="row">
-                    <div className="col-lg-6"></div>
-                    <div className="col-lg-6">
+                    <div className="col-lg-7"></div>
+                    <div className="col-lg-5">
                         <h2>Maternity</h2>
-                        <p>Giving birth to a newbie is the most valuable feeling for a woman
-                        where she sails through myriads of new experiences and emotions.
-                        To make sure these feelings last forever, Medatu provides
-                        comprehensive pregnancy packages with complete digital guidance
-                        on diet and exercise. Do not stress yourself during this pandemic time,
-                        just call us and allow us help you.</p>
+                        <p>Medatu provides comprehensive pregnancy packages with complete digital guidance on diet and exercise.</p>
                         <button type="button" class="btn btn-success">Know More</button>
                     </div>
                 </div>
@@ -28,17 +24,13 @@ const ForWoman = () => {
             <section className='fw-sec2'>
                 <article className='container'>
                 <div className="row">
-                    <div className="col-lg-7"></div>
+                   
                     <div className="col-lg-5">
                         <h2>Fertility Care</h2>
-                        <p>The inability to bear children affects about 10% to
-                        15% of Indian women causing emotional and
-                        psychological distress in families. In recent years,
-                        increased awareness and better treatment options
-                        have enabled higher success rates. At Medatu, we
-                        connect you to our best fertility care experts.</p>
+                        <p>At Medatu, we connect you to our best fertility care experts.</p>
                         <button type="button" class="btn btn-success">Know More</button>
                     </div>
+                    <div className="col-lg-7"></div>
                 </div>
                 </article>
             </section>
