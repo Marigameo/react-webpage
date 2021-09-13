@@ -7,13 +7,13 @@
     background-repeat: no-repeat;
     padding: 8rem;
 }
-.fw-sec1 .col-lg-5 {
+.fw-sec1 .col-lg-4 {
   padding: 8rem 0;
 } 
-.fw-sec1 p {
+.fw-sec1 p, .fw-sec2 p {
     font-size: larger;
     font-weight: 500;
-    padding-top: .6rem;
+    padding-top: 1rem;
 }
 .fw-sec2 {
     background-image: url(../assets/img/for-woman/sec-2.jpg);
@@ -29,4 +29,26 @@
 .fw-sec4 {
     background-color: #F1f1f1;
     padding: 6rem;
+}
+.fw-sec5 {
+    background-image: url(../assets/img/for-woman/sec-3.jpg);
+    background-position: center;
+    background-size: cover;
+    width: auto;
+    height: 80vh;
+    background-repeat: no-repeat;
+    padding: 8rem;
+}
+.fw-sec5 .col-lg-6 {
+  padding: 7rem 0;
+} 
+.fw-sec5 p {
+    font-size: larger;
+    font-weight: 500;
+    padding-top: .6rem;
+}
+.sec-container {
+    padding: .5rem;
+    margin: 1.5rem .5rem;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 6px 0 rgba(0, 0, 0, 0.13);
 }
