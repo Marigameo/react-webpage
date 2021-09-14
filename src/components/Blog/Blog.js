@@ -46,7 +46,7 @@ function Blog() {
 <div className="col-lg-6 col-md-6 col-sm-6">
         <div className="doctor-blog profile-widget">
             <div className="doc-img">
-                   <Link as={Link} to="/blog2">\
+                   <Link as={Link} to="/blog2">
                     <img className="img-fluid" alt="User" src={docTwo}/>
                     </Link>
                 

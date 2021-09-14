@@ -12270,9 +12270,9 @@ padding-top: 6rem;
 }
 
 .top-test-img{
-	width: 40px !important;
+	width: 50px !important;
 	height: auto;
-	padding: 8px;
+	padding: 5px;
 	margin-right: 18px;
 	border-radius: 50%;
 	background-color: rgb(83,121,222, .2);

@@ -20,6 +20,21 @@ import specialityIcon from '../../components/assets/img/specialities/specialitie
 import topOne from "../../components/assets/img/specialities/specialities-01.png"
 import { Link } from 'react-router-dom';
 import Search from '../DynamicComponents/SearchBar/app/Search';
+import pOne from '../../components/assets/img/popular-categories/01.png'
+import pTwo from '../../components/assets/img/popular-categories/02.png'
+import pThree from '../../components/assets/img/popular-categories/03.png'
+import pFour from '../../components/assets/img/popular-categories/04.png'
+import pFive from '../../components/assets/img/popular-categories/05.png'
+import pSix from '../../components/assets/img/popular-categories/06.png'
+import tOne from '../../components/assets/img/top-rated/01.png'
+import tTwo from '../../components/assets/img/top-rated/02.png'
+import tThree from '../../components/assets/img/top-rated/03.png'
+import tFour from '../../components/assets/img/top-rated/04.png'
+import tFive from '../../components/assets/img/top-rated/05.png'
+import tSix from '../../components/assets/img/top-rated/06.png'
+import tSeven from '../../components/assets/img/top-rated/07.png'
+import tEight from '../../components/assets/img/top-rated/08.png'
+import tNine from '../../components/assets/img/top-rated/09.png'
 
 const Diagnostics = () => {
 	return ( 
@@ -90,7 +105,7 @@ const Diagnostics = () => {
 							<div className="brower-box">
 								<div>
 									<div className="brower-img">
-										<img src={specialityIcon} alt=""/>
+										<img src={pOne} alt=""/>
 									</div>
 									<h4>COVID-19</h4>
 								</div>
@@ -100,7 +115,7 @@ const Diagnostics = () => {
 							<div className="brower-box">
 								<div>
 									<div className="brower-img">
-										<img src={specialityIcon} alt=""/>
+										<img src={pTwo} alt=""/>
 									</div>
 									<h4>Full Body Checkup</h4>
 								</div>
@@ -110,7 +125,7 @@ const Diagnostics = () => {
 							<div className="brower-box">
 								<div>
 									<div className="brower-img">
-										<img src={specialityIcon} alt=""/>
+										<img src={pThree} alt=""/>
 									</div>
 									<h4>Fever</h4>
 								</div>
@@ -120,7 +135,7 @@ const Diagnostics = () => {
 							<div className="brower-box">
 								<div>
 									<div className="brower-img">
-										<img src={specialityIcon} alt=""/>
+										<img src={pFour} alt=""/>
 									</div>
 									<h4>Diabetes</h4>
 								</div>
@@ -130,7 +145,7 @@ const Diagnostics = () => {
 							<div className="brower-box">
 								<div>
 									<div className="brower-img">
-										<img src={specialityIcon} alt=""/>
+										<img src={pFive} alt=""/>
 									</div>
 									<h4>COVID-19</h4>
 								</div>
@@ -140,7 +155,7 @@ const Diagnostics = () => {
 							<div className="brower-box">
 								<div>
 									<div className="brower-img">
-										<img src={specialityIcon} alt=""/>
+										<img src={pSix} alt=""/>
 									</div>
 									<h4>Full Body Checkup</h4>
 								</div>
@@ -185,8 +200,8 @@ const Diagnostics = () => {
 						<div className="top-test">
 							<Link to='/test-detail'>
 							<div className="top-test-1">
-								<img className="top-test-img" src={topOne} alt=""/>
-								<h4><br/>COVID-19</h4>
+								<img className="top-test-img" src={tOne} alt=""/>
+								<h4><br/>Blood typing</h4>
 							</div>
 							</Link>
 						</div>
@@ -195,8 +210,8 @@ const Diagnostics = () => {
 					<div className="col-lg-4" id="top-test-col">
 						<div className="top-test">
 							<div className="top-test-1">
-								<img className="top-test-img" src={topOne} alt=""/>
-								<h4>Cholesterol Testing or Lipid Panel</h4>
+								<img className="top-test-img" src={tTwo} alt=""/>
+								<h4>Cholesterol testing or lipid panel</h4>
 							</div>
 						</div>	
 					</div>
@@ -204,8 +219,8 @@ const Diagnostics = () => {
 					<div className="col-lg-4" id="top-test-col">
 					<div className="top-test">
 						<div className="top-test-1">
-							<img className="top-test-img" src={topOne} alt=""/>
-							<h4>Total Iron Binding Capacity (TIBC)</h4>
+							<img className="top-test-img" src={tThree} alt=""/>
+							<h4>Complete Blood Count</h4>
 						</div>
 					</div>
 					</div>
@@ -214,8 +229,8 @@ const Diagnostics = () => {
 						<div className="top-test">
 							<Link to='/top-blog'>
 							<div className="top-test-1">
-								<img className="top-test-img" src={topOne} alt=""/>
-								<h4>Complete Blood Count (CBC)</h4>
+								<img className="top-test-img" src={tFour} alt=""/>
+								<h4>Covid 19</h4>
 							</div>
 							</Link>
 						</div>
@@ -224,8 +239,8 @@ const Diagnostics = () => {
 					<div className="col-lg-4" id="top-test-col">
 						<div className="top-test">
 							<div className="top-test-1">
-								<img className="top-test-img" src={topOne} alt=""/>
-								<h4><br/>Blood Typing</h4>
+								<img className="top-test-img" src={tFive} alt=""/>
+								<h4><br/>Covid 19</h4>
 							</div>
 						</div>	
 					</div>
@@ -233,8 +248,35 @@ const Diagnostics = () => {
 					<div className="col-lg-4" id="top-test-col">
 					<div className="top-test">
 						<div className="top-test-1">
-							<img className="top-test-img" src={topOne} alt=""/>
-							<h4>Total Iron Binding Capacity (TIBC)</h4>
+							<img className="top-test-img" src={tSix} alt=""/>
+							<h4>Kidney function test</h4>
+						</div>
+					</div>
+					</div>
+
+					<div className="col-lg-4" id="top-test-col">
+					<div className="top-test">
+						<div className="top-test-1">
+							<img className="top-test-img" src={tSeven} alt=""/>
+							<h4>Liver function test</h4>
+						</div>
+					</div>
+					</div>
+
+					<div className="col-lg-4" id="top-test-col">
+					<div className="top-test">
+						<div className="top-test-1">
+							<img className="top-test-img" src={tEight} alt=""/>
+							<h4>Pregnancy test</h4>
+						</div>
+					</div>
+					</div>
+
+					<div className="col-lg-4" id="top-test-col">
+					<div className="top-test">
+						<div className="top-test-1">
+							<img className="top-test-img" src={tNine} alt=""/>
+							<h4>TIBC</h4>
 						</div>
 					</div>
 					</div>

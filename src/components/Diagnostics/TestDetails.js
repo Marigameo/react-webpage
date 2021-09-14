@@ -22,21 +22,19 @@ export default function TestDetails() {
 									<div className="doctor-widget">
 										<div className="doc-info-left">
 											<div className="doctor-img1">
-													<img src={fOne} className="img-fluid" alt="UserImage" />
+													<img src={fOne} className="img-fluid" alt="UserImage" width={220} height={220} />
 											</div>
 											<div className="doc-info-cont">
-												<h4 className="doc-name mb-2">Benzaxapine Croplex</h4>
-												<p><span className="text-muted">Manufactured By </span> Hamdard (Wakf) Laboratories</p>
-												<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled</p>
-												<div className="feature-product pt-4">
-													<span>Applied for:</span>
-													<ul>
-														<li>Moisturization & Nourishment</li>
-														<li>Blackhead Removal</li>
-														<li>Anti-acne & Pimples</li>
-														<li>Whitening & Fairness</li>
+												<h4 className="doc-name mb-2">COVID-19</h4>
+												<p><span className="text-muted">COVID-19 infects different people in different way. The symptoms may be mild or severe. The most common symptoms can be:</span></p>
+												<ul>
+														<li>Tiredness and body aches</li>
+														<li>Dry cough</li>
+														<li>Fever</li>
+														<li>Difficulty breathing</li>
+														<li>Loss of taste or smell</li>
+														<li>Nausea and diarrhea</li>
 													</ul>
-												</div>
 											</div>
 										</div>
 										
