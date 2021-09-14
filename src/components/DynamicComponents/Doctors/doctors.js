@@ -1,21 +1,15 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
-import '../assets/style.css'
-import 'swiper/swiper-bundle';
-import '../../../node_modules/swiper/swiper-bundle.css';
-import 'bootstrap/dist/js/bootstrap.min';
-import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css'
-import '@popperjs/core/dist/umd/popper.min';
-import 'jquery/dist/jquery.min';
+import '../../assets/style.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar,faStarHalfAlt } from '@fortawesome/free-solid-svg-icons';
 import {Link} from "react-router-dom";
 
-import bookDocOne from "../assets/img/doctors/book-doc-01.jpg";
-import bookDocTwo from "../assets/img/doctors/book-doc-02.jpg";
-import bookDocThree from "../assets/img/doctors/book-doc-03.jpg";
-import bookDocFour from "../assets/img/doctors/book-doc-04.jpg";
-import bookDocFive from "../assets/img/doctors/book-doc-05.jpg";
+import bookDocOne from "../../assets/img/doctors/book-doc-01.jpg";
+import bookDocTwo from "../../assets/img/doctors/book-doc-02.jpg";
+import bookDocThree from "../../assets/img/doctors/book-doc-03.jpg";
+import bookDocFour from "../../assets/img/doctors/book-doc-04.jpg";
+import bookDocFive from "../../assets/img/doctors/book-doc-05.jpg";
 
 export default class MultipleItems extends Component {
   render() {

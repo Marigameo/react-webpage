@@ -39,6 +39,7 @@ import Main from './Diagnostics/TopBlog/Main';
 import ForWoman from './ForWoman/ForWoman';
 import Invoice from './Payment/Invoice'
 import TestDetails from './Diagnostics/TestDetails';
+import VirtualCare from './VirtualCare/VirtualCare'
 
 export default class NavbarComp extends Component {
     render() {
@@ -71,7 +72,7 @@ export default class NavbarComp extends Component {
             </div>
             <ul className="main-nav" >
             <li className="has-submenu">
-                <Nav.Link as={Link} to="/coming-soon">Virtual Care</Nav.Link>
+                <Nav.Link as={Link} to="/virtual-care">Virtual Care</Nav.Link>
                 </li>
                 <li className="has-submenu">
                 <Nav.Link as={Link} to="/">Home Care</Nav.Link>
@@ -110,6 +111,9 @@ export default class NavbarComp extends Component {
   
     <Route path="/home-care">
         <HomeCare/>
+    </Route>
+    <Route path="/virtual-care">
+       <VirtualCare/>
     </Route>
     <Route path="/cart">
         <Cart/>
