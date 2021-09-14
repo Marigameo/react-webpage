@@ -4,6 +4,7 @@ import Blog from '../Blog/Blog';
 import AppSection from '../DynamicComponents/AppSection/AppSection';
 import MultipleItems from '../DynamicComponents/Doctors/doctors';
 import Search from '../DynamicComponents/SearchBar/app/Search';
+import FAQ from './FAQ/FAQ'
 
 function VirtualCare() {
   return (
@@ -38,6 +39,7 @@ function VirtualCare() {
       </Row>
     </Container>
     <Blog/>
+    <FAQ/>
     </>
   );
 }
