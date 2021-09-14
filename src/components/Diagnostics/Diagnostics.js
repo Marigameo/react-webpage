@@ -201,7 +201,7 @@ const Diagnostics = () => {
 							<Link to='/test-detail'>
 							<div className="top-test-1">
 								<img className="top-test-img" src={tOne} alt=""/>
-								<h4><br/>Blood typing</h4>
+								<h4>Blood typing</h4>
 							</div>
 							</Link>
 						</div>
@@ -240,7 +240,7 @@ const Diagnostics = () => {
 						<div className="top-test">
 							<div className="top-test-1">
 								<img className="top-test-img" src={tFive} alt=""/>
-								<h4><br/>Covid 19</h4>
+								<h4>Covid 19</h4>
 							</div>
 						</div>	
 					</div>
