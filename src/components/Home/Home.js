@@ -16,8 +16,7 @@ import threeOne from "../assets/img/three/1.png";
 import threeTwo from "../assets/img/three/2.png";
 import threeThree from "../assets/img/three/3.png";
 import main from "../assets/img/app/main.png";
-
-import PlacesInput from './app/PlacesInput';
+import Search from '../DynamicComponents/SearchBar/app/Search';
 import Feedback from './feedback';
 
 const Home = () => {
@@ -37,7 +36,7 @@ const Home = () => {
                 <p>It’s Simple and Free!</p>
             </div>
             <div className="banner-search">
-                <PlacesInput/> 
+                <Search/> 
             </div>
         </article>
     </section>

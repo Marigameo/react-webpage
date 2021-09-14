@@ -1,11 +1,11 @@
 import React from 'react'
+import DoctorSearch from './DoctorSearch'
 import PlacesAutocomplete, {
   geocodeByAddress,
   getLatLng,
 } from 'react-places-autocomplete';
-import DropDown from './DropDown';
  
-class PlacesInput extends React.Component {
+class Search extends React.Component {
   constructor(props) {
     super(props);
     this.state = { address: ''};
@@ -45,7 +45,7 @@ class PlacesInput extends React.Component {
                       : 'suggestion-item';
                       // inline style for demonstration purpose
                       const style = suggestion.active
-                      ? { backgroundColor: 'rgba(238, 238, 232, .2)',padding: ".5rem",  cursor: 'pointer' }
+                      ? { backgroundColor: 'rgba(238, 238, 232, .9)',padding: ".5rem",  cursor: 'pointer' }
                       : { backgroundColor: '#fdfdfd',padding: ".5rem", cursor: 'pointer' };
                       return (
                       <div
@@ -62,7 +62,7 @@ class PlacesInput extends React.Component {
             </div>
 
             <div className="search-info">
-              <DropDown/>
+              <DoctorSearch/>
             </div>
           
             </form>
@@ -73,4 +73,4 @@ class PlacesInput extends React.Component {
     );
    
   }
-} export default PlacesInput;
+} export default Search;

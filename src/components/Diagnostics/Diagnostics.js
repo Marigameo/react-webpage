@@ -1,6 +1,5 @@
 import React from 'react';
 import './Diagnostics.css'
-import Search from './search'
 import SimpleSlider from './caroussel';
 import '../../../node_modules/swiper/swiper-bundle.css';
 import 'bootstrap/dist/js/bootstrap.min';
@@ -20,11 +19,12 @@ import blogThree from "../../components/assets/img/blog/blog-03.jpg"
 import specialityIcon from '../../components/assets/img/specialities/specialities-01.png'
 import topOne from "../../components/assets/img/specialities/specialities-01.png"
 import { Link } from 'react-router-dom';
+import Search from '../DynamicComponents/SearchBar/app/Search';
 
 const Diagnostics = () => {
 	return ( 
 		<>
- 		  <Search />
+		<section style={{padding: '8rem 14rem 1rem 14rem'}}><Search/></section>
   		  <SimpleSlider/>
 		  <section className="work-section" id="view-btn">
 		  <div className=" text-center container">
