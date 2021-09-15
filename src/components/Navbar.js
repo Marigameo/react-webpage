@@ -75,7 +75,7 @@ export default class NavbarComp extends Component {
                 <Nav.Link as={Link} to="/virtual-care">Virtual Care</Nav.Link>
                 </li>
                 <li className="has-submenu">
-                <Nav.Link as={Link} to="/">Home Care</Nav.Link>
+                <Nav.Link as={Link} to="/home-care">Home Care</Nav.Link>
                 </li>
                 <li className="has-submenu">
                 <Nav.Link as={Link} to="/coming-soon">Pharmacy</Nav.Link>

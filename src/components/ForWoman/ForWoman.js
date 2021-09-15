@@ -71,9 +71,12 @@ const ForWoman = () => {
 </section>
 
 <section className='fw-sec5'>
+   
+        
+    
 <Container>
-<Row>
-    <div className="col-lg-6">
+<article id='h-mid'>
+    <div className="col-lg-8">
     <h2>Health Screenings</h2>
     <p>Book essential health check-ups.</p>
 <Row id='h-layout'>
@@ -110,8 +113,7 @@ const ForWoman = () => {
 </Row>
     <button type="button" class="btn btn-success">Know More</button>
     </div>
-    <div className="col-lg-6"></div>
-</Row>
+    </article>
 </Container>
 </section>
  
