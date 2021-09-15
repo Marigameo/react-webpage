@@ -11,19 +11,19 @@ import sFive from "../assets/img/specialities/specialities-05.png";
 import sSix from "../assets/img/specialities/specialities-06.png";
 import sSeven from "../assets/img/specialities/specialities-07.png";
 import sEight from "../assets/img/specialities/specialities-08.png";
-import sNine from "../assets/img/specialities/specialities-09.png";
-import sTen from "../assets/img/specialities/specialities-10.png";
-import sEleven from "../assets/img/specialities/specialities-11.png";
-import sTwelve from "../assets/img/specialities/specialities-12.png";
-import sThirteen from "../assets/img/specialities/specialities-13.png";
-import sFourteen from "../assets/img/specialities/specialities-14.png";
-import sFifteen from "../assets/img/specialities/specialities-15.png";
-import sSixteen from "../assets/img/specialities/specialities-16.png";
-import sSeventeen from "../assets/img/specialities/specialities-17.png";
-import sEighteen from "../assets/img/specialities/specialities-18.png";
-import sNineteen from "../assets/img/specialities/specialities-19.png";
-import sTwenty from "../assets/img/specialities/specialities-20.png";
-import sTwentyOne from "../assets/img/specialities/specialities-21.png";
+// import sNine from "../assets/img/specialities/specialities-09.png";
+// import sTen from "../assets/img/specialities/specialities-10.png";
+// import sEleven from "../assets/img/specialities/specialities-11.png";
+// import sTwelve from "../assets/img/specialities/specialities-12.png";
+// import sThirteen from "../assets/img/specialities/specialities-13.png";
+// import sFourteen from "../assets/img/specialities/specialities-14.png";
+// import sFifteen from "../assets/img/specialities/specialities-15.png";
+// import sSixteen from "../assets/img/specialities/specialities-16.png";
+// import sSeventeen from "../assets/img/specialities/specialities-17.png";
+// import sEighteen from "../assets/img/specialities/specialities-18.png";
+// import sNineteen from "../assets/img/specialities/specialities-19.png";
+// import sTwenty from "../assets/img/specialities/specialities-20.png";
+// import sTwentyOne from "../assets/img/specialities/specialities-21.png";
 
 export default class Responsive extends Component {
   render() {
@@ -61,7 +61,7 @@ export default class Responsive extends Component {
       ]
     };
     return (
-        <section className="section section-specialities">
+        <section className="section section-specialities" id='view-btn'>
         <div className="container">
                 <div className="section-header text-center">
                     <h2>Clinics and Specialities</h2>
@@ -131,7 +131,7 @@ export default class Responsive extends Component {
           </div>
           <p>Oncology</p>
         </div>	
-        <div className="speicality-item text-center">
+        {/* <div className="speicality-item text-center">
           <div className="speicality-img">
             <Link to='/doctors'>
             <img src={sNine} className="img-fluid" alt="Speciality"/>
@@ -234,9 +234,10 @@ export default class Responsive extends Component {
             </Link>
           </div>
           <p>Veterinary</p>
-        </div>
+        </div> */}
         </Slider>
         </div>
+        <button className="btn view-btn">View More</button>
         </section>
     );
   }

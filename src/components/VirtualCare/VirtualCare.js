@@ -4,6 +4,7 @@ import Blog from '../Blog/Blog';
 import AppSection from '../DynamicComponents/AppSection/AppSection';
 import MultipleItems from '../DynamicComponents/Doctors/doctors';
 import Search from '../DynamicComponents/SearchBar/app/Search';
+import vBanner from '../assets/img/vbanner.jpg'
 import FAQ from './FAQ/FAQ'
 
 function VirtualCare() {
@@ -23,9 +24,9 @@ function VirtualCare() {
 
     <AppSection/>
     <MultipleItems/>
-    <Container>
       <Row>
-        <div className="col-lg-6"></div>
+        <img src={vBanner} alt="v-banner" />
+        {/* <div className="col-lg-6"></div>
         <div className="col-lg-6">
           <h2>How Medatu’s virtual consultation work?</h2>
           <ul>
@@ -35,9 +36,8 @@ function VirtualCare() {
             <li>Follow-up with your doctor.</li>
             <li>Medical records are kept confidential and accessible only by you.</li>
           </ul>
-        </div>
+        </div> */}
       </Row>
-    </Container>
     <Blog/>
     <FAQ/>
     </>

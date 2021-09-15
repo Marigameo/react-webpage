@@ -17,7 +17,6 @@ import blogOne from "../../components/assets/img/blog/blog-01.jpg"
 import blogTwo from "../../components/assets/img/blog/blog-02.jpg"
 import blogThree from "../../components/assets/img/blog/blog-03.jpg"
 import specialityIcon from '../../components/assets/img/specialities/specialities-01.png'
-import topOne from "../../components/assets/img/specialities/specialities-01.png"
 import { Link } from 'react-router-dom';
 import Search from '../DynamicComponents/SearchBar/app/Search';
 import pOne from '../../components/assets/img/popular-categories/01.png'
