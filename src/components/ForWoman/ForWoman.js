@@ -1,8 +1,8 @@
 import './ForWoman.css';
 import { Container } from 'react-bootstrap';
 import { Row } from 'react-bootstrap';
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { faCheck } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCheck } from '@fortawesome/free-solid-svg-icons';
 import Contains from './Elements/Contains';
 import Blog from '../Blog/Blog';
 
@@ -76,13 +76,38 @@ const ForWoman = () => {
     <div className="col-lg-6">
     <h2>Health Screenings</h2>
     <p>Book essential health check-ups.</p>
-    <ul>
-        <li>Blood Glucose Test</li>
-        <li>Bone Density Screening</li>
-        <li>Cholesterol Check</li>
-        <li>Mammograms</li>
-        <li>PAP Smear and Pelvic Examination </li>
-    </ul>
+<Row id='h-layout'>
+    <div className="col-lg-4">
+        <article id='h-design'>
+        <FontAwesomeIcon icon={faCheck}/> 
+        <a href='#/'>Blood Glucose Test</a> 
+        </article>
+    </div>
+    <div className="col-lg-4">
+        <aside id='h-design'>
+        <FontAwesomeIcon icon={faCheck}/> 
+        <a href='#/'> Bone Density Screening</a> 
+        </aside>
+    </div>
+    <div className="col-lg-4">
+        <aside id='h-design'>    
+        <FontAwesomeIcon icon={faCheck}/> 
+        <a href='#/'>PAP Smear and Pelvic Examination</a> 
+        </aside>
+    </div>
+    <div className="col-lg-4">
+        <aside id='h-design'>
+        <FontAwesomeIcon icon={faCheck}/> 
+        <a href='#/'>Mammograms</a>
+        </aside>
+    </div>
+    <div className="col-lg-4">
+        <aside id='h-design'>
+        <FontAwesomeIcon icon={faCheck}/> 
+        <a href='#/'>Cholesterol Check</a> 
+        </aside>
+    </div>
+</Row>
     <button type="button" class="btn btn-success">Know More</button>
     </div>
     <div className="col-lg-6"></div>
