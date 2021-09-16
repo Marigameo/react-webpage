@@ -3,7 +3,7 @@ import { Container } from 'react-bootstrap';
 import Faq from 'react-faq-component';
 
 const data = {
-  title: "FAQ (How it works)",
+  title: "FAQs",
   rows: [
     {
       title: "Lorem ipsum dolor sit amet,",
@@ -27,7 +27,7 @@ export default class FAQ extends Component {
   render() {
     return (
       <div>
-        <Container>
+        <Container style={{padding: '2rem'}}>
         <Faq data={data}/>
         </Container>
       </div>

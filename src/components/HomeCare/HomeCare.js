@@ -13,33 +13,33 @@ import Search from '../DynamicComponents/SearchBar/app/Search'
 export default class Blog extends Component {
     render() {
         return (
-            <main className="main-wrapper">
-           <section style={{padding: '8rem 0 1rem 10rem'}}>
-           <Search/>
-           </section>
-            
+            <main style={{paddingTop: '6rem'}} className="main-wrapper"> 
             <section className="home-care-banner">
                <article className="banner-design">
                    <div className="home-care-header">
-                       <h1>Professional <br/>Healthcare services,<br/>At the convenience <br/>of your Home.</h1>
+                       <h1>Professional Healthcare services, <br/>At the convenience of <br/>your Home.</h1>
                    </div>
+                   <form action="" className='home-care-form'>
+                   <label for="name">Your Name</label><br/>
+                    <input placeHolder='Enter Your Name' type="text" id="name" name="name" /><br/>
+                    <label for="numer">Your Phone Number</label><br/>
+                    <input placeHolder='Enter Your Phone Number' type="number" id="number" name="number"/><br/><br/>
+                    <aside className='c-express'>
+                    <select name="" id="location">
+                        <option value="Lorem, ipsum.">Lorem, ipsum.</option>
+                        <option value="Lorem, ipsum.">Lorem, ipsum.</option>
+                        <option value="Lorem, ipsum.">Lorem, ipsum.</option>
+                    </select>
+                    <select name="" id="service">
+                        <option value="Lorem, ipsum.">Lorem, ipsum.</option>
+                        <option value="Lorem, ipsum.">Lorem, ipsum.</option>
+                        <option value="Lorem, ipsum.">Lorem, ipsum.</option>
+                    </select>
+                    </aside>
+                    <input type="submit" value="Submit" className='btn-success btn-input'/>
+                   </form>
                </article>
            </section>
-
-            <section className="container">
-                <article className="row home-care-section-two">
-                    <div className="col-lg-6">
-                    <img src={illustration} alt="home-care-img-section" />
-                    </div>
-                    <div className="col-lg-6">
-                        <h1>Home Care Services</h1>
-                        <div className="text">
-                        <p>Medical consultations at clinic or hospital often require transport arrangements and long waiting hours. It may expose you to various infections and compromise on quality care. </p>
-                        <p>Medatu’s Home Care option brings stress-free healthcare services to your doorstep. Just choose your location and service you require. Our highly qualified and experienced doctors will provide best treatment at comfort of your home.</p>
-                        </div>
-                    </div>
-                </article>
-            </section>
 
             <section className="home-care-section">
                 <article className="container">
@@ -75,6 +75,21 @@ export default class Blog extends Component {
                         <h5>Health monitoring while <br/>recovering an illness</h5>
                     </div>
                 </article>
+                </article>
+            </section>
+
+            <section className="container">
+                <article className="row home-care-section-two">
+                    <div className="col-lg-6">
+                    <img src={illustration} alt="home-care-img-section" />
+                    </div>
+                    <div className="col-lg-6">
+                        <h1>Home Care Services</h1>
+                        <div className="text">
+                        <p>Medical consultations at clinic or hospital often require transport arrangements and long waiting hours. It may expose you to various infections and compromise on quality care. </p>
+                        <p>Medatu’s Home Care option brings stress-free healthcare services to your doorstep. Just choose your location and service you require. Our highly qualified and experienced doctors will provide best treatment at comfort of your home.</p>
+                        </div>
+                    </div>
                 </article>
             </section>
 

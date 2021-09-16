@@ -39,19 +39,61 @@
     background-repeat: no-repeat;
     display: flex;
     justify-content: flex-start;
-    padding: 12rem 0 0 8rem;
+    padding: 2rem 0 2rem 8rem;
     align-items: baseline;
     margin: 0;
-    height: 90vh;
+    height: fit-content;
     width: 100vw;
 }
 .home-care-header h1 {
-    padding-top: 4rem;
-	font-size: 2.566rem !important;
+	font-size: 2rem !important;
 	color: #151515;
 	font-weight: 200 !important;
     letter-spacing: .103rem;
     line-break:strict;
-    padding-bottom: 2rem;
-    border-bottom: .5px solid black;
+    padding-bottom: 1rem;
+}
+.c-express {
+    display: flex;
+    align-items: baseline;
+    padding-bottom: 1rem;
+    flex-direction: column;
+}
+.home-care-form {
+    border-radius: .6rem;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    padding: 1rem;
+    width: 20rem;
+    margin-bottom: 1rem;
+}
+.btn-input {
+    padding: .4rem 1rem;
+    width: 6rem;
+    border-radius: .3rem;
+}
+#number {
+    border-radius: .3rem;
+    border-color: #eeeeee;
+    width: 18.6vw;
+    padding: .5rem .2rem;
+}
+#name {
+    border-radius: .3rem;
+    border-color: #eeeeee;
+    width: 18.6vw;
+    padding: .5rem .2rem;
+    margin-bottom: .5rem;
+}
+#service {
+    border-radius: .3rem;
+    border: none;
+    width: 18.6vw;
+    padding: .5rem .2rem;
+}
+#location {
+    border-radius: .3rem;
+    border-color: #eeeeee;
+    width: 18.6vw;
+    padding: .5rem .2rem;
+    margin-bottom: .5rem;
 }

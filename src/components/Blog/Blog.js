@@ -16,7 +16,7 @@ function Blog() {
         </div>
         <div className="about-content">
             <p>Easy-to-Read health information from our medical experts enables people to live in a better way as per health is concerned.</p>					
-            <a href={() => false}>Read More..</a>
+            <a href={() => false}>Read More</a>
         </div>
     </div>
 <div className="col-lg-8">

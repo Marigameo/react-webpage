@@ -1,5 +1,5 @@
 import React,{useEffect} from 'react';
-import SimpleSlider from './specialities';
+import SimpleSlider from '../DynamicComponents/Specialities/specialities';
 import MultipleItems from '../DynamicComponents/Doctors/doctors';
 // import SimpleSlider from './specialities';
 // import MultipleItems from './doctors';
@@ -70,17 +70,17 @@ const Home = () => {
             </div>
     </div>
     
-    <div id="s-two" className="styles-two">
-            <div className="top-two">
-                <img src={threeThree} alt="#/"/>
+<div id="s-two" className="styles-two">
+        <div className="top-two">
+            <img src={threeThree} alt="#/"/>
+        </div>
+        <div className="body-two text-center">
+            <h3 className="h3-two">Healthcare Services at<br/> your Home</h3>
+            <div className="text-center">
+            <button id="section-btn">Book Now</button>
             </div>
-            <div className="body-two text-center">
-                <h3 className="h3-two">Healthcare Services at<br/> your Home</h3>
-                <div className="text-center">
-                <button id="section-btn">Book Now</button>
-                </div>
-            </div>
-    </div>
+        </div>
+</div>
 
 </div>
 </section>

@@ -3139,14 +3139,7 @@ html.menu-opened body {
     margin-bottom: 0;
     margin-top: 15px;
 }
-
-
-
-
-
-
 .section-specialities {
-	background-color: #fdfdfd;
 	padding: 80px 0;
 }
 .slick-dots {
@@ -3316,68 +3309,15 @@ html.menu-opened body {
 	outline: none !important;
 }
 .specialities-slider .slick-slide {
-    display: block;
-    padding: 0 12px;
-    margin-left: 0;
-    margin-right: 20px;
+	display: block;
+	padding: 0 12px;
+	margin-left: 0;
+	margin-right: 20px;
 	margin-top: 10px;
 }
 .specialities-slider .slick-dots {
     margin-top: 44px;
     position: unset;
-}
-.speicality-img {
-	position: relative;
-	height: 150px;
-	border: 2px #cecece solid;
-	border-radius: 100%;
-	width: 150px;
-	background: #fdfdfd;
-}
-
-.speicality-img img {
-	position: absolute;
-	top: 50%;
-	-ms-transform: translateY(-50%);
-	transform: translateY(-50%);
-	left: 0;
-	right: 0;
-	margin: 0 auto;
-}
-.speicality-img span {
-	-webkit-box-align: center;
-	-ms-flex-align: center;
-	align-items: center;
-	position: absolute;
-    bottom: 10px;
-    right: 10px;
-    box-shadow: 1px 6px 14px rgba(0,0,0,0.2);
-    border-radius: 50%;
-    padding: 5px;
-    background-color: #fdfdfd;
-	display: -webkit-inline-box;
-	display: -ms-inline-flexbox;
-	display: inline-flex;
-	justify-content: center;
-	-webkit-justify-content: center;
-	-ms-flex-pack: center;
-}
-.speicality-img span i {
-    font-size: 15px;
-	color:#373B7A;
-}
-.speicality-item p {
-    font-size: 18px !important;
-    font-weight: 500;
-    margin: 30px 0 0;
-	display: flex;
-	justify-content: center !important;
-	align-items: center !important;
-	text-align: center !important;
-}
-.speicality-item {
-	width: fit-content !important;
-	margin: 2em;
 }
 .section-doctor {
 	background-color: #f8f9fa;
@@ -5130,7 +5070,7 @@ body .multi-optn {
     border-radius: 50%;
 	transform: unset;
 }
-.clinic-slider .brower-box .img-fluid.hover {
+.clinic-slider .brower-box {
 	display: none;
 }
 .clinic-slider .brower-box .arrow i {
@@ -5139,10 +5079,10 @@ body .multi-optn {
 .clinic-slider .brower-box:hover a {
 	background-color: #fdfdfd;
 }
-.clinic-slider .brower-box:hover .img-fluid.hover {
+.clinic-slider .brower-box:hover {
 	display: block;
 }
-.clinic-slider .brower-box:hover .img-fluid {
+.clinic-slider .brower-box:hover {
 	display: none;
 }
 .clinic-slider .brower-box:hover a.arrow {
@@ -11487,7 +11427,7 @@ ul.benifits-col li i{
 	.feature-text {
 		padding-left: 0 !important;
 	}
-	.section-features, .section-features, .section-specialities {
+	.section-features, .section-features,{
 		padding-bottom: 0 !important;
 	}
 	#app-num {
@@ -11509,13 +11449,6 @@ ul.benifits-col li i{
 	.specialities-slider .slick-slide {
 		margin-right: 10px;
 	}
-	.speicality-img {
-		width: 120px;
-		height: 120px;
-	}
-	.speicality-img img {
-		width: 50px;
-	}
 	.clinic-booking a.view-pro-btn {
 		width: 100%;
 		margin-bottom: 15px;
@@ -11527,7 +11460,7 @@ ul.benifits-col li i{
 	.chat-cont-left .chat-users-list a.media .media-body > div:first-child .user-last-chat {
 		max-width: 160px;
 	}
-	.section-features, .section-features, .section-specialities {
+	.section-features, .section-features, {
 		background-color: #fdfdfd;
 		padding: 30px 0;
 	} 
@@ -11683,8 +11616,6 @@ ul.benifits-col li i{
 	height: 0;
 	width: 0;
 	opacity: 0;
-}
-.banner-header h1 {
 	margin-top: 3rem;
 }
 .pharmacy-home-slider img {
@@ -12387,7 +12318,7 @@ font-size: 10px;
 	flex-direction: column;
 }
 .banner-header h1 {
-	font-size: 1.766rem !important;
+	font-size: 2rem !important;
 	color: #09008d !important;
 	font-weight: 200 !important;
 }
@@ -12440,4 +12371,29 @@ font-size: 10px;
 #d-item {
 	height: 2rem;
 	border: rgb(114, 114, 114) .02 solid;
+}
+.s-items {
+	display: flex;
+	margin: 2rem;
+}
+.speicality-item p {
+	font-size: 18px !important;
+	text-align: center !important;
+	font-weight: 500;
+	margin: 10px 0 0;
+}
+.speicality-item {
+	width: fit-content !important;
+	margin: 2em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+#img-spec {
+	padding: 2rem;
+	border-radius: 100%;
+	width: fit-content;
+	height: auto;
+	border: .1px solid #1515156e;
 }
