@@ -15,10 +15,7 @@
 }
 .disclaimer {
     padding: 2rem 0;
-    background-image: url(../assets/img/home-care/disclaimer.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-color: #f6fffa;
 }
 .home-care-section-two {
     padding: 4rem 0 2rem;
