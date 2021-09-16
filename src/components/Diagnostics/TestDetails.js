@@ -1,6 +1,7 @@
 import React,{useEffect} from 'react';
 import { Link } from 'react-router-dom';
 import fOne from '../assets/img/features/feature-01.jpg'
+import FAQt from '../DynamicComponents/FAQ/FAQt';
 
 export default function TestDetails() {
 	useEffect(() => {
@@ -46,10 +47,9 @@ export default function TestDetails() {
 							<div className="card">
 								<div className="card-body pt-0">
 								
-								
 										<h3 className="pt-4">Product Details</h3>
 										<hr />
-								
+										<FAQt/>
 									<div className="tab-content pt-3">
 									
 										<div role="tabpanel" id="doc_overview" className="tab-pane fade show active">

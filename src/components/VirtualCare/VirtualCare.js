@@ -1,11 +1,10 @@
 import React from 'react';
 import { Row } from 'react-bootstrap';
-import Blog from '../Blog/Blog';
 import AppSection from '../DynamicComponents/AppSection/AppSection';
 import MultipleItems from '../DynamicComponents/Doctors/doctors';
 import './VirtualCare.css'
 import vBanner from '../assets/img/vbanner.jpg'
-import FAQ from './FAQ/FAQ'
+import FAQ from '../DynamicComponents/FAQ/FAQ'
 import Responsive from '../DynamicComponents/Specialities/specialities';
 import Search from '../DynamicComponents/SearchBar/app/Search';
 
@@ -29,7 +28,6 @@ function VirtualCare() {
       <Row>
         <img src={vBanner} alt="v-banner" />
       </Row>
-    <Blog/>
     <FAQ/>
     </>
   );

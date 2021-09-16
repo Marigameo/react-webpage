@@ -8,7 +8,7 @@ import hThree from '../assets/img/home-care/03.jpg'
 import hFour from '../assets/img/home-care/04.jpg'
 import hFive from '../assets/img/home-care/05.jpg'
 import hSix from '../assets/img/home-care/06.jpg'
-import { Container, Row } from 'react-bootstrap'
+import { Container } from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSun } from '@fortawesome/free-regular-svg-icons'
 
