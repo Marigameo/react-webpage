@@ -8,7 +8,9 @@ import hThree from '../assets/img/home-care/03.jpg'
 import hFour from '../assets/img/home-care/04.jpg'
 import hFive from '../assets/img/home-care/05.jpg'
 import hSix from '../assets/img/home-care/06.jpg'
-import Search from '../DynamicComponents/SearchBar/app/Search'
+import { Container, Row } from 'react-bootstrap'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faSun } from '@fortawesome/free-regular-svg-icons'
 
 export default class Blog extends Component {
     render() {
@@ -25,7 +27,7 @@ export default class Blog extends Component {
                     <label for="numer">Your Phone Number</label><br/>
                     <input placeHolder='Enter Your Phone Number' type="number" id="number" name="number"/><br/><br/>
                     <aside className='c-express'>
-                    <select name="" id="location">
+                    <select name="" id="locate">
                         <option value="Lorem, ipsum.">Lorem, ipsum.</option>
                         <option value="Lorem, ipsum.">Lorem, ipsum.</option>
                         <option value="Lorem, ipsum.">Lorem, ipsum.</option>
@@ -40,6 +42,34 @@ export default class Blog extends Component {
                    </form>
                </article>
            </section>
+
+<Container fluid="md" className='hcare-spec'>
+  <div className="hcare-special">
+      <FontAwesomeIcon icon={faSun}/>
+      <h5>Doctor at Home</h5>
+      <a className='kmore' href="know-more">Know More</a>
+  </div>
+  <div className="hcare-special">
+      <FontAwesomeIcon icon={faSun}/>
+      <h5>Nurse at Home</h5>
+      <a className='kmore' href="know-more">Know More</a>
+  </div>
+  <div className="hcare-special">
+      <FontAwesomeIcon icon={faSun}/>
+      <h5>Vaccination at Home</h5>
+      <a className='kmore' href="know-more">Know More</a>
+  </div>
+  <div className="hcare-special">
+      <FontAwesomeIcon icon={faSun}/>
+      <h5>Health Screening</h5>
+      <a className='kmore' href="know-more">Know More</a>
+  </div>
+  <div className="hcare-special">
+      <FontAwesomeIcon icon={faSun}/>
+      <h5>Physical Therapy</h5>
+      <a className='kmore' href="know-more">Know More</a>
+  </div>
+</Container>
 
             <section className="home-care-section">
                 <article className="container">

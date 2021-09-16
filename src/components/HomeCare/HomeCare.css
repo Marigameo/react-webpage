@@ -90,10 +90,35 @@
     width: 18.6vw;
     padding: .5rem .2rem;
 }
-#location {
+#locate {
     border-radius: .3rem;
     border-color: #eeeeee;
     width: 18.6vw;
     padding: .5rem .2rem;
     margin-bottom: .5rem;
+}
+.hcare-special {
+    margin: 1rem;
+    padding: 2rem;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+.hcare-special h5 {
+    padding-top: 1rem;
+}
+.hcare-special a {
+    border-bottom: 1px solid #151515;
+    padding-bottom: .06rem;
+}
+.hcare-special a:hover {
+    color: darkgreen !important;
+    border-bottom: 1px solid darkgreen;
+}
+.hcare-spec {
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center;
 }
