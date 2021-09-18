@@ -1,6 +1,4 @@
-import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import React from 'react';
+import React,{useEffect} from 'react';
 import { Breadcrumb } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { SpecialityDataTwo } from './Data/SpecialityDataTwo';
@@ -33,6 +31,9 @@ const checker = [
 ]
 
 const SpecialityList = () => {
+  useEffect(() => {
+    window.scroll(0,0)
+    },)
   return (
     
 		<div className="main-wrapper">
@@ -117,14 +118,10 @@ const SpecialityList = () => {
                     <h3 className="title pb-4">
                       <a href="#/" tabIndex="-1">{item.text}</a> 
                     </h3>
-                    <div className="row align-items-center">
-                      <div className="col-lg-6">
-                        <span className="price">$19.00</span>
-                        <span className="price-strike">$45.00</span>
-                      </div>
-                      <div className="col-lg-6 text-right">
-                        <a href="#/" className="cart-icon"><FontAwesomeIcon icon={faShoppingCart}/></a>
-                      </div>
+                    <div className="align-items-center">
+                    <Link to='/s-list'>
+                    <button className="btn view-btn">View More</button>
+                    </Link>
                     </div>
                   </div>
                 </div>	

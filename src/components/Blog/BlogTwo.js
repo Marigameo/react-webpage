@@ -2,14 +2,14 @@ import React from 'react';
 import BOne from './BOne';
 import BTwo from './BTwo';
 
-function Blog() {
+function BlogTwo() {
   return (
     <section className="section section-doctor">
 <div className="container">
 <div className="row">
     <div className="col-lg-4">
         <div className="section-header">
-            <h2>Information for your health and wellness</h2>
+            <h2>Women Health And Wellness</h2>
         </div>
         <div className="about-content">
             <p>Easy-to-Read health information from our medical experts enables people to live in a better way as per health is concerned.</p>					
@@ -31,4 +31,4 @@ function Blog() {
   )
 }
 
-export default Blog;
+export default BlogTwo;     

@@ -1,8 +1,16 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React,{useEffect}  from "react";
+import { Link, withRouter } from "react-router-dom";
 import { SpecialityData } from "./SpecialityList/Data/SpecialityData";
 
-const Specialities = () => {
+const Specialities = ({ history}) => {
+
+  useEffect(() => {
+    window.scroll(0,0)
+    },)
+    
+  const handleClick = () => {
+    history.push(`/${SpecialityData}`)
+  }
   return (
 <section className="container section section-specialities" >
 <article id='view-btn'>
@@ -12,8 +20,9 @@ const Specialities = () => {
       <aside className='s-items'>
         {SpecialityData.map((item, index) => {
           return(
-            <div className="speicality-item">
-            <Link to='/doctors'>
+            
+            <div className="speicality-item" onClick={handleClick}>
+            <Link to='/doctors'>{console.log(item.text)} 
               <div id='img-spec'>
                 <img key={item.text} src={item.img} alt="Speciality"/> 
               </div>
@@ -33,7 +42,7 @@ const Specialities = () => {
   );
 };
 
-export default Specialities;
+export default withRouter(Specialities);
 
 
 

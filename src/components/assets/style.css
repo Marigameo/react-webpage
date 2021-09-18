@@ -3466,7 +3466,7 @@ html.menu-opened body {
     font-weight: 500;
 	width: fit-content !important;
 	padding: .6rem 2rem !important;
-	margin: 2rem;
+	margin: 1rem;
 	border-radius: 2rem !important;
 }
 .view-btn:hover, .view-btn:focus {
@@ -12273,7 +12273,7 @@ font-size: 10px;
 }
 .banner-home {
 	padding-top: 8rem;
-	background-image: url(img/banner-img.png);
+	background-image: url(img/banner-img.jpg);
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -12283,7 +12283,7 @@ font-size: 10px;
 	margin: 0;
 	height: 90vh; 
 	width: 100vw;
-	left:auto;
+	left:120px !important;
 }
 .banner-design {
 	top: 0%;

@@ -38,10 +38,10 @@ const Home = () => {
 <Specialitites/>
 <Three/>
 <AppSection/>  
-<Container>
 <div className="section-header text-center">
     <p className="section-p text-center">Top HealthCare Professionals to Solve Your Health Issues.</p>
 </div>  
+<Container fluid>
 <MultipleItems/>
 </Container>
 <section id="view-btn" style={{padding: '2rem'}}>

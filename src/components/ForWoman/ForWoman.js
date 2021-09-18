@@ -4,9 +4,8 @@ import { Row } from 'react-bootstrap';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheck } from '@fortawesome/free-solid-svg-icons';
 import Carousel from '../DynamicComponents/Components/Carousel'
-import Blog from '../Blog/Blog';
-
 import Slide from './Components/Slide';
+import BlogTwo from '../Blog/BlogTwo';
 
 const ForWoman = () => {
     return ( 
@@ -65,7 +64,7 @@ const ForWoman = () => {
 </Container>
 </section>
  
-<Blog/>
+<BlogTwo/>
 
 </main>
      );

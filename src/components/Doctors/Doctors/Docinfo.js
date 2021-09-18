@@ -5,7 +5,6 @@ import bookDocOne from "../../assets/img/doctors/book-doc-01.jpg";
 import bookDocTwo from "../../assets/img/doctors/book-doc-02.jpg";
 import bookDocThree from "../../assets/img/doctors/book-doc-03.jpg";
 import bookDocFour from "../../assets/img/doctors/book-doc-04.jpg";
-import bookDocFive from "../../assets/img/doctors/book-doc-05.jpg";
  
 const Docinfo = () => {
   const pics = [
@@ -24,17 +23,13 @@ const Docinfo = () => {
     {
       id: 4,
       img: bookDocFour
-    },
-    {
-      id: 5,
-      img: bookDocFive
     }
   ] 
   return (
     <>
     {pics.map((item, index)=> {
       return(
-        <article style={{width: 300}}>
+        <article style={{width: 300}} key={item.id}>
         <div className="profile-widget">
         <a href="#/">
             <img src={item.img} alt="#/" id="doc-img" />
