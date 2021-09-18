@@ -1,6 +1,7 @@
 import React,{useEffect} from 'react';
 import { Breadcrumb } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import './SpecialityList.css'
 import { SpecialityDataTwo } from './Data/SpecialityDataTwo';
 
 const checker = [
@@ -115,12 +116,12 @@ const SpecialityList = () => {
                     </a>
                   </div>
                   <div className="pro-content">
-                    <h3 className="title pb-4">
+                    <h3 className="title">
                       <a href="#/" tabIndex="-1">{item.text}</a> 
                     </h3>
                     <div className="align-items-center">
                     <Link to='/s-list'>
-                    <button className="btn view-btn">View More</button>
+                      <a className='l-a text-center'>Know More</a>
                     </Link>
                     </div>
                   </div>

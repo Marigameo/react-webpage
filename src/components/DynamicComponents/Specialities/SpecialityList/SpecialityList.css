@@ -1,0 +1,27 @@
+.l-a {
+    width: fit-content;
+    border-bottom: 1px solid #151515;
+}
+.l-a:hover {
+    color: darkgreen !important;
+    border-color: darkgreen !important;
+}
+.profile-widget {
+    display: flex;
+    border-radius: .2rem;
+    margin: 1rem;
+    border: 1px solid #ebebeb;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 20vw !important;
+    height: auto;
+}
+.profile-widget:hover {
+    border: none;
+    box-shadow: 2px 2px 13px #e6e6e6;
+}
+.pro-content {
+    text-align: center;
+}
