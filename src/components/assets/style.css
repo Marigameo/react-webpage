@@ -3466,6 +3466,7 @@ html.menu-opened body {
     font-weight: 500;
 	width: fit-content !important;
 	padding: .6rem 2rem !important;
+	margin: 2rem;
 	border-radius: 2rem !important;
 }
 .view-btn:hover, .view-btn:focus {
