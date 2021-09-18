@@ -12283,6 +12283,7 @@ font-size: 10px;
 	margin: 0;
 	height: 90vh; 
 	width: 100vw;
+	left:auto;
 }
 .banner-design {
 	top: 0%;
