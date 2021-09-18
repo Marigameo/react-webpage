@@ -3,77 +3,25 @@ import { Container } from 'react-bootstrap';
 import { Row } from 'react-bootstrap';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheck } from '@fortawesome/free-solid-svg-icons';
-import Contains from './Elements/Contains';
+import Carousel from '../DynamicComponents/Components/Carousel'
 import Blog from '../Blog/Blog';
+
+import Slide from './Components/Slide';
 
 const ForWoman = () => {
     return ( 
-        <main style={{paddingTop: '5.2rem'}}>
-            
-            <section className='fw-sec1'>
-                <Container>
-                <Row>
-                    <div className="col-lg-8"></div>
-                    <div className="col-lg-4">
-                        <h2>Maternity</h2>
-                        <p>Medatu provides comprehensive pregnancy packages with complete digital guidance on diet and exercise.</p>
-                        <button type="button" class="btn btn-success">Know More</button>
-                    </div>
-                </Row>
-                </Container>
-            </section>
-
-            <section className='fw-sec2'>
-                <Container>
-                <Row>
-                   
-                    <div className="col-lg-5">
-                        <h2>Fertility Care</h2>
-                        <p>At Medatu, we connect you to our best fertility care experts.</p>
-                        <button type="button" class="btn btn-success">Know More</button>
-                    </div>
-                    <div className="col-lg-7"></div>
-                </Row>
-                </Container>
-            </section>
-
-<section className='fw-sec3'>
-<Container id='view-btn' fluid='md'>
-<h3 className='text-center'>Have these issues or symptoms?
-        <br/>Talk to our health experts today!</h3>
-            
-<article>
-<Row className="row">
-    <div className="col-lg-3"><Contains/></div>
-    <div className="col-lg-3"><Contains/></div>
-    <div className="col-lg-3"><Contains/></div>
-    <div className="col-lg-3"><Contains/></div>
-</Row>
-
-<Row className="row">
-    <div className="col-lg-3"><Contains/></div>
-    <div className="col-lg-3"><Contains/></div>
-    <div className="col-lg-3"><Contains/></div>
-    <div className="col-lg-3"><Contains/></div>
-</Row>
-
-<Row className="row">
-    <div className="col-lg-3"><Contains/></div>
-    <div className="col-lg-3"><Contains/></div>
-    <div className="col-lg-3"><Contains/></div>
-    <div className="col-lg-3"><Contains/></div>
-</Row>
-</article>
-   
-<button type="button" class="btn btn-success">Know More</button>
-
-</Container>
-</section>
+<main style={{paddingTop: '5.2rem'}}>
+    <Slide/>
+    <Container>
+        <h3>Lorem, ipsum.</h3>
+        <Carousel/>
+    </Container>
+    <Container>
+        <h3>Lorem, ipsum.</h3>
+        <Carousel/>
+    </Container>
 
 <section className='fw-sec5'>
-   
-        
-    
 <Container>
 <article id='h-mid'>
     <div className="col-lg-8">

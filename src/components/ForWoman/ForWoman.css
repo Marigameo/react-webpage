@@ -3,17 +3,13 @@
     background-position: center;
     background-size: cover;
     width: auto;
-    height: 80vh;
+    height: 52vh;
     background-repeat: no-repeat;
     padding: 8rem;
 }
-.fw-sec1 .col-lg-4 {
-  padding: 8rem 0;
-} 
 .fw-sec1 p, .fw-sec2 p {
     font-size: larger;
     font-weight: 500;
-    padding-top: 1rem;
 }
 .fw-sec2 {
     background-image: url(../assets/img/for-woman/sec-2.jpg);
@@ -21,6 +17,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     padding: 10rem;
+    height: 52vh;
 }
 .fw-sec3 {
   background-color: #eff2f5;
@@ -36,6 +33,7 @@
     background-size: cover;
     width: auto;
     height: 80vh;
+    margin-top: 4rem;
     background-repeat: no-repeat;
 }
 .fw-sec5 .col-lg-6 {

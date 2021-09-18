@@ -1,11 +1,11 @@
 import React from 'react';
 import { Row } from 'react-bootstrap';
 import AppSection from '../DynamicComponents/AppSection/AppSection';
-import MultipleItems from '../DynamicComponents/Doctors/doctors';
+import MultipleItems from '../Doctors/Doctors/doctors';
 import './VirtualCare.css'
 import vBanner from '../assets/img/vbanner.jpg'
 import FAQ from '../DynamicComponents/FAQ/FAQ'
-import Responsive from '../DynamicComponents/Specialities/specialities';
+import Specialitites from '../DynamicComponents/Specialities/specialities';
 import Search from '../DynamicComponents/SearchBar/app/Search';
 
 function VirtualCare() {
@@ -22,7 +22,7 @@ function VirtualCare() {
             </div>
         </article>
     </section>
-    <Responsive/>
+    <Specialitites/>
     <AppSection/>
     <MultipleItems/>
       <Row>

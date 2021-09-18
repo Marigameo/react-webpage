@@ -31,6 +31,18 @@
   <body>
 
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCvxiUM4shn9Zd3WzBQUVbxpQhLeMgA6BE&libraries=places&region=IN"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+<script type="text/javascript" src="dist/ResizeSensor.min.js"></script>
+<script type="text/javascript" src="dist/theia-sticky-sidebar.min.js"></script>
+        
+<script type="text/javascript">
+  jQuery(document).ready(function() {
+    jQuery('.content, .sidebar').theiaStickySidebar({
+      // Settings
+      additionalMarginTop: 30
+    });
+  });
+</script> 
     <noscript>You need to enable JavaScript to run this app.</noscript>
 
     <div id="root"></div>

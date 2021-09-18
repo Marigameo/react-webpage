@@ -781,7 +781,7 @@ button.bg-danger:hover {
 	background-color: rgb(55,59,122,.05);
 }
 .header {
-	padding-bottom: 0 !important;
+	padding: 0 !important;
 }
 .doc-content {
 	padding: 4rem 0 2rem;
@@ -2103,6 +2103,9 @@ margin-left: 4rem;
 	line-height: 85px;
 	padding: 0 10px;
 }
+#s-two {
+	width: 300px !important;
+}
 .view-cart-header a{
 	position: relative;
     font-size: 20px;
@@ -3352,23 +3355,6 @@ html.menu-opened body {
     overflow: hidden;
     z-index: 1;
     border-radius: 4px;
-}
-.doc-img img {
-    border-radius: 4px;
-    -webkit-transform: translateZ(0);
-    -moz-transform: translateZ(0);
-	transform: translateZ(0);
-	-moz-transition: all 2000ms cubic-bezier(.19,1,.22,1) 0ms;
-	-ms-transition: all 2000ms cubic-bezier(.19,1,.22,1) 0ms;
-	-o-transition: all 2000ms cubic-bezier(.19,1,.22,1) 0ms;
-	-webkit-transition: all 2000ms cubic-bezier(.19,1,.22,1) 0ms;
-	transition: all 2000ms cubic-bezier(.19,1,.22,1) 0ms;
-    width: 100%;
-}
-.doc-img:hover img {
-    -webkit-transform: scale(1.01);
-    -moz-transform: scale(1.01);
-    transform: scale(1.01);
 }
 .profile-widget .fav-btn {
 	-webkit-box-align: center;
@@ -9832,7 +9818,7 @@ body .multi-optn {
 	float: right;
 }
 .product-custom .cart-icon{
-	color: #fdfdfd;
+	color: #fdfdfd !important;
 	background-color: #373B7A;
 }
 .product-description .doctor-img1{
@@ -12396,4 +12382,8 @@ font-size: 10px;
 	width: fit-content;
 	height: auto;
 	border: .1px solid #1515156e;
+}
+.doc-carousel {
+	display: flex;
+	justify-content: center;
 }

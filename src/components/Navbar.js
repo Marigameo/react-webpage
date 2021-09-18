@@ -40,6 +40,8 @@ import ForWoman from './ForWoman/ForWoman';
 import Invoice from './Payment/Invoice'
 import TestDetails from './Diagnostics/TestDetails';
 import VirtualCare from './VirtualCare/VirtualCare'
+import SpecialityList
+ from './DynamicComponents/Specialities/SpecialityList/SpecialityList';
 
 export default class NavbarComp extends Component {
     render() {
@@ -114,6 +116,9 @@ export default class NavbarComp extends Component {
     </Route>
     <Route path="/virtual-care">
        <VirtualCare/>
+    </Route>
+    <Route path='/s-list'>
+        <SpecialityList/>
     </Route>
     <Route path="/cart">
         <Cart/>
