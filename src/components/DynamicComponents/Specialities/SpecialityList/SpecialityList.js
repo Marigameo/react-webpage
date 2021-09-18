@@ -115,7 +115,7 @@ const SpecialityList = () => {
                   </div>
                   <div className="pro-content">
                     <h3 className="title pb-4">
-                      <a href="#/" tabIndex="-1">Benzaxapine Croplex</a> 
+                      <a href="#/" tabIndex="-1">{item.text}</a> 
                     </h3>
                     <div className="row align-items-center">
                       <div className="col-lg-6">

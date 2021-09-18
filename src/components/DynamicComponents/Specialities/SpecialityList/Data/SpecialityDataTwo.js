@@ -23,27 +23,27 @@ import sTwentyOne from "../../../../assets/img/specialities/specialities-21.png"
 export const SpecialityDataTwo = [
   {
     img: sOne,
-    text: `General Physician`
+    text: `Urology`
   },
   {
     img: sTwo,
-    text: `General Physician`
+    text: `Neurology`
   },
   {
     img: sThree,
-    text: `General Physician`
+    text: `Orthopaedics`
   },
   {
     img: sFour,
-    text: `General Physician`
+    text: `Cardiology`
   },
   {
     img: sFive,
-    text: `General Physician`
+    text: `Dentist`
   },
   {
     img: sSix,
-    text: `General Physician`
+    text: `Ophthalmology`
   },
   {
     img: sSeven,
@@ -51,23 +51,23 @@ export const SpecialityDataTwo = [
   },
   {
     img: sEight,
-    text: `General Physician`
+    text: `Oncology`
   },
   {
     img: sNine,
-    text: `Lorem, ipsum.`
+    text: `Allergy`
   },
   {
     img: sTen,
-    text: `Paediatrician`
+    text: `Diet`
   },
   {
     img: sEleven,
-    text: `Paediatrician`
+    text: `Pulmonology`
   },
   {
     img: sTwelve,
-    text: `Paediatrician`
+    text: `Endocrinology`
   },
   {
     img: sThirteen,
@@ -75,34 +75,34 @@ export const SpecialityDataTwo = [
   },
   {
     img: sFourteen,
-    text: `Paediatrician`
+    text: `ENT Doctor`
   },
   {
     img: sFifteen,
-    text: `Dentist`
+    text: `Dermatology`
   },
   {
     img: sSixteen,
-    text: `Orthopaedics`
+    text: `Gynaecology`
   },
   {
     img: sSeventeen,
-    text: `Ophthalmology`
+    text: `Gastroenterology`
   },
   {
     img: sEighteen,
-    text: ` ENT Doctor`
+    text: `Ayurvedic`
   },
   {
     img: sNineteen,
-    text: `Paediatrician`
+    text: `Homeopathy`
   },
   {
     img: sTwenty,
-    text: `Paediatrician`
+    text: `Physical Therapy`
   },
   {
     img: sTwentyOne,
-    text: `Paediatrician`
+    text: `Veterimary`
   }
 ];
