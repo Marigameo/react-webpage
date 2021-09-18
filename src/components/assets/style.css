@@ -4979,7 +4979,7 @@ body .multi-optn {
     width: 280px;
 	padding-bottom: 0;
 }
- .browse-slider .browse-widget, .book-slider .profile-widget {
+ .browse-slider .browse-widget, .book-slider {
 	padding: 0;
 	border: none;
     border-radius: 0;
@@ -5207,15 +5207,15 @@ body .multi-optn {
 .book-doctor {
 	padding: 50px 0;
 }
-.book-slider .profile-widget {
+.book-slider {
 	padding: 0;
 	border: none;
 	margin-bottom: 70px;
 }
-.book-slider .profile-widget a {
+.book-slider a {
 	border-radius: 10px 10px 0px 0px;
 }
-.book-slider .profile-widget a img {
+.book-slider a img {
 	width: 100%;
 	border-radius: 10px 10px 0px 0px;
 }
@@ -5267,7 +5267,7 @@ body .multi-optn {
 .provider-info:hover h3:hover {
 	color: #535353;
 }
-.book-slider .profile-widget .provider-info {
+.book-slider .provider-info {
 	background-color: #fdfdfd;
     padding: 15px;
     border-radius: 10px;
@@ -5329,7 +5329,7 @@ body .multi-optn {
     font-weight: 700;
     margin-left: 5px;
 }
-.book-slider .profile-widget .content-info {
+.book-slider .content-info {
 	display: none;
 	padding: 0;
 }
@@ -5759,29 +5759,29 @@ body .multi-optn {
     border-radius: 0px 100px 100px 0px;
     background-color: #28DAF4;
 }
-.doc-booking .book-slider .profile-widget .content-info,.doc-booking .book-slider .provider-info .rating {
+.doc-booking .book-slider .content-info,.doc-booking .book-slider .provider-info .rating {
 	display: block;
 	text-align: left;
 }
-.doc-booking .book-slider .profile-widget a img, .doc-booking .book-slider .pro-content {
+.doc-booking .book-slider a img, .doc-booking .book-slider .pro-content {
     border-radius: 10px;
 }
-.doc-booking .book-slider .profile-widget .provider-info {
+.doc-booking .book-slider .provider-info {
 	bottom: 0;
     background-color: #1376CA;
     border-radius: 0 0 10px 10px;
 }
-.doc-booking .book-slider .profile-widget .provider-info h3 a {
+.doc-booking .book-slider .provider-info h3 a {
 	color: #28DAF4;
 }
-.doc-booking .book-slider .profile-widget {
+.doc-booking .book-slider {
 	margin-bottom: 0;
 }
 .doc-booking .book-slider .provider-info h5 {
 	color: #fdfdfd;
 	float: unset;
 }
-.doc-booking .book-slider .profile-widget a.book-btn {
+.doc-booking .book-slider a.book-btn {
 	border-radius: 30px;
     width: 100px;
 }
@@ -9681,7 +9681,7 @@ body .multi-optn {
     height: calc(100vh - 145px);
     width: 100%;
 }
-.map-listing .profile-widget {
+.map-listing {
     width: 200px !important;
     padding: 0;
     border: 0;
@@ -10586,7 +10586,7 @@ ul.benifits-col li i{
 	.dot-slider .slick-slide {
 		height: 375px;
 	}
-	.dot-slider .profile-widget {
+	.dot-slider {
 		margin-bottom: 0;
 	}
 	.app-form h2 {
@@ -11174,7 +11174,7 @@ ul.benifits-col li i{
 	.dot-slider .slick-slide {
 		height: 100%;
 	}
-	.dot-slider .profile-widget {
+	.dot-slider {
 		margin: 0;
 	}
 	.category-sec {
