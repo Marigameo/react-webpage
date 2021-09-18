@@ -40,7 +40,7 @@ const Home = () => {
 <AppSection/>  
 <Container>
 <div className="section-header text-center">
-    <p className="section-p text-center">Top Online Health Experts to Solve Your Health Issues.</p>
+    <p className="section-p text-center">Top HealthCare Professionals to Solve Your Health Issues.</p>
 </div>  
 <MultipleItems/>
 </Container>

@@ -5,7 +5,7 @@ import Docinfo from "./Docinfo";
 
 const Doctors = () => {
     return (
-    <section style={{padding: '2rem'}} id='view-btn'>
+    <section id='view-btn'>
         <div className='doc-carousel'>
         <Docinfo/>
         </div>    
