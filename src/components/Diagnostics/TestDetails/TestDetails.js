@@ -1,7 +1,10 @@
+import { faUserNurse } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React,{useEffect} from 'react';
+import './TestDetails.css'
 import { Link } from 'react-router-dom';
-import fOne from '../assets/img/features/feature-01.jpg'
-import FAQt from '../DynamicComponents/FAQ/FAQt';
+import fOne from '../../assets/img/features/feature-01.jpg'
+import FAQt from '../../DynamicComponents/FAQ/FAQt';
 
 export default function TestDetails() {
 	useEffect(() => {
@@ -23,18 +26,46 @@ export default function TestDetails() {
 									<div className="doctor-widget">
 										<div className="doc-info-left">
 											<div className="doctor-img1">
-													<img src={fOne} className="img-fluid" alt="UserImage" width={220} height={220} />
+													<img src={fOne} alt="UserImage" width={400} height={230} />
 											</div>
 											<div className="doc-info-cont">
 												<h4 className="doc-name mb-2">COVID-19</h4>
 												<p><span className="text-muted">COVID-19 infects different people in different way. The symptoms may be mild or severe. The most common symptoms can be:</span></p>
-												<ul>
-														<li>Tiredness and body aches</li>
-														<li>Dry cough</li>
-														<li>Fever</li>
-														<li>Difficulty breathing</li>
-														<li>Loss of taste or smell</li>
-														<li>Nausea and diarrhea</li>
+												<ul className='ul-lis'>
+														<div className="lis">
+															<FontAwesomeIcon icon={faUserNurse}/>
+															<li>Tiredness and body aches</li>
+														</div>
+
+														<div className="lis">
+															<FontAwesomeIcon icon={faUserNurse}/>
+															<li>Dry cough</li>
+														</div>
+
+														<div className="lis">
+															<FontAwesomeIcon icon={faUserNurse}/>
+															<li>Fever</li>
+														</div>
+
+														<div className="lis">
+															<FontAwesomeIcon icon={faUserNurse}/>
+															<li>Dry cough</li>
+														</div>
+
+														<div className="lis">
+															<FontAwesomeIcon icon={faUserNurse}/>
+															<li>Difficulty breathing</li>
+														</div>
+
+														<div className="lis">
+															<FontAwesomeIcon icon={faUserNurse}/>
+															<li>Loss of taste or smell</li>
+														</div>
+
+														<div className="lis">
+															<FontAwesomeIcon icon={faUserNurse}/>
+															<li>Nausea and diarrhea</li>
+														</div>
 													</ul>
 											</div>
 										</div>
@@ -176,7 +207,7 @@ export default function TestDetails() {
                         			</div>
 									<div className="clinic-details mt-4">
 										<div className="clinic-booking">
-											<Link className="apt-btn" to="/top-blog">Add To Cart</Link>
+											<Link className="apt-btn" to="/cart">Add To Cart</Link>
 										</div>
 									</div>
 									<div className="card flex-fill mt-4 mb-0">

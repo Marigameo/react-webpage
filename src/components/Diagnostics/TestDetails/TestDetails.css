@@ -1,0 +1,10 @@
+.lis {
+    display: flex;
+    margin-top: .1rem;
+}
+.lis li{
+    margin-left: 1rem;
+}
+.ul-lis {
+    margin-bottom: 0 !important;
+}

@@ -1,7 +1,11 @@
-.slick-list {
-  margin: auto;
+.d-sec2 {
+  background-image: url(../../assets/img/slider.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 14rem;
   height: fit-content !important;
 }
-.cdesign {
-  border-radius: .4rem;
+.slick-list {
+  height: fit-content;
 }

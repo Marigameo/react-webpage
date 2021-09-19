@@ -8,7 +8,7 @@ const Fertility = () => {
     <Row>
         <div className="col-lg-5">
             <h2>Fertility Care</h2>
-            <p>At Medatu, we connect you to our best fertility care experts.</p>
+            <p>We connect you to our best fertility care experts.</p>
             <button type="button" class="btn btn-success">Know More</button>
         </div>
         <div className="col-lg-7"></div>

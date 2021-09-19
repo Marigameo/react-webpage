@@ -1,16 +1,10 @@
-import iOne from '../../assets/img/img-pharmacy1.jpg'
+import React from 'react';
+import './Carousel.css'
 
-export const CarouselData = [
-  {
-    img: iOne
-  },
-  {
-    img: iOne
-  },
-  {
-    img: iOne
-  },
-  {
-    img: iOne
-  }
-];
+const CarouselData = () => {
+  return (
+    <section className='d-sec2'></section>
+  );
+};
+
+export default CarouselData;

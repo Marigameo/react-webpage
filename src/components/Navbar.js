@@ -20,9 +20,7 @@ import { faTimes } from '@fortawesome/free-solid-svg-icons';
 import logo from "../components/assets/img/logo.png"
 
 import Home from './Home/Home';
-import Diagnostics from './Diagnostics/Diagnostics';
-
-// import About from './About';
+import Diagnostics from './Diagnostics/Main/Diagnostics';
 import HomeCare from './HomeCare/HomeCare';
 import AboutUs from './AboutUs/AboutUs';
 import Blog1 from './Blogs/BlogPage'
@@ -35,20 +33,16 @@ import PharmacySearch from './Pharmacy/PharmacySearch';
 import ProductDescription from './Pharmacy/ProductDescription';
 import Cart from './Payment/Cart';
 import ComingSoon from '../components/ComingSoon/ComingSoon'
-import Main from './Diagnostics/TopBlog/Main';
 import ForWoman from './ForWoman/ForWoman';
 import Invoice from './Payment/Invoice'
-import TestDetails from './Diagnostics/TestDetails';
 import VirtualCare from './VirtualCare/VirtualCare'
-import SpecialityList
- from './DynamicComponents/Specialities/SpecialityList/SpecialityList';
+import SpecialityList from './DynamicComponents/Specialities/SpecialityList/SpecialityList'
+import TestDetails from './Diagnostics/TestDetails/TestDetails';
 
 export default class NavbarComp extends Component {
     render() {
         return (
-            <Router>
-                
-
+<Router>
 <header className="header header-trans">
     <nav className="navbar navbar-expand-lg header-nav">
         <div className="navbar-header">
@@ -110,69 +104,26 @@ export default class NavbarComp extends Component {
 </header>
 
 <Switch>
-  
-    <Route path="/home-care">
-        <HomeCare/>
-    </Route>
-    <Route path="/virtual-care">
-       <VirtualCare/>
-    </Route>
-    <Route path='/s-list'>
-        <SpecialityList/>
-    </Route>
-    <Route path="/cart">
-        <Cart/>
-    </Route>
-    <Route path="/invoice">
-       <Invoice/>
-    </Route>
-    <Route path="/product-description">
-        <ProductDescription/>
-    </Route>
-    <Route path="/pharmacy-search">
-        <PharmacySearch/>
-    </Route>
-    <Route path="/coming-soon">
-        <ComingSoon/>
-    </Route>
-    <Route path="/for-women">
-        <ForWoman/>
-    </Route>
-    <Route path="/test-detail">
-        <TestDetails/>
-    </Route>
-    <Route path="/top-blog">
-        <Main/>
-    </Route>
-    <Route path="/blog">
-        <Blog1 />
-    </Route>
-    <Route path="/blog2">
-        <Blog2 />
-    </Route>
-    <Route path="/doctors">
-        <DocList/>
-    </Route>
-    <Route path="/doctor">
-        <DocDescription/>
-    </Route>
-    <Route path="/diagnostics">
-        <Diagnostics />
-    </Route>
-    <Route path="/payment">
-        <Payment/>
-    </Route>
-    <Route path="/success">
-        <PaymentSuccess/>
-    </Route>
-    <Route path="/about">
-        <AboutUs/>
-    </Route>
-    <Route path="/">
-        <Home />
-    </Route>
+    <Route path="/home-care"><HomeCare/></Route>
+    <Route path="/virtual-care"><VirtualCare/></Route>
+    <Route path='/s-list'><SpecialityList/></Route>
+    <Route path='/test-detail'><TestDetails/></Route>
+    <Route path="/cart"><Cart/></Route>
+    <Route path="/invoice"><Invoice/></Route>
+    <Route path="/product-description"><ProductDescription/></Route>
+    <Route path="/pharmacy-search"><PharmacySearch/></Route>
+    <Route path="/coming-soon"><ComingSoon/></Route>
+    <Route path="/for-women"><ForWoman/></Route>
+    <Route path="/blog"><Blog1 /></Route>
+    <Route path="/blog2"><Blog2 /></Route>
+    <Route path="/doctors"><DocList/></Route>
+    <Route path="/doctor"><DocDescription/></Route>
+    <Route path="/diagnostics"><Diagnostics /></Route>
+    <Route path="/payment"><Payment/></Route>
+    <Route path="/success"><PaymentSuccess/></Route>
+    <Route path="/about"><AboutUs/></Route>
+    <Route path="/"><Home /></Route>
 </Switch>
-
 </Router>
         )
     }

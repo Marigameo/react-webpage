@@ -160,10 +160,11 @@ const data = [
 <div className="doc-info-right">
 <div className="clini-infos">
 <ul>
-<li><i className="far fa-thumbs-up"></i> 98%</li>
+<li><i className="far fa-thumbs-up"></i> 98% Patient Reviews</li>
 <li><i className="far fa-comment"></i> 17 Feedback</li>
 <li><i className="fas fa-map-marker-alt"></i> Florida, USA</li>
-<li><i className="far fa-money-bill-alt"></i> $300 - $1000 <i className="fas fa-info-circle" data-toggle="tooltip" title="Lorem Ipsum"></i> </li>
+<br/>
+<li><i className="far fa-money-bill-alt"></i>₹500 Consultation Fee <br/>In-Clinic<i className="fas fa-info-circle" data-toggle="tooltip" title="Lorem Ipsum"></i> </li>
 </ul>
 </div>
 <div className="clinic-booking">
@@ -190,13 +191,9 @@ const data = [
   </div>
 </div>
 </div>
-
 </div>
-
 </div>
-
 </div>	
-
 </div>
 </main>
      );
