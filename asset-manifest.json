@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/react-webpage/static/css/main.44c7fb22.chunk.css",
-    "main.js": "/react-webpage/static/js/main.ef63686b.chunk.js",
-    "main.js.map": "/react-webpage/static/js/main.ef63686b.chunk.js.map",
+    "main.css": "/react-webpage/static/css/main.efcfa665.chunk.css",
+    "main.js": "/react-webpage/static/js/main.92011df7.chunk.js",
+    "main.js.map": "/react-webpage/static/js/main.92011df7.chunk.js.map",
     "runtime-main.js": "/react-webpage/static/js/runtime-main.8c382791.js",
     "runtime-main.js.map": "/react-webpage/static/js/runtime-main.8c382791.js.map",
     "static/css/2.a2cc0054.chunk.css": "/react-webpage/static/css/2.a2cc0054.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.77d9173f.chunk.js.map": "/react-webpage/static/js/3.77d9173f.chunk.js.map",
     "index.html": "/react-webpage/index.html",
     "static/css/2.a2cc0054.chunk.css.map": "/react-webpage/static/css/2.a2cc0054.chunk.css.map",
-    "static/css/main.44c7fb22.chunk.css.map": "/react-webpage/static/css/main.44c7fb22.chunk.css.map",
+    "static/css/main.efcfa665.chunk.css.map": "/react-webpage/static/css/main.efcfa665.chunk.css.map",
     "static/js/2.ec1a3bcb.chunk.js.LICENSE.txt": "/react-webpage/static/js/2.ec1a3bcb.chunk.js.LICENSE.txt",
     "static/media/01.3ffa3828.jpg": "/react-webpage/static/media/01.3ffa3828.jpg",
     "static/media/01.6fb98467.png": "/react-webpage/static/media/01.6fb98467.png",
@@ -64,19 +64,21 @@
     "static/media/googleplay.0f101371.png": "/react-webpage/static/media/googleplay.0f101371.png",
     "static/media/VirtualCare.css": "/react-webpage/static/media/hcare-banner.582e96d4.jpg",
     "static/media/HomeCare.css": "/react-webpage/static/media/home-care-banner.143702d5.jpg",
-    "static/media/illustration.23768ad4.svg": "/react-webpage/static/media/illustration.23768ad4.svg",
     "static/media/logo.f2967192.png": "/react-webpage/static/media/logo.f2967192.png",
     "static/media/main.26421e73.png": "/react-webpage/static/media/main.26421e73.png",
     "static/media/aboutus.css": "/react-webpage/static/media/one.5f14b21f.jpg",
     "static/media/ForWoman.css": "/react-webpage/static/media/sec-3.be29fa8e.jpg",
     "static/media/slider.35189df1.png": "/react-webpage/static/media/slider.35189df1.png",
+    "static/media/specialities-22.5c6b0570.png": "/react-webpage/static/media/specialities-22.5c6b0570.png",
+    "static/media/specialities-23.79e0ea27.png": "/react-webpage/static/media/specialities-23.79e0ea27.png",
+    "static/media/specialities-24.c678f85c.png": "/react-webpage/static/media/specialities-24.c678f85c.png",
     "static/media/vbanner.d54eeaab.jpg": "/react-webpage/static/media/vbanner.d54eeaab.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.8c382791.js",
     "static/css/2.a2cc0054.chunk.css",
     "static/js/2.ec1a3bcb.chunk.js",
-    "static/css/main.44c7fb22.chunk.css",
-    "static/js/main.ef63686b.chunk.js"
+    "static/css/main.efcfa665.chunk.css",
+    "static/js/main.92011df7.chunk.js"
   ]
 }
