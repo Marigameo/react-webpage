@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/react-webpage/static/css/main.efcfa665.chunk.css",
-    "main.js": "/react-webpage/static/js/main.92011df7.chunk.js",
-    "main.js.map": "/react-webpage/static/js/main.92011df7.chunk.js.map",
+    "main.css": "/react-webpage/static/css/main.ce2c220f.chunk.css",
+    "main.js": "/react-webpage/static/js/main.a02a9a9f.chunk.js",
+    "main.js.map": "/react-webpage/static/js/main.a02a9a9f.chunk.js.map",
     "runtime-main.js": "/react-webpage/static/js/runtime-main.8c382791.js",
     "runtime-main.js.map": "/react-webpage/static/js/runtime-main.8c382791.js.map",
     "static/css/2.a2cc0054.chunk.css": "/react-webpage/static/css/2.a2cc0054.chunk.css",
-    "static/js/2.ec1a3bcb.chunk.js": "/react-webpage/static/js/2.ec1a3bcb.chunk.js",
-    "static/js/2.ec1a3bcb.chunk.js.map": "/react-webpage/static/js/2.ec1a3bcb.chunk.js.map",
+    "static/js/2.c9ce9592.chunk.js": "/react-webpage/static/js/2.c9ce9592.chunk.js",
+    "static/js/2.c9ce9592.chunk.js.map": "/react-webpage/static/js/2.c9ce9592.chunk.js.map",
     "static/js/3.77d9173f.chunk.js": "/react-webpage/static/js/3.77d9173f.chunk.js",
     "static/js/3.77d9173f.chunk.js.map": "/react-webpage/static/js/3.77d9173f.chunk.js.map",
     "index.html": "/react-webpage/index.html",
     "static/css/2.a2cc0054.chunk.css.map": "/react-webpage/static/css/2.a2cc0054.chunk.css.map",
-    "static/css/main.efcfa665.chunk.css.map": "/react-webpage/static/css/main.efcfa665.chunk.css.map",
-    "static/js/2.ec1a3bcb.chunk.js.LICENSE.txt": "/react-webpage/static/js/2.ec1a3bcb.chunk.js.LICENSE.txt",
+    "static/css/main.ce2c220f.chunk.css.map": "/react-webpage/static/css/main.ce2c220f.chunk.css.map",
+    "static/js/2.c9ce9592.chunk.js.LICENSE.txt": "/react-webpage/static/js/2.c9ce9592.chunk.js.LICENSE.txt",
     "static/media/01.3ffa3828.jpg": "/react-webpage/static/media/01.3ffa3828.jpg",
     "static/media/01.6fb98467.png": "/react-webpage/static/media/01.6fb98467.png",
     "static/media/01.f18d057e.png": "/react-webpage/static/media/01.f18d057e.png",
@@ -68,7 +68,7 @@
     "static/media/main.26421e73.png": "/react-webpage/static/media/main.26421e73.png",
     "static/media/aboutus.css": "/react-webpage/static/media/one.5f14b21f.jpg",
     "static/media/ForWoman.css": "/react-webpage/static/media/sec-3.be29fa8e.jpg",
-    "static/media/slider.35189df1.png": "/react-webpage/static/media/slider.35189df1.png",
+    "static/media/Carousel.css": "/react-webpage/static/media/slider.35189df1.png",
     "static/media/specialities-22.5c6b0570.png": "/react-webpage/static/media/specialities-22.5c6b0570.png",
     "static/media/specialities-23.79e0ea27.png": "/react-webpage/static/media/specialities-23.79e0ea27.png",
     "static/media/specialities-24.c678f85c.png": "/react-webpage/static/media/specialities-24.c678f85c.png",
@@ -77,8 +77,8 @@
   "entrypoints": [
     "static/js/runtime-main.8c382791.js",
     "static/css/2.a2cc0054.chunk.css",
-    "static/js/2.ec1a3bcb.chunk.js",
-    "static/css/main.efcfa665.chunk.css",
-    "static/js/main.92011df7.chunk.js"
+    "static/js/2.c9ce9592.chunk.js",
+    "static/css/main.ce2c220f.chunk.css",
+    "static/js/main.a02a9a9f.chunk.js"
   ]
 }

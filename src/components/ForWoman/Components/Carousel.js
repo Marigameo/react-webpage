@@ -4,7 +4,7 @@ import Fertility from './Fertility';
 import Slider from "react-slick";
 import { Container } from "react-bootstrap";
 
-export default class SimpleSlider extends Component {
+export default class Carousel extends Component {
   render() {
     const settings = {
       dots: false,

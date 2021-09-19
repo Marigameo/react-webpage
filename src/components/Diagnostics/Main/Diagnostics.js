@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import './Diagnostics.css'
 import { DiagTop } from '../DiagData/Icons/DiagTop';
 import { DiagPop } from '../DiagData/Icons/DiagPop';
@@ -19,6 +19,9 @@ import Carousel from '../../DynamicComponents/Components/Carousel';
 
 
 const Diagnostics = () => {
+	useEffect(() => {
+        window.scroll(0,0)
+    }, )
 	return ( 
 		<>
 		<section style={{padding: '8rem 14rem 1rem 14rem'}}><Search/></section>

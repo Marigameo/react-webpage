@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import { Link } from 'react-router-dom'
 import fOne from '../assets/img/features/feature-01.jpg'
 import fTwo from '../assets/img/features/feature-02.jpg'
@@ -6,6 +6,9 @@ import fThree from '../assets/img/features/feature-03.jpg'
 import fFour from '../assets/img/features/feature-04.jpg'
 import fFive from '../assets/img/features/feature-05.jpg'
 export default function Cart() {
+	useEffect(() => {
+        window.scroll(0,0)
+    }, )
     return (
        <>
           <div className="sectioncolor"  style={{paddingTop:"175px"}}>

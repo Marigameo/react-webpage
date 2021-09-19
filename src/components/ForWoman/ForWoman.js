@@ -1,20 +1,19 @@
 import './ForWoman.css';
 import { Container } from 'react-bootstrap';
 import { Row } from 'react-bootstrap';
+import Slide from './Slide/Slide';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheck } from '@fortawesome/free-solid-svg-icons';
-import Carousel from '../DynamicComponents/Components/Carousel'
-import Slide from './Components/Slide';
+import Carousel from './Components/Carousel';
 import BlogTwo from '../Blog/BlogTwo';
 import AppSection from '../DynamicComponents/AppSection/AppSection';
 
 const ForWoman = () => {
     return ( 
 <main style={{paddingTop: '5.2rem'}}>
-    <Slide/>
+    <Carousel/>
     <Container>
-        <h3>Lorem, ipsum.</h3>
-        <Carousel/>
+      <Slide/>
     </Container>
 
 <section className='fw-sec5'>

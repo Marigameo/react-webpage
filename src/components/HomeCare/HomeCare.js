@@ -1,8 +1,7 @@
-import React  from 'react'
+import React, {useEffect}  from 'react'
 import './HomeCare.css'
 import { Container } from 'react-bootstrap'
 import Search from '../DynamicComponents/SearchBar/app/Search'
-import Carousel from '../DynamicComponents/Components/Carousel'
 
 //images
 import hOne from '../assets/img/home-care/01.jpg'
@@ -36,6 +35,9 @@ const data = [
     }
 ]
 const HomeCare = () => {
+    useEffect(() => {
+        window.scroll(0,0)
+    }, )
     return (
 <main style={{paddingTop: '4rem'}} className="main-wrapper"> 
 
@@ -67,15 +69,6 @@ const HomeCare = () => {
         <button type="button" class="btn btn-success">Know More</button>
         </section>
     </article>
-
-    <Container style={{padding: '2rem'}}>
-        <h3>Lorem, ipsum dolor.</h3>
-    <Carousel/>
-    </Container>
-    <Container style={{padding: '2rem'}}>
-        <h3>Lorem, ipsum dolor.</h3>
-    <Carousel/>
-    </Container>
     
 <AppSection/>
 <Disclaimer/>
