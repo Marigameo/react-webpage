@@ -1,7 +1,6 @@
 import React  from 'react'
 import './HomeCare.css'
 import { Container } from 'react-bootstrap'
-import illustration from '../assets/img/home-care/illustration.svg' 
 import Search from '../DynamicComponents/SearchBar/app/Search'
 import Carousel from '../DynamicComponents/Components/Carousel'
 
@@ -12,6 +11,7 @@ import hThree from '../assets/img/home-care/03.jpg'
 import hFour from '../assets/img/home-care/04.jpg'
 import hFive from '../assets/img/home-care/05.jpg'
 import Disclaimer from './Disclaimer'
+import AppSection from '../DynamicComponents/AppSection/AppSection'
 
 const data = [
     {
@@ -37,7 +37,7 @@ const data = [
 ]
 const HomeCare = () => {
     return (
-<main style={{paddingTop: '6rem'}} className="main-wrapper"> 
+<main style={{paddingTop: '4rem'}} className="main-wrapper"> 
 
     <section className="home-care-banner">
     <Container fluid className="banner-design">
@@ -62,20 +62,11 @@ const HomeCare = () => {
     })}
     </Container>
 
-<section className="container">
-    <article className="row home-care-section-two">
-        <div className="col-lg-6">
-        <img src={illustration} alt="home-care-img-section" />
-        </div>
-        <div className="col-lg-6">
-            <h1>Home Care Services</h1>
-            <div className="text">
-            <p>Medical consultations at clinic or hospital often require transport arrangements and long waiting hours. It may expose you to various infections and compromise on quality care. </p>
-            <p>Medatu’s Home Care option brings stress-free healthcare services to your doorstep. Just choose your location and service you require. Our highly qualified and experienced doctors will provide best treatment at comfort of your home.</p>
-            </div>
-        </div>
+    <article className="row hc-two">
+        <section>
+        <button type="button" class="btn btn-success">Know More</button>
+        </section>
     </article>
-</section>
 
     <Container style={{padding: '2rem'}}>
         <h3>Lorem, ipsum dolor.</h3>
@@ -86,7 +77,7 @@ const HomeCare = () => {
     <Carousel/>
     </Container>
     
-
+<AppSection/>
 <Disclaimer/>
 </main>
     );

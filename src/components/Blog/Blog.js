@@ -12,7 +12,7 @@ function Blog() {
             <h2>Information for your health and wellness</h2>
         </div>
         <div className="about-content">
-            <p>Easy-to-Read health information from our medical experts enables people to live in a better way as per health is concerned.</p>					
+            <p style={{width: 'fit-content'}}>Easy-to-Read health information from our medical experts enables people to live in a better way as per health is concerned.</p>					
             {/* <a href={() => false}>Read More</a> */}
         </div>
         <div id="view-btn">

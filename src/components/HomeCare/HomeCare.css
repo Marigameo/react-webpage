@@ -17,18 +17,6 @@
     padding: 2rem 0;
     background-color: #f6fffa;
 }
-.home-care-section-two {
-    padding: 4rem 0 2rem;
-}
-.home-care-section-two .text {
-    padding: 2rem 2rem 0 0;
-}
-.home-care-section-two .col-lg-6 {
-    padding-left: 4rem;
-}
-.home-care-section-two img {
-    width: 80%;
-}
 .home-care-banner {
     background-image: url(../assets/img/home-care-banner.jpg);
     background-position: center;
@@ -36,10 +24,10 @@
     background-repeat: no-repeat;
     display: flex;
     justify-content: flex-start;
-    padding: 2rem 0 2rem 8rem;
+    padding: 6rem 0 2rem 8rem;
     align-items: baseline;
     margin: 0;
-    height: 48vh;
+    height: 80vh;
     width: 100vw;
 }
 .home-care-header h1 {
@@ -121,4 +109,20 @@
     padding-top: 2rem;
     display: flex;
     justify-content: center;
+}
+.hc-two {
+    background-image: url(../assets/img/hcare.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-start;
+    padding: 6rem 0 2rem 6.5rem;
+    align-items: baseline;
+    margin: 0;
+    height: 80vh;
+    width: 100vw;
+}
+.hc-two button{
+    margin-top: 22rem;
 }

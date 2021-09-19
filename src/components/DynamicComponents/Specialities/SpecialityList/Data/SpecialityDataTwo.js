@@ -19,6 +19,9 @@ import sEighteen from "../../../../assets/img/specialities/specialities-18.png";
 import sNineteen from "../../../../assets/img/specialities/specialities-19.png";
 import sTwenty from "../../../../assets/img/specialities/specialities-20.png";
 import sTwentyOne from "../../../../assets/img/specialities/specialities-21.png";
+import sTwentyTwo from "../../../../assets/img/specialities/specialities-22.png";
+import sTwentyThree from "../../../../assets/img/specialities/specialities-23.png";
+import sTwentyFour from "../../../../assets/img/specialities/specialities-24.png";
 
 export const SpecialityDataTwo = [
   {
@@ -104,5 +107,17 @@ export const SpecialityDataTwo = [
   {
     img: sTwentyOne,
     text: `Veterimary`
-  }
+  },
+  {
+    img: sTwentyTwo,
+    text: `Microorganism`
+  },
+  {
+    img: sTwentyThree,
+    text: `Pathology`
+  },
+  {
+    img: sTwentyFour,
+    text: `Physiotherapy`
+  },
 ];

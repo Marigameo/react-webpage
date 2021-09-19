@@ -6,15 +6,12 @@ import { faCheck } from '@fortawesome/free-solid-svg-icons';
 import Carousel from '../DynamicComponents/Components/Carousel'
 import Slide from './Components/Slide';
 import BlogTwo from '../Blog/BlogTwo';
+import AppSection from '../DynamicComponents/AppSection/AppSection';
 
 const ForWoman = () => {
     return ( 
 <main style={{paddingTop: '5.2rem'}}>
     <Slide/>
-    <Container>
-        <h3>Lorem, ipsum.</h3>
-        <Carousel/>
-    </Container>
     <Container>
         <h3>Lorem, ipsum.</h3>
         <Carousel/>
@@ -42,7 +39,7 @@ const ForWoman = () => {
     <div className="col-lg-4">
         <aside id='h-design'>    
         <FontAwesomeIcon icon={faCheck}/> 
-        <a href='#/'>PAP Smear and Pelvic Examination</a> 
+        <a href='#/'>PAP Smear</a> 
         </aside>
     </div>
     <div className="col-lg-4">
@@ -57,13 +54,19 @@ const ForWoman = () => {
         <a href='#/'>Cholesterol Check</a> 
         </aside>
     </div>
+    <div className="col-lg-4">
+        <aside id='h-design'>    
+        <FontAwesomeIcon icon={faCheck}/> 
+        <a href='#/'>Pelvic Examination</a> 
+        </aside>
+    </div>
 </Row>
     <button type="button" class="btn btn-success">Know More</button>
     </div>
     </article>
 </Container>
 </section>
- 
+<AppSection/>
 <BlogTwo/>
 
 </main>

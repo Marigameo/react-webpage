@@ -117,11 +117,11 @@ const SpecialityList = () => {
                   </div>
                   <div className="pro-content">
                     <h3 className="title">
-                      <a href="#/" tabIndex="-1">{item.text}</a> 
+                      <a href="#/" tabIndex="-1" className='text-center'>{item.text}</a> 
                     </h3>
                     <div className="align-items-center">
                     <Link to='/s-list'>
-                      <a className='l-a text-center'>Know More</a>
+                      <p className='l-a text-center'>Search Doctors</p>
                     </Link>
                     </div>
                   </div>
@@ -132,7 +132,6 @@ const SpecialityList = () => {
               )
             })}
           </div>
-          <button className="btn view-btn">View More</button>
 </article>
             
         </div>

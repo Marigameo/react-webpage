@@ -12,11 +12,5 @@ export const CarouselData = [
   },
   {
     img: iOne
-  },
-  {
-    img: iOne
-  },
-  {
-    img: iOne
   }
 ];
