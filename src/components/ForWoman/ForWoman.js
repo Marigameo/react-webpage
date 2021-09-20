@@ -1,3 +1,4 @@
+import React, {useEffect} from 'react';
 import './ForWoman.css';
 import { Container } from 'react-bootstrap';
 import { Row } from 'react-bootstrap';
@@ -9,6 +10,9 @@ import BlogTwo from '../Blog/BlogTwo';
 import AppSection from '../DynamicComponents/AppSection/AppSection';
 
 const ForWoman = () => {
+    useEffect(() => {
+        window.scroll(0,0)
+    }, )
     return ( 
 <main style={{paddingTop: '5.2rem'}}>
     <Carousel/>
