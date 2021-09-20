@@ -15,7 +15,7 @@ import iconTwo from "../../assets/img/specialities/svg/2.svg";
 import iconThree from "../../assets/img/specialities/svg/3.svg";
 import { Link } from 'react-router-dom';
 import Search from '../../DynamicComponents/SearchBar/app/Search';
-import Carousel from '../../DynamicComponents/Components/Carousel';
+import Carousel from '../Components/Carousel';
 
 
 const Diagnostics = () => {
