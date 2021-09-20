@@ -9,7 +9,7 @@ export const DiagPop = [
   {
       id:1,
     img: pOne,
-    text: `Vitamin Deficiency`,
+    text: `Heart`,
   },
   {
       id:2,
