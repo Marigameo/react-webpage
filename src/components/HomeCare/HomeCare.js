@@ -1,6 +1,6 @@
 import React, {useEffect}  from 'react'
 import './HomeCare.css'
-import { Container } from 'react-bootstrap'
+import { Container, Row } from 'react-bootstrap'
 import Search from '../DynamicComponents/SearchBar/app/Search'
 
 //images
@@ -41,34 +41,28 @@ const HomeCare = () => {
     return (
 <main style={{paddingTop: '4rem'}} className="main-wrapper"> 
 
+<Container className="c-banner-design">
+            <Search/> 
+    </Container>
     <section className="home-care-banner">
-    <Container fluid className="banner-design">
-        <div className="home-care-header">
+    <div className="home-care-header">
             <h1>Professional Healthcare services, <br/>At the convenience of <br/>your Home.</h1>
         </div>
-        <div className="banner-search">
-            <Search/> 
-        </div>
-    </Container>
     </section> 
 
     <Container fluid className='hcare-spec'>
     {data.map((item, index)=> {
         return(
-        <div className="hcare-special">
-        <img src={item.img} key={item.text} alt="iImg" width={180} height={120}/>
-        <h5>{item.text}</h5>
-        <a className='kmore' href="know-more">Know More</a>
-        </div>
+                <div className='hcare-special'>
+                <img src={item.img} key={item.text} alt="iImg" width={180} height={120}/>
+            <h5>{item.text}</h5>
+            <a className='kmore' href="know-more">Know More</a>
+                </div>
         )
     })}
     </Container>
 
-    <article className="row hc-two">
-        <section>
-        <button type="button" class="btn btn-success">Know More</button>
-        </section>
-    </article>
+    <article className="row hc-two"></article>
     
 <AppSection/>
 <Disclaimer/>

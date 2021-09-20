@@ -21,8 +21,7 @@ import sTwenty from "../../../../assets/img/specialities/specialities-20.png";
 import sTwentyOne from "../../../../assets/img/specialities/specialities-21.png";
 import sTwentyTwo from "../../../../assets/img/specialities/specialities-22.png";
 import sTwentyThree from "../../../../assets/img/specialities/specialities-23.png";
-import sTwentyFour from "../../../../assets/img/specialities/specialities-24.png";
-
+import '../../../../../../node_modules/common-tags/lib/stripIndent'
 export const SpecialityDataTwo = [
   {
     img: sOne,
@@ -110,14 +109,10 @@ export const SpecialityDataTwo = [
   },
   {
     img: sTwentyTwo,
-    text: `Microorganism`
-  },
-  {
-    img: sTwentyThree,
     text: `Pathology`
   },
   {
-    img: sTwentyFour,
-    text: `Physiotherapy`
-  },
+    img: sTwentyThree,
+    text: "Plastic and Cosmetic Surgery"
+}
 ];

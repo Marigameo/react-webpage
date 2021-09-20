@@ -13,7 +13,7 @@ export default class SimpleSlider extends Component {
       slidesToScroll: 1
     };
     return (
-      <Container fluid>
+      <div>
         <Slider {...settings}>
           <div>
             <CarouselData/>
@@ -25,7 +25,7 @@ export default class SimpleSlider extends Component {
             <CarouselData/>  
           </div>
         </Slider>
-        </Container>
+        </div>
     );
   }
 }

@@ -27,7 +27,13 @@
 	-moz-osx-font-smoothing: grayscale;
 	font-feature-settings: 'liga';
 }
-
+.c-banner-design {
+	padding-top: 3rem;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
 html {
     height: 100%;
 }
@@ -1489,35 +1495,9 @@ button.bg-danger:hover {
     padding: 0;
 	height: 300px;
 }
-.slick-list:focus {
-    outline: none;
-}
-.slick-list.dragging {
-    cursor: pointer;
-}
-.slick-slider .slick-track,
-.slick-slider .slick-list {
-	-webkit-transform: translate3d(0, 0, 0);
-	-moz-transform: translate3d(0, 0, 0);
-	-ms-transform: translate3d(0, 0, 0);
-	-o-transform: translate3d(0, 0, 0);
-	transform: translate3d(0, 0, 0);
-}
 .slick-track {
     position: relative;
-    top: 0;
-    left: 0;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-.slick-track:before,
-.slick-track:after {
-    display: table;
-    content: '';
-}
-.slick-track:after {
-    clear: both;
+ height: fit-content !important;
 }
 .slick-loading .slick-track {
     visibility: hidden;
@@ -3526,7 +3506,7 @@ p.speciality {
     opacity: 1;
     transform: scale(1.20);
 }
-.features-slider .slick-list {
+.features-slider{
     padding: 16px 50px !important
 }
 .features-slider .slick-dots {
@@ -4641,6 +4621,9 @@ p.speciality {
     padding: 10px;
     border-top: 0;
 }
+.slick-list {
+	height: fit-content !important;
+}
 .form-custom {
 	position: relative;
 }
@@ -4925,7 +4908,7 @@ body .multi-optn {
     z-index: 9;
     top: -3px;
 }
-.clinic-slider .slick-list, .browse-slider .slick-list, .book-slider .slick-list {
+.clinic-slider  .browse-slider  .book-slider  {
 	padding-top: 50px;
 }
 .clinic-slider .slick-prev, .clinic-slider .slick-next, .browse-slider .slick-prev, 
@@ -5441,7 +5424,7 @@ body .multi-optn {
     -o-transition: all .3s ease 0s;
     transition: all .3s ease 0s;
 }
-.aval-slider .slick-list {
+.aval-slider{
     padding: 50px 0;
 }
 .aval-slider .slick-prev, .aval-slider .slick-next {
@@ -5748,7 +5731,7 @@ body .multi-optn {
     display: inline-block;
     padding: 3px;
 }
-.doc-booking .book-slider .slick-list {
+.doc-booking .book-slider{
     padding-top: 0;
 }
 .doc-booking .book-slider .pro-content .amt {
@@ -11264,9 +11247,6 @@ ul.benifits-col li i{
 	.aval-features .col-md-6.pl-0 {
 		padding-left: 15px !important;
 	}
-	.aval-slider .slick-list {
-		padding: 30px 0;
-	}
 	.blogs-section {
 		padding: 30px 0;
 	}
@@ -11285,6 +11265,7 @@ ul.benifits-col li i{
 	.home-search-section h2 {
 		font-size: 30px;
 	}
+
 	.heading-wrapper h1 {
 		font-size: 24px;
 	}	
@@ -11304,9 +11285,6 @@ ul.benifits-col li i{
 	}
 	.clinic-wrap .wrapper-overlay p {
 		text-align: center;
-	}
-	.doc-booking .book-slider .slick-list {
-		padding-top: 50px;
 	}
 	.doc-booking .book-slider .slick-prev, .doc-booking .book-slider .slick-next {
 		top: 0;
@@ -11882,10 +11860,6 @@ ul.benifits-col li i{
 
 .s-btns {
 	align-content: space-around;	
-} 
-
-.slick-track, .slick-list {
-	max-height: 420px !important;
 }
 .pharmacy-home-slider img {
 	opacity: 0;

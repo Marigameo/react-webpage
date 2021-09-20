@@ -1,9 +1,10 @@
 import '../assets/style.css';
 import '../../../node_modules/swiper/swiper-bundle.css';
 import 'bootstrap/dist/js/bootstrap.min';
-import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import '@popperjs/core/dist/umd/popper.min';
 import 'jquery/dist/jquery.min';
+import './feedback.css'
+import { Container } from 'react-bootstrap';
 
 import React, { Component } from "react";
 import Slider from "react-slick";
@@ -46,7 +47,7 @@ export default class FeedBack extends Component {
       ]
     };
     return (
-      <div className="container-fluid">
+      <Container fluid>
         <Slider {...settings}>
           <div>
             <div className="feedback" style={{ width: 400 }}>
@@ -97,7 +98,7 @@ export default class FeedBack extends Component {
           </div>
           
           </Slider>
-      </div>
+      </Container>
     );
   }
 }

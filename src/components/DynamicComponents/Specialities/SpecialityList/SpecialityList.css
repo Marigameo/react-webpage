@@ -1,10 +1,9 @@
 .l-a {
     width: fit-content;
-    border-bottom: 1px solid #151515;
+    color: #8176c4;
 }
 .l-a:hover {
     color: darkgreen !important;
-    border-color: darkgreen !important;
 }
 .profile-widget {
     display: flex;

@@ -14,6 +14,7 @@ import iconOne from "../../assets/img/specialities/svg/1.svg";
 import iconTwo from "../../assets/img/specialities/svg/2.svg";
 import iconThree from "../../assets/img/specialities/svg/3.svg";
 import { Link } from 'react-router-dom';
+import { Container } from 'react-bootstrap';
 import Search from '../../DynamicComponents/SearchBar/app/Search';
 import Carousel from '../Components/Carousel';
 
@@ -24,8 +25,10 @@ const Diagnostics = () => {
     }, )
 	return ( 
 		<>
-		<section style={{padding: '8rem 14rem 1rem 14rem'}}><Search/></section>
+		<Container>
+		<section style={{paddingTop: '7rem'}}><Search/></section>
   		<Carousel/>
+		</Container>
 		  <section className="work-section" id="view-btn">
 		  <div className=" text-center container">
 			<h2>Medatu offers the facility of Home Sample Collection. You just need to follow some simple steps to book a home collection visit.</h2>

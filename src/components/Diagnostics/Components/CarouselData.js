@@ -1,9 +1,10 @@
 import React from 'react';
 import './Carousel.css'
+import slider from '../../assets/img/slider.png'
 
 const CarouselData = () => {
   return (
-    <section className='d-sec2'></section>
+      <img src={slider} alt="" />
   );
 };
 

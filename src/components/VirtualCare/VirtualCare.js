@@ -23,7 +23,11 @@ function VirtualCare() {
         </article>
     </section>
     <Specialitites/>
+    
     <AppSection/>
+    <div className="section-header text-center">
+      <p className="section-p text-center">Top Online Doctors to Solve Your Health Issues.</p>
+  </div> 
     <MultipleItems/>
       <Row>
         <img src={vBanner} alt="v-banner" />
