@@ -29,5 +29,17 @@ export const HealthScreen = [
     {
         img: f,
         text:`Pelvic Examination`
+    },
+    {
+        img: f,
+        text:`Sexology`
+    },
+    {
+        img: f,
+        text:`Obesity`
+    },
+    {
+        img: f,
+        text:`Gynaecology`
     }
 ]

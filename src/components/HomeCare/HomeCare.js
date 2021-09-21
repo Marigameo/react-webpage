@@ -1,6 +1,6 @@
 import React, {useEffect}  from 'react'
 import './HomeCare.css'
-import { Container, Row } from 'react-bootstrap'
+import { Container } from 'react-bootstrap'
 import Search from '../DynamicComponents/SearchBar/app/Search'
 
 //images
@@ -10,7 +10,7 @@ import hThree from '../assets/img/home-care/03.jpg'
 import hFour from '../assets/img/home-care/04.jpg'
 import hFive from '../assets/img/home-care/05.jpg'
 import Disclaimer from './Disclaimer'
-import AppSection from '../DynamicComponents/AppSection/AppSection'
+import AppSection from '../DynamicComponents/AppSectionHC/AppSection'
 
 const data = [
     {

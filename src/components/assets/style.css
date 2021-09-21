@@ -3485,8 +3485,10 @@ p.speciality {
 	color: #202020 !important;
 }
 .section-features {
-	background-color: #fdfdfd;
-	padding: 3rem 0 0 0;
+	background-image: url(../assets/img/app/banner.jpg);
+	background-position: center;
+	background-size: cover;
+	padding: 3rem 0 ;
 }
 .feature-item img {
     border-radius: 100%;

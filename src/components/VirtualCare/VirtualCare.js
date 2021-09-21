@@ -1,6 +1,6 @@
 import React from 'react';
 import { Row } from 'react-bootstrap';
-import AppSection from '../DynamicComponents/AppSection/AppSection';
+import AppSection from '../DynamicComponents/AppSectionV/AppSection';
 import MultipleItems from '../Doctors/Doctors/doctors';
 import './VirtualCare.css'
 import vBanner from '../assets/img/vbanner.jpg'

@@ -1,7 +1,6 @@
 import React, {useEffect} from 'react';
 import './ForWoman.css';
 import { Container,Row } from 'react-bootstrap';
-import Carousel from './Components/Carousel';
 import BlogTwo from '../Blog/BlogTwo';
 import Search from '../DynamicComponents/SearchBar/app/Search';
 import AppSection from '../DynamicComponents/AppSection/AppSection';
@@ -20,24 +19,27 @@ const ForWoman = () => {
 </Container>
 <Slide/>
 <section className='fw-sec5'>
-<Container fluid>
+<Container>
 <article id='h-mid'>
-    <div className="col-lg-8">
+    <div className="row">
+    <div className="col-lg-6">
     <h2>Health Screenings</h2>
     <p>Book essential health check-ups.</p>
-<Row id='h-layout'>
-        {HealthScreen.map((item, index)=> {
-            return(
-                <div className="col-lg-4">
-                <article id='h-design'>
-                <img src={item.img} width={64} height={64} alt='item.img' key={item.img} /> 
-                <a href='#/'>{item.text}</a> 
-                </article>
-                </div>
-            )
-        })}
-</Row>
+    <Row id='h-layout'>
+            {HealthScreen.map((item, index)=> {
+                return(
+                    <div className="col-lg-4">
+                    <article id='h-design'>
+                    <img src={item.img} width={54} height={54} alt='item.img' key={item.img} /> 
+                    <a href='#/'>{item.text}</a> 
+                    </article>
+                    </div>
+                )
+            })}
+    </Row>
     <button type="button" class="btn btn-success">Know More</button>
+    </div>
+    <div className="col-lg-6"></div>
     </div>
     </article>
 </Container>

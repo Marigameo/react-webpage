@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import CarouselData from './CarouselData';
 import Slider from "react-slick";
-import { Container } from "react-bootstrap";
 
 export default class SimpleSlider extends Component {
   render() {

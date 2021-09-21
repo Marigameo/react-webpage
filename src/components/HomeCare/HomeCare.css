@@ -14,7 +14,7 @@
 }
 .disclaimer {
     padding: 2rem 0;
-    background-color: #f6fffa;
+    background-color: #fdfdfd;
 }
 .home-care-banner {
     background-image: url(../assets/img/home-care-banner.jpg);
@@ -26,7 +26,7 @@
     padding: 6rem 0 2rem 8rem;
     align-items: baseline;
     margin: 0;
-    height: 50vh;
+    height: 64vh;
     width: 100vw;
 }
 .home-care-header h1 {
