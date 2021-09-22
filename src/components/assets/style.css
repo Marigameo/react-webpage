@@ -1379,15 +1379,16 @@ button.bg-danger:hover {
 	-webkit-flex-wrap: wrap;
 	min-height: 180px;
 }
-
-.feature-text {
-	padding-left: 11rem !important;
-} 
 .feature-text p {
 	font-size: 15px;
 	font-weight: 500;
 }
-
+.f-app-t {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
 .upload-medical-records .dropzone h5,
 .upload-medical-records .dropzone h6 {
 	color: #7c7c7c;
@@ -1795,7 +1796,10 @@ button.bg-danger:hover {
 .form-focus .select2-container--default .select2-results__option--highlighted[aria-selected] {
 	background-color: #fc6075;
 }
-
+.feature-app {
+	float: right;
+	padding: 1rem;
+}
 /*-----------------
 	11. Header
 -----------------------*/
@@ -1986,9 +1990,6 @@ margin-left: 4rem;
 	-webkit-transform: rotate(-135deg);
 	-ms-transform: rotate(-135deg);
 	transform: rotate(-135deg);
-}
-.header-five .main-menu-wrapper {
-    .header-transmargin-left: 40px;
 }
 .blue-font > li > a{
 	color: #2A85D1;
@@ -3306,10 +3307,10 @@ html.menu-opened body {
 	background-color: #f8f9fa;
 	padding: 4rem 0;
 }
-.section-doctor .section-header {
+.section-doctor {
 	margin-bottom: 30px;
 }
-.section-doctor .section-header p {
+.section-doctor p {
 	margin-top: 10px;
 }
 .doctor-slider .slick-slide{
@@ -3488,7 +3489,6 @@ p.speciality {
 	background-image: url(../assets/img/app/banner.jpg);
 	background-position: center;
 	background-size: cover;
-	padding: 3rem 0 ;
 }
 .feature-item img {
     border-radius: 100%;
@@ -3892,7 +3892,7 @@ p.speciality {
     max-width: 600px;
     margin: 15px auto 0;
 }
-.clinic-specialities .section-header h2 {
+.clinic-specialities h2 {
 	color: #373B7A;
 	font-weight: 700;
 	font-size: 30px;
@@ -5393,18 +5393,18 @@ body .multi-optn {
 	color: #fdfdfd;
 	padding: 6px;
 }
-.aval-features .aval-widget .features-img {
+.aval-features .aval-widget {
 	width: 150px;
     height: 150px;
     border-radius: 80px 60px 50px 50px;
     margin: 0 auto;
 }
-.aval-features .aval-widget .features-img img {
+.aval-features .aval-widget img {
 	border-radius: 80px 60px 50px 50px;
     width: 100%;
     border: 4px solid #fdfdfd;
 }
-.aval-features .aval-widget .features-img p {
+.aval-features .aval-widget p {
 	background: #373B7A;
     border-radius: 30px;
     color: #fdfdfd;
@@ -10783,7 +10783,7 @@ ul.benifits-col li i{
 	.appointment-tab {
 		margin-bottom: 20px;
 	}
-	.features-slider .slick-dots, .features-img img {
+	.features-slider .slick-dots, img {
 		text-align: center;
 		margin: 0 auto;
 	}

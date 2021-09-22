@@ -23,8 +23,8 @@ const ForWoman = () => {
 <article id='h-mid'>
     <div className="row">
     <div className="col-lg-6">
-    <h2>Health Screenings</h2>
-    <p>Book essential health check-ups.</p>
+    <h2>Women Health Issues</h2>
+    <p>Consult with an experienced doctor today!</p>
     <Row id='h-layout'>
             {HealthScreen.map((item, index)=> {
                 return(
