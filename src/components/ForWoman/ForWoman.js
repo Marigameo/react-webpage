@@ -13,10 +13,15 @@ const ForWoman = () => {
         window.scroll(0,0)
     }, )
     return ( 
-<main style={{paddingTop: '4rem'}}>
-<div>
-    <img src={banner} alt="banner" className='fw-banner'/>
-</div>
+<main style={{paddingTop: '5rem'}}>
+<section className="fw-banner">
+        <article className="banner-design">
+            <div className="banner-header">
+                <h1>Simplifying Healthcare for Women</h1>
+                <p>Stay Strong and Healthy</p>
+            </div>
+        </article>
+    </section> 
 <Slide/>
 <AppSection/>
 <WHI/>
