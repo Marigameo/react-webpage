@@ -1,5 +1,4 @@
 import React from "react";
-import './Slide.css'
 import { Container } from "react-bootstrap";
 import SlideCard from "./SlideCard";
 
