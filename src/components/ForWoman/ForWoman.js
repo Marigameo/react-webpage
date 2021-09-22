@@ -1,23 +1,25 @@
 import React, {useEffect} from 'react';
 import './ForWoman.css';
+import banner from '../assets/img/for-woman/banner.jpg'
 import { Container } from 'react-bootstrap';
 import BlogTwo from '../Blog/BlogTwo';
-import Search from '../DynamicComponents/SearchBar/app/Search';
+
 import AppSection from '../DynamicComponents/AppSection/AppSection';
 import Slide from './Slide/Slide';
+import WHI from './WHI/WHI';
 
 const ForWoman = () => {
     useEffect(() => {
         window.scroll(0,0)
     }, )
     return ( 
-<main>
-<Container>
-<section style={{paddingTop: '7rem'}}><Search/></section>
-<div className='fw-banner'></div>
-</Container>
+<main style={{paddingTop: '4rem'}}>
+<div>
+    <img src={banner} alt="banner" className='fw-banner'/>
+</div>
 <Slide/>
 <AppSection/>
+<WHI/>
 <BlogTwo/>
 
 </main>
