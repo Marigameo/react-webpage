@@ -70,7 +70,7 @@ export default class NavbarComp extends Component {
             <ul className="main-nav" >
             <li className="has-submenu">
                 <Nav.Link as={Link} to="/virtual-care">Virtual Care</Nav.Link>
-                </li>
+            </li>
                 <li className="has-submenu">
                 <Nav.Link as={Link} to="/home-care">Home Care</Nav.Link>
                 </li>
@@ -124,7 +124,6 @@ export default class NavbarComp extends Component {
     <Route path="/success"><PaymentSuccess/></Route>
     <Route path="/about"><AboutUs/></Route>
     <Route path="/"><Home /></Route>
-    
 </Switch>
 <Footer/>
 </Router>

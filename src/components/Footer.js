@@ -50,14 +50,10 @@ const Footer = () => {
                         <h2 className="footer-title">Company</h2>
                         <ul>
                         <li><Link to='/about'>About Us</Link></li>
-                                <li><a href="login.html">Our Services</a>
-                            </li>
-                                <li><a href="register.html">How It Works</a>
-                            </li>
-                                <li><a href="patient-dashboard.html">FAQs</a>
-                            </li>
-                            <li><a href="register.html">Careers</a>
-                            </li>
+                        <li><Link to='/our-services'>Our Services</Link></li>
+                        <li><Link to="/register">How It Works</Link></li>
+                        <li><Link to='/faq'>FAQs</Link></li>
+                        <li><Link to="/register">Careers</Link></li>
                         </ul>
                     </div>
                     </div>
@@ -65,18 +61,12 @@ const Footer = () => {
                     <div className="footer-widget footer-menu">
                         <h2 className="footer-title">For People</h2>
                         <ul>
-                                <li><a href="search.html">Language</a>
-                            </li>
-                                <li><a href="login.html">Speciality</a>
-                            </li>
-                                <li><a href="register.html">Ayurvedic Doctors</a>
-                            </li>
-                                <li><a href="booking.html">Homeopathy Doctors</a>
-                            </li>
-                                <li><a href="patient-dashboard.html">Book Lab Test</a>
-                            </li>
-                                <li><a href="patient-dashboard.html">Help Centre</a>
-                            </li>
+                        <li><Link to="/search">Language</Link></li>
+                        <li><Link to="/login">Speciality</Link></li>
+                        <li><Link to="/register">Ayurvedic Doctors</Link></li>
+                        <li><Link to="/booking">Homeopathy Doctors</Link></li>
+                        <li><Link to="/patient-dashboard">Book Lab Test</Link></li>
+                        <li><Link to="/patient-dashboard">Help Centre</Link></li>
                         </ul>
                     </div>
                     </div>
@@ -84,13 +74,13 @@ const Footer = () => {
                     <div className="footer-widget footer-menu">
                         <h2 className="footer-title">For Professionals</h2>
                         <ul>
-                                <li><a href="search.html">Doctor’s Profile</a>
+                                <li><Link to="/search">Doctor’s Profile</Link>
                             </li>
-                                <li><a href="login.html">Pharmacies</a>
+                                <li><Link to="/login">Pharmacies</Link>
                             </li>
-                                <li><a href="register.html">Diagnostic Labs</a>
+                                <li><Link to="/register">Diagnostic Labs</Link>
                             </li>
-                            <li><a href="register.html">Hospitals</a>
+                            <li><Link to="/register">Hospitals</Link>
                             </li>
                         </ul>
                     </div>
@@ -105,16 +95,16 @@ const Footer = () => {
                         <br /><div className="social-icon">
                                     <ul>
                                         <li>
-                                            <a href="#/" target="_blank"><FontAwesomeIcon icon={faFacebookF}/></a>
+                                            <Link to="#/" target="_blank"><FontAwesomeIcon icon={faFacebookF}/></Link>
                                         </li>
                                         <li>
-                                            <a href="#/" target="_blank"><FontAwesomeIcon icon={faTwitter}/></a>
+                                            <Link to="#/" target="_blank"><FontAwesomeIcon icon={faTwitter}/></Link>
                                         </li>
                                         <li>
-                                            <a href="#/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a>
+                                            <Link to="#/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></Link>
                                         </li>
                                         <li>
-                                            <a href="#/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
+                                            <Link to="#/" target="_blank"><FontAwesomeIcon icon={faInstagram}/></Link>
                                         </li>
                                     </ul>
                                 </div>
@@ -138,8 +128,8 @@ const Footer = () => {
                         
                             <div className="copyright-menu">
                                 <ul className="policy-menu">
-                                    <li><a href="term-condition.html">Terms of Use</a></li>
-                                    <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                                    <li><Link to="/term-condition">Terms of Use</Link></li>
+                                    <li><Link to="/privacy-policy">Privacy Policy</Link></li>
                                 </ul>
                             </div>
                             

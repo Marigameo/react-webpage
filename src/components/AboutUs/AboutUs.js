@@ -1,10 +1,13 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import iOne from '../assets/img/about/1.svg'
 import iTwo from '../assets/img/about/2.svg'
 import iThree from '../assets/img/about/3.svg'
 import {Container, Col, Row,} from 'react-bootstrap'
 import './aboutus.css';
 export default function AboutUs() {
+  useEffect(() => {
+    window.scroll(0,0)
+}, )
     return (
       <>
       <div className="sectioncolor"  style={{paddingTop:"175px"}}>
