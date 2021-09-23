@@ -1,7 +1,5 @@
 import React, {useEffect} from 'react';
 import './ForWoman.css';
-import banner from '../assets/img/for-woman/banner.jpg'
-import { Container } from 'react-bootstrap';
 import BlogTwo from '../Blog/BlogTwo';
 
 import AppSection from '../DynamicComponents/AppSection/AppSection';

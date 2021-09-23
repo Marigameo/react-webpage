@@ -1,4 +1,4 @@
-import { Container, Row } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import { WHIData } from "./WHIData";
 
 const WHI = () => {
