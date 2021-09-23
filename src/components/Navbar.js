@@ -27,6 +27,7 @@ import AboutUs from './AboutUs/AboutUs';
 import Blog1 from './Blogs/BlogPage'
 import Blog2 from './Blogs/BlogPageTwo'
 import DocList from './Doctors/DocList';
+import FAQPage from './FAQPage/FAQPage';
 import DocDescription from './Doctors/DocDescription';
 import Payment from './Payment/Payment';
 import PaymentSuccess from './Payment/PaymentSuccess';
@@ -106,6 +107,7 @@ export default class NavbarComp extends Component {
 
 <Switch>
     <Route path="/home-care"><HomeCare/></Route>
+    <Route path='/faq'><FAQPage/></Route>
     <Route path="/virtual-care"><VirtualCare/></Route>
     <Route path='/s-list'><SpecialityList/></Route>
     <Route path='/test-detail'><TestDetails/></Route>

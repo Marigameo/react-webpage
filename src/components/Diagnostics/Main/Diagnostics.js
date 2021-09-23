@@ -78,6 +78,7 @@ const Diagnostics = () => {
 								{DiagPop.map((item, index) => {
 									return(
 									<div className="col-lg-4 col-md-4">
+										<Link to='/faq'>
 										<div className="brower-box">
 											<div className='pop-design' key={item.id}>
 											<img width={64} height={64} src={item.img} alt=""/>
@@ -87,6 +88,7 @@ const Diagnostics = () => {
 											<h5>ADD TO CART</h5>
 											</div>
 										</div>
+										</Link>
 									</div>
 									)
 								})}
