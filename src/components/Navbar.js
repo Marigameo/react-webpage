@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Nav } from 'react-bootstrap'
+import Footer from './Footer'
 import {
     BrowserRouter as Router,
     Switch,
@@ -123,7 +124,9 @@ export default class NavbarComp extends Component {
     <Route path="/success"><PaymentSuccess/></Route>
     <Route path="/about"><AboutUs/></Route>
     <Route path="/"><Home /></Route>
+    
 </Switch>
+<Footer/>
 </Router>
         )
     }

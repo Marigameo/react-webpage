@@ -1798,7 +1798,6 @@ button.bg-danger:hover {
 }
 .feature-app {
 	float: right;
-	padding: 1rem;
 }
 /*-----------------
 	11. Header
@@ -2360,13 +2359,13 @@ html.menu-opened body {
 .footer .footer-menu ul li:last-child {
 	margin-bottom: 0;
 }
-.footer .footer-menu ul li a {
+.footer .footer-menu ul li {
 	color: #151515;
 	font-size: 15px;
 	position: relative;
 	transition: all 0.4s ease 0s;
 }
-.footer .footer-menu ul li a::before {
+.footer .footer-menu ul li::before {
     font-weight: 900;
     left: 0;
     margin-right: 5px;

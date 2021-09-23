@@ -1,5 +1,5 @@
 import React from 'react';
-import main from "../../assets/img/app/HomeCare.png";
+import main from "../../assets/img/app/3.png";
 
 const AppSection = () => {
   return (

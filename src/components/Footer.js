@@ -13,6 +13,7 @@ import { faEnvelope, faPhoneAlt } from '@fortawesome/free-solid-svg-icons';
 import google from '../components/assets/img/app/googleplay.png';
 import appStore from '../components/assets/img/app/appstore.png';
 import footerLogo from "../components/assets/img/footer-logo.png"
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return ( 
@@ -24,9 +25,11 @@ const Footer = () => {
                     <div className="col-lg-3 col-md-6">
                     
                         <div className="footer-widget footer-about">
+                            <Link to='/'>
                             <div className="footer-logo">
                                 <img src={footerLogo} alt="logo"/>
                             </div>
+                            </Link>
                             <div className="footer-about-content">
                                 <h5>Medatu Solutions Private Limited</h5>
                                 <h5>
@@ -46,8 +49,7 @@ const Footer = () => {
                     <div className="footer-widget footer-menu">
                         <h2 className="footer-title">Company</h2>
                         <ul>
-                                <li><a href="search.html">About Us</a>
-                            </li>
+                        <li><Link to='/about'>About Us</Link></li>
                                 <li><a href="login.html">Our Services</a>
                             </li>
                                 <li><a href="register.html">How It Works</a>

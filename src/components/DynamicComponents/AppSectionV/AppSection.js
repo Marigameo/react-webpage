@@ -1,5 +1,5 @@
 import React from 'react';
-import main from "../../assets/img/app/Virtual.png";
+import main from "../../assets/img/app/1.png";
 
 const AppSection = () => {
   return (
