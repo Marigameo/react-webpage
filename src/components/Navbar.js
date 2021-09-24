@@ -21,6 +21,7 @@ import { faTimes } from '@fortawesome/free-solid-svg-icons';
 import logo from "../components/assets/img/logo.png"
 
 import Home from './Home/Home';
+import PopTests from './Diagnostics/PopTests/PopTests';
 import Diagnostics from './Diagnostics/Main/Diagnostics';
 import HomeCare from './HomeCare/HomeCare';
 import AboutUs from './AboutUs/AboutUs';
@@ -108,6 +109,7 @@ export default class NavbarComp extends Component {
 <Switch>
     <Route path="/home-care"><HomeCare/></Route>
     <Route path='/faq'><FAQPage/></Route>
+    <Route path='/pop-test'><PopTests/></Route>
     <Route path="/virtual-care"><VirtualCare/></Route>
     <Route path='/s-list'><SpecialityList/></Route>
     <Route path='/test-detail'><TestDetails/></Route>

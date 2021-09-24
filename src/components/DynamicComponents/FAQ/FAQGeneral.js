@@ -16,10 +16,6 @@ const data = {
       title: "3.	What is the Refund Policy of Medatu?",
       content: "We request you to write to our support team or contact us in case you are not satisfied with the online consultation. We would review the consultation as well as the clarifications and queries answered during the consultation. Post-approval, we would refund the full amount.  "
     },
-    {
-        title: "3.	What is the Refund Policy of Medatu?",
-        content: "We request you to write to our support team or contact us in case you are not satisfied with the online consultation. We would review the consultation as well as the clarifications and queries answered during the consultation. Post-approval, we would refund the full amount.  "
-      },
       {
         title: "4.	If an Appointment is Booked, Are There Any Faster Chances of Doctor’s Consultation?",
         content: "The appointment with the doctor will be confirmed on the website and later it can be either a bit earlier or a bit delayed. The chances for the same depends upon the doctor’s availability and the patients at the clinic. The booking is normal at Medatu and it does not provide any special benefits to any of the users."

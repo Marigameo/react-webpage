@@ -19,6 +19,9 @@
     color: #fdfdfd;
     font-size: 18px;
     font-weight: 500;
+    outline: none;
+    border-radius: .4rem;
+    border: 1px solid #7f9cd3;
     margin-top: 1rem;
-    background-color: rgba(204, 231, 204, 0.3);
+    background-color: rgba(107, 131, 150, 0.3);
 }
