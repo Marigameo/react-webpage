@@ -88,7 +88,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    border: 1px solid #e0e0e0;
+    box-shadow: 0 .6px .8px 0 rgba(117, 117, 117, 0.2), 0 1px 2px 0 rgba(138, 138, 138, 0.19);
 }
 .hcare-special:hover {
     border: none;
@@ -98,7 +98,6 @@
     padding-top: 1rem;
 }
 .hcare-special a {
-    border-bottom: 1px solid #151515;
     padding-bottom: .06rem;
 }
 .hcare-special a:hover {
