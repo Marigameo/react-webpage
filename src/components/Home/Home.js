@@ -9,10 +9,10 @@ import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import '@popperjs/core/dist/umd/popper.min';
 import Search from '../DynamicComponents/SearchBar/app/Search';
 import Feedback from './feedback';
-import AppSection from '../DynamicComponents/AppSection/AppSection';
 import 'jquery/dist/jquery.min';
 import Blog from '../Blog/Blog';
 import Three from '../DynamicComponents/Three/Three';
+import Appointment from '../Appointment/Appointment';
 
 const Home = () => {
 
@@ -37,7 +37,7 @@ const Home = () => {
     </section> 
 <Specialitites/>
 <Three/>
-<AppSection/>  
+<Appointment/>
 <div className="section-header text-center">
     <p className="section-p text-center">Top Health Care Professionals to Solve Your Health Issues.</p>
 </div>  

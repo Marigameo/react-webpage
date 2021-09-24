@@ -2,9 +2,10 @@ import React, {useEffect} from 'react';
 import './ForWoman.css';
 import BlogTwo from '../Blog/BlogTwo';
 
-import AppSection from '../DynamicComponents/AppSection/AppSection';
+// import AppSection from '../DynamicComponents/AppSection/AppSection';
 import Slide from './Slide/Slide';
 import WHI from './WHI/WHI';
+import Appointment from '../AppointmentW/Appointment';
 
 const ForWoman = () => {
     useEffect(() => {
@@ -21,7 +22,7 @@ const ForWoman = () => {
         </article>
     </section> 
 <Slide/>
-<AppSection/>
+<Appointment/>
 <WHI/>
 <BlogTwo/>
 
