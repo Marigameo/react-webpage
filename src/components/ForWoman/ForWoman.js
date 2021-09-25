@@ -12,7 +12,7 @@ const ForWoman = () => {
         window.scroll(0,0)
     }, )
     return ( 
-<main style={{paddingTop: '5rem'}}>
+<main>
 <section className="fw-banner">
         <article className="banner-design">
             <div className="banner-header">

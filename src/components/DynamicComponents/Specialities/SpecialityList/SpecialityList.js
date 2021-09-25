@@ -6,27 +6,35 @@ import { SpecialityDataTwo } from './Data/SpecialityDataTwo';
 
 const checker = [
   {
+    id:1,
     text: `lorem ipsum loremkjhi iuhiuhi`
   },
   {
+    id:2,
     text: `lorem ipsum loremkjhi iuhiuhi`
   },
   {
+    id:3,
     text: `lorem ipsum loremkjhi iuhiuhi`
   },
   {
+    id:4,
     text: `lorem ipsum loremkjhi iuhiuhi`
   },
   {
+    id:5,
     text: `lorem ipsum loremkjhi iuhiuhi`
   },
   {
+    id:6,
     text: `lorem ipsum loremkjhi iuhiuhi`
   },
   {
+    id:7,
     text: `lorem ipsum loremkjhi iuhiuhi`
   },
   {
+    id:8,
     text: `lorem ipsum loremkjhi iuhiuhi`
   }
 ]
@@ -58,7 +66,7 @@ const SpecialityList = () => {
                 <div>
                 {checker.map((item, index) => {
                   return(
-                  <label className="custom_check">
+                  <label className="custom_check" key={item.id}>
                     <input type="checkbox" name="gender_type" / >
                     <span className="checkmark"></span>{item.text}
                   </label>

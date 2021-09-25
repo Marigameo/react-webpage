@@ -183,9 +183,9 @@ const data = [
 </div>
 
 <div className="col-xl-5 col-lg-12 map-right">
-<div class="wrapper">
-  <div class="content">
-    <div class="theiaStickySidebar">
+<div className="wrapper">
+  <div className="content">
+    <div className="theiaStickySidebar">
     <h1>Hello World</h1>
     </div>
   </div>

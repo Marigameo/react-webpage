@@ -26,7 +26,7 @@ const Diagnostics = () => {
 	return ( 
 		<>
 		<Container>
-		<section style={{paddingTop: '7rem'}}><Search/></section>
+		<section style={{paddingTop: '2rem'}}><Search/></section>
   		<Carousel/>
 		</Container>
 		  <section className="work-section" id="view-btn">

@@ -17,7 +17,7 @@ const Appointment = () => {
                     <p>Book this method if you want consultation with me over Phone. 
                         This method is for those who are outside of Bangalore-India 
                         and unable to visit clinic and meet me personally. </p>
-                        <button type="button" class="btn btn-success">Book Telephonic Appointment</button>
+                        <button type="button" className="btn btn-success">Book Telephonic Appointment</button>
                     </article>
                     </section>
                 </div>

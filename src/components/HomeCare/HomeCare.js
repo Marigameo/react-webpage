@@ -39,7 +39,7 @@ const HomeCare = () => {
         window.scroll(0,0)
     }, )
     return (
-<main style={{paddingTop: '4rem'}} className="main-wrapper"> 
+<main className="main-wrapper"> 
 
 <Container className="c-banner-design">
             <Search/> 
