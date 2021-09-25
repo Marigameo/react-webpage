@@ -1,4 +1,5 @@
 import React,{useEffect}  from "react";
+import './specialities.css'
 import { Link, withRouter } from "react-router-dom";
 import { SpecialityData } from "./SpecialityList/Data/SpecialityData";
 

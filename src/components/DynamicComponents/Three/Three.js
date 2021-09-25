@@ -1,4 +1,5 @@
 import React from 'react';
+import { Container } from 'react-bootstrap';
 //images 
 import threeOne from "../../assets/img/three/1.png";
 import threeTwo from "../../assets/img/three/2.png";
@@ -20,7 +21,8 @@ const data = [
 ]
 const Three = () => {
   return (
-    <section className="section-two text-center">
+    <Container>
+        <section className="section-two text-center">
       {data.map((item, index) => {
         return(
           <div id="s-two" className="styles-two">
@@ -28,7 +30,7 @@ const Three = () => {
                 <img key={item.text} src={item.img} alt="#/"/>
             </div>
             <div className="body-two text-center">
-                <h3 className="h3-two">{item.text}</h3>
+                <h5 className="h3-two">{item.text}</h5>
                 <div className="text-center">
                 <button id="section-btn">Check Now</button>
                 </div>
@@ -37,6 +39,7 @@ const Three = () => {
         )
       })}
     </section>
+    </Container>
   );
 };
 

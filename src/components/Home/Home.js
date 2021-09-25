@@ -13,6 +13,7 @@ import 'jquery/dist/jquery.min';
 import Blog from '../Blog/Blog';
 import Three from '../DynamicComponents/Three/Three';
 import Appointment from '../Appointment/Appointment';
+import Space from '../DynamicComponents/Space/Space';
 
 const Home = () => {
 
@@ -23,7 +24,7 @@ const Home = () => {
     return ( 
         <>
 <main className="main-wrapper">
-
+<Space/>
     <section className="banner-home">
         <article className="banner-design">
             <div className="banner-header">

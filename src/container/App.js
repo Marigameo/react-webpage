@@ -1,12 +1,12 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-// import Navbar from '../components/Navbar/Navbar';
-import NavbarComp from '../components/Navbar'
+import Navbar from '../components/Navbar/Navbar';
+// import NavbarComp from '../components/Navbar'
 
 function App() {
   return (
     <div className="App">
-      <NavbarComp/>
-    {/* <Navbar/> */}
+      {/* <NavbarComp/> */}
+    <Navbar/>
     </div>
   );
 }

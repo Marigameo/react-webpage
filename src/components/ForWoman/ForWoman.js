@@ -2,10 +2,10 @@ import React, {useEffect} from 'react';
 import './ForWoman.css';
 import BlogTwo from '../Blog/BlogTwo';
 
-// import AppSection from '../DynamicComponents/AppSection/AppSection';
 import Slide from './Slide/Slide';
 import WHI from './WHI/WHI';
 import Appointment from '../AppointmentW/Appointment';
+import Space from '../DynamicComponents/Space/Space';
 
 const ForWoman = () => {
     useEffect(() => {
@@ -13,6 +13,7 @@ const ForWoman = () => {
     }, )
     return ( 
 <main>
+    <Space/>
 <section className="fw-banner">
         <article className="banner-design">
             <div className="banner-header">

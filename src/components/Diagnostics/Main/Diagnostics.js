@@ -17,6 +17,7 @@ import { Link } from 'react-router-dom';
 import { Container } from 'react-bootstrap';
 import Search from '../../DynamicComponents/SearchBar/app/Search';
 import Carousel from '../Components/Carousel';
+import Space from '../../DynamicComponents/Space/Space';
 
 
 const Diagnostics = () => {
@@ -26,6 +27,7 @@ const Diagnostics = () => {
 	return ( 
 		<>
 		<Container>
+			<Space/>
 		<section style={{paddingTop: '2rem'}}><Search/></section>
   		<Carousel/>
 		</Container>
@@ -79,13 +81,11 @@ const Diagnostics = () => {
 									return(
 									<div className="col-lg-4 col-md-4">
 										<Link to='/pop-test'>
-										<div className="brower-box">
-											<div className='pop-design' key={item.id}>
+										<div className="pop-box">
+											<div className='popper-design' key={item.id}>
 											<img width={64} height={64} src={item.img} alt=""/>
 											<h4>{item.text}</h4>
-											<h6>Total Tests included (3)</h6>
-											<p>₹ 750</p>
-											<h5>ADD TO CART</h5>
+										
 											</div>
 										</div>
 										</Link>
@@ -95,7 +95,9 @@ const Diagnostics = () => {
 					</div>
 				</div>
 				</div>
+				<Link to='/pop-test'>
 				<button className="btn view-btn">View More</button>
+				</Link>
 			</section>
 	
 	<section id="top-tests">

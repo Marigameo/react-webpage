@@ -1,6 +1,7 @@
 import React from 'react';
 import BOne from './BOne';
 import BTwo from './BTwo';
+import './Blog.css'
 
 function Blog() {
   return (

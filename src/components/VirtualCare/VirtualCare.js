@@ -7,10 +7,12 @@ import vBanner from '../assets/img/vbanner.jpg'
 import FAQ from '../DynamicComponents/FAQ/FAQ'
 import Specialitites from '../DynamicComponents/Specialities/specialities';
 import Search from '../DynamicComponents/SearchBar/app/Search';
+import Space from '../DynamicComponents/Space/Space';
 
 function VirtualCare() {
   return (
     <>
+    <Space/>
     <section className="banner-vcare">
         <article className="banner-design">
             <div className="banner-header">

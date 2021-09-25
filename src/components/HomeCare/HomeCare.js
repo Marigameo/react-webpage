@@ -11,6 +11,7 @@ import hFour from '../assets/img/home-care/04.jpg'
 import hFive from '../assets/img/home-care/05.jpg'
 import Disclaimer from './Disclaimer'
 import AppSection from '../DynamicComponents/AppSectionHC/AppSection'
+import Space from '../DynamicComponents/Space/Space'
 
 const data = [
     {
@@ -40,7 +41,7 @@ const HomeCare = () => {
     }, )
     return (
 <main className="main-wrapper"> 
-
+<Space/>
 <Container className="c-banner-design">
             <Search/> 
     </Container>

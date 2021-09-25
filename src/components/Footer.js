@@ -90,7 +90,8 @@ const Footer = () => {
                     
                     <div className="footer-widget text-left footer-menu">
                         <h5>Get the Medatu App, now!</h5>
-                        <img src={google} alt="" width={140} height={40} style={{marginRight: "1rem"}}/><img src={appStore} alt="" width={140} height={40}/>
+                        <img src={google} alt="" width={140} height={40} style={{margin: ".2rem"}}/>
+                        <img style={{margin: ".2rem"}} src={appStore} alt="" width={140} height={40}/>
                     </div>
                         <br /><div className="social-icon">
                                     <ul>
