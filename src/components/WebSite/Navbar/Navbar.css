@@ -22,7 +22,7 @@
     top: 30;
     z-index: 999;
     padding: 0 !important;
-    border-bottom: #d3d3d3 solid 1px;
+    border-bottom: #cccddd solid 1px;
   }
   .navbar-container {
     display: flex;
