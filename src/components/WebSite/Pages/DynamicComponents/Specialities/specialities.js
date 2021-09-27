@@ -72,7 +72,7 @@ export default class Specialitites extends Component {
                   <img src={sSeven} alt="Speciality"/> 
                 </div>
               </Link>
-              <p>General Physician</p>
+              <p>Paediatrician</p>
               </aside>
           </article>
 
