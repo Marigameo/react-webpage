@@ -1,6 +1,3 @@
-import 'bootstrap/dist/js/bootstrap.min';
-import '@popperjs/core/dist/umd/popper.min';
-import 'jquery/dist/jquery.min';
 import './feedback.css'
 import { Container } from 'react-bootstrap';
 

@@ -2,8 +2,6 @@ import React,{useEffect} from 'react';
 import { Container } from 'react-bootstrap';
 import Specialitites from '../DynamicComponents/Specialities/specialities';
 import MultipleItems from '../Doctors/Doctors/doctors';
-import 'bootstrap/dist/js/bootstrap.min';
-import '@popperjs/core/dist/umd/popper.min';
 import Search from '../DynamicComponents/SearchBar/app/Search';
 import Feedback from './feedback';
 import Blog from '../Blog/Blog';

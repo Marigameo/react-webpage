@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-webpage/static/css/main.120f3411.chunk.css",
-    "main.js": "/react-webpage/static/js/main.d61db5f5.chunk.js",
-    "main.js.map": "/react-webpage/static/js/main.d61db5f5.chunk.js.map",
+    "main.js": "/react-webpage/static/js/main.1bf0ea63.chunk.js",
+    "main.js.map": "/react-webpage/static/js/main.1bf0ea63.chunk.js.map",
     "runtime-main.js": "/react-webpage/static/js/runtime-main.6c48309c.js",
     "runtime-main.js.map": "/react-webpage/static/js/runtime-main.6c48309c.js.map",
     "static/css/2.f2512455.chunk.css": "/react-webpage/static/css/2.f2512455.chunk.css",
@@ -60,6 +60,7 @@
     "static/media/book-doc-03.f553cfb0.jpg": "/react-webpage/static/media/book-doc-03.f553cfb0.jpg",
     "static/media/book-doc-04.2387de20.jpg": "/react-webpage/static/media/book-doc-04.2387de20.jpg",
     "static/media/book-doc-05.6caede9a.jpg": "/react-webpage/static/media/book-doc-05.6caede9a.jpg",
+    "static/media/dianostics.34d8b89e.jpg": "/react-webpage/static/media/dianostics.34d8b89e.jpg",
     "static/media/doctor-thumb-02.a916acec.jpg": "/react-webpage/static/media/doctor-thumb-02.a916acec.jpg",
     "static/media/FAQPage.css": "/react-webpage/static/media/f-banner.e9544d44.jpg",
     "static/media/feature-01.fe69ebac.jpg": "/react-webpage/static/media/feature-01.fe69ebac.jpg",
@@ -71,7 +72,7 @@
     "static/media/googleplay.0f101371.png": "/react-webpage/static/media/googleplay.0f101371.png",
     "static/media/VirtualCare.css": "/react-webpage/static/media/hcare-banner.d9f0c87a.jpg",
     "static/media/HomeCare.css": "/react-webpage/static/media/home-care-banner.4d193be1.jpg",
-    "static/media/home-app.34d8b89e.jpg": "/react-webpage/static/media/home-app.34d8b89e.jpg",
+    "static/media/home.d850d25a.jpg": "/react-webpage/static/media/home.d850d25a.jpg",
     "static/media/logo.f2967192.png": "/react-webpage/static/media/logo.f2967192.png",
     "static/media/aboutus.css": "/react-webpage/static/media/one.5f14b21f.jpg",
     "static/media/sec-1.72573bdd.png": "/react-webpage/static/media/sec-1.72573bdd.png",
@@ -86,6 +87,6 @@
     "static/css/2.f2512455.chunk.css",
     "static/js/2.71f6f9a9.chunk.js",
     "static/css/main.120f3411.chunk.css",
-    "static/js/main.d61db5f5.chunk.js"
+    "static/js/main.1bf0ea63.chunk.js"
   ]
 }

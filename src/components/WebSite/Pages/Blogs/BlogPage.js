@@ -1,6 +1,4 @@
 import React from 'react';
-import '@popperjs/core/dist/umd/popper.min';
-import 'jquery/dist/jquery.min';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faReply, faSearch } from '@fortawesome/free-solid-svg-icons';
 import { faFacebook, faGooglePlus, faLinkedin, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
