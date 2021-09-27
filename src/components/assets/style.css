@@ -2510,7 +2510,7 @@ button.bg-danger:hover {
     margin-top: 4rem;
 }
 .section-specialities {
-	padding: 80px 0;
+	padding: 80px 0 20px;
 }
 .slick-dots {
     position: absolute;

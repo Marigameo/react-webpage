@@ -1,0 +1,25 @@
+.a-banner {
+    margin: 4rem auto;
+}
+
+.a-content h2{
+    background-color: #fdfdfd;
+    padding: 1rem;
+}
+.a-content p {
+    font-size: 18px;
+    font-weight: 400;
+}
+.a-content {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0;
+    margin: 1rem;
+    width: 40vw;
+    height: 50vh;
+}
+.con-content {
+    margin: 2rem 0 0 6rem;
+}

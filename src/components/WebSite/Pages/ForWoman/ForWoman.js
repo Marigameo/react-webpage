@@ -4,7 +4,7 @@ import BlogTwo from '../Blog/BlogTwo';
 
 import Slide from './Slide/Slide';
 import WHI from './WHI/WHI';
-import Appointment from '../AppointmentW/Appointment';
+import Appointment from '../Appointments/AppointmentW/Appointment';
 import Space from '../DynamicComponents/Space/Space';
 
 const ForWoman = () => {

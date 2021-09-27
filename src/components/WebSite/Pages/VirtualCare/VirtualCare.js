@@ -1,6 +1,5 @@
 import React from 'react';
 import { Row } from 'react-bootstrap';
-import AppSection from '../DynamicComponents/AppSectionV/AppSection';
 import MultipleItems from '../Doctors/Doctors/doctors';
 import './VirtualCare.css'
 import vBanner from '../../../assets/img/vbanner.jpg'
@@ -8,6 +7,7 @@ import FAQ from '../DynamicComponents/FAQ/FAQ'
 import Specialitites from '../DynamicComponents/Specialities/specialities';
 import Search from '../DynamicComponents/SearchBar/app/Search';
 import Space from '../DynamicComponents/Space/Space';
+import Appointment from '../Appointments/AppointmentVC/Appointment';
 
 function VirtualCare() {
   return (
@@ -25,8 +25,7 @@ function VirtualCare() {
         </article>
     </section>
     <Specialitites/>
-    
-    <AppSection/>
+<Appointment/>
     <div className="section-header text-center">
       <p className="section-p text-center">Top Online Doctors to Solve Your Health Issues.</p>
   </div> 

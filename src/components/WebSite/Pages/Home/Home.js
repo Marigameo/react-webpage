@@ -8,7 +8,7 @@ import Search from '../DynamicComponents/SearchBar/app/Search';
 import Feedback from './feedback';
 import Blog from '../Blog/Blog';
 import Three from '../DynamicComponents/Three/Three';
-import Appointment from '../Appointment/Appointment';
+import Appointment from '../Appointments/Appointment/Appointment';
 import Space from '../DynamicComponents/Space/Space';
 
 const Home = () => {

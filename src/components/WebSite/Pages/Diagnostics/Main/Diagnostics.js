@@ -3,21 +3,17 @@ import './Diagnostics.css'
 import { DiagTop } from '../DiagData/Icons/DiagTop';
 import { DiagPop } from '../DiagData/Icons/DiagPop';
 import PosterCard from '../Poster/PosterCard';
-import 'bootstrap/dist/js/bootstrap.min';
-import '@popperjs/core/dist/umd/popper.min';
-import 'jquery/dist/jquery.min';
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { faSearch } from '@fortawesome/free-solid-svg-icons';
-
-//images
-import iconOne from "../../../../assets/img/specialities/svg/1.svg";
-import iconTwo from "../../../../assets/img/specialities/svg/2.svg";
-import iconThree from "../../../../assets/img/specialities/svg/3.svg";
 import { Link } from 'react-router-dom';
 import { Container } from 'react-bootstrap';
 import Search from '../../DynamicComponents/SearchBar/app/Search';
 import Carousel from '../Components/Carousel';
 import Space from '../../DynamicComponents/Space/Space';
+import Appointment from '../../Appointments/AppointmentD/Appointment';
+//images
+import iconOne from "../../../../assets/img/specialities/svg/1.svg";
+import iconTwo from "../../../../assets/img/specialities/svg/2.svg";
+import iconThree from "../../../../assets/img/specialities/svg/3.svg";
+
 
 
 const Diagnostics = () => {
@@ -84,7 +80,7 @@ const Diagnostics = () => {
 										<div className="pop-box">
 											<div className='popper-design' key={item.id}>
 											<img width={64} height={64} src={item.img} alt=""/>
-											<h4>{item.text}</h4>
+											<h5>{item.text}</h5>
 										
 											</div>
 										</div>
@@ -99,6 +95,8 @@ const Diagnostics = () => {
 				<button className="btn view-btn">View More</button>
 				</Link>
 			</section>
+
+	<Appointment/>
 	
 	<section id="top-tests">
 	<article id="view-btn">
@@ -115,7 +113,7 @@ const Diagnostics = () => {
 									<Link to='/test-detail'>
 									<div className="top-test-1" key={item.id}>
 										<img className="top-test-img" src={item.img} alt=""/>
-										<h4>{item.text}</h4>
+										<h5>{item.text}</h5>
 									</div>
 									</Link>
 								</div>
