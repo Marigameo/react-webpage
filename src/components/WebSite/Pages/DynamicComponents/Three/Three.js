@@ -25,7 +25,7 @@ const Three = () => {
         <section className="section-two text-center">
       {data.map((item, index) => {
         return(
-          <div id="s-two" className="styles-two">
+          <div id="s-two" className="styles-two" key={item.img}>
             <div className="top-two">
                 <img key={item.text} src={item.img} alt="#/"/>
             </div>

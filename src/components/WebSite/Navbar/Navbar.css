@@ -102,11 +102,31 @@
     display: none;
   }
 
-  @media screen and (max-width: 1060px) {
-  h6 {
+  @media screen and (max-width: 1290px) {
+  .nav-content h6 {
     font-size: 14px !important;
   }
+  .nav-content p {
+    font-size: 12px !important;
   }
+  }
+  @media screen and (max-width: 1250px) {
+    .nav-content h6 {
+      font-size: 12px !important;
+    }
+    .nav-content p {
+      font-size: 10px !important;
+    }
+    }
+
+    @media screen and (max-width: 1080px) {
+      .nav-content h6 {
+        font-size: 11px !important;
+      }
+      .nav-content p {
+        font-size: 9px !important;
+      }
+      }
   
   @media screen and (max-width: 1060px) {
     .NavbarItems {

@@ -10236,7 +10236,7 @@ ul.benifits-col li i{
 		margin: 0 !important;
 	}
 	.banner-home {
-		padding-top: 3rem !important;
+		padding-top: 1rem !important;
 	}
 	.dropdown .selected-value input {
 		width: 420px !important;
@@ -10716,12 +10716,10 @@ ul.benifits-col li i{
 	.form-design {
 		width: 70vw !important;
 	}
-.banner-home {
-	background-image: none !important;
-}
 	.banner-home {
-		padding-top: 6rem !important;
+		padding-top: 1rem !important;
 		height: 40vh !important;
+		background-image: none !important;
 	}
 .section-specialities {
 	margin-top: 8rem;
