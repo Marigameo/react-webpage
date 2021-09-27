@@ -85,7 +85,7 @@ function Navbar() {
         <li className='nav-item'><Link to='/coming-soon' className='nav-links' onClick={closeMobileMenu}>
         <div className='nav-content'>
             <h6>Pharmacy</h6>
-            <p>Buy Medicines Online</p>
+            <p>medatu.shop</p>
         </div>
         </Link></li>
 

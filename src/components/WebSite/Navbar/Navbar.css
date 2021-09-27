@@ -67,6 +67,8 @@
   .nav-content h6{
       margin: 0 !important;
       text-align: start;
+      font-weight: 530;
+      font-size: 17px !important;
   }
   .nav-content p {
     font-size: 12px !important;
