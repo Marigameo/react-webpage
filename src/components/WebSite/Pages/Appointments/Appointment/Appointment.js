@@ -1,5 +1,5 @@
 import { Container, Row } from "react-bootstrap";
-import aHome from '../../../../assets/img/app/home-app.jpg';
+import aHome from '../../../../assets/img/app/home.jpg';
 import AppointmentsData from "../AppointmentsData";
 import './Appointment.css'
 
