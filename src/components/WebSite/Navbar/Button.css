@@ -12,13 +12,13 @@
   
   .btn--primary {
     background-color: var(--primary);
-    color: #242424;
+    color: #242424 !important;
     border: 1px solid var(--primary);
   }
   
   .btn--outline {
-    background-color: #373B79;
-    color: #fdfdfd;
+    background-color: #373B79 !important;
+    color: #fdfdfd !important;
     padding: 8px 20px;
     border: 1px solid var(--primary);
     transition: all 0.3s ease-out;
@@ -37,8 +37,8 @@
   .btn--large:hover,
   .btn--medium:hover {
     transition: all 0.3s ease-out;
-    background: #fdfdfd;
-    color: #242424;
-    border: 1px solid #151515;
+    background: #fdfdfd !important;
+    color: #242424 !important;
+    border: 1px solid #151515 !important;
     transition: 250ms;
   }

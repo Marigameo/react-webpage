@@ -1116,11 +1116,6 @@ button.bg-danger:hover {
 .select2-dropdown {
 	border-color: #dcdcdc;
 }
-
-/*-----------------
-	6. Nav Tabs
------------------------*/
-
 .tab-content {
 	padding-top: 20px;
 }
@@ -3797,29 +3792,6 @@ p.speciality {
 	color: #000000;
 	margin-bottom: 0;
 }
-.specialist-nav i {
-	border-radius: 50%;
-    height: 35px;
-    width: 35px;
-    text-align: center;
-    line-height: 35px;
-    background: #fdfdfd;
-	box-shadow: 0px 4px 24px rgba(183, 183, 183, 0.25);
-    color: #D84153;
-    margin: auto;
-    display: block;
-    -webkit-transition:all .3s ease 0s;
-    -moz-transition:all .3s ease 0s;
-    -o-transition:all .3s ease 0s;
-    transition:all .3s ease 0s;
-}
-.specialist-card:hover .specialist-nav i {
-	background: #373B7A;
-	color: #fdfdfd;
-}
-.specialities-section {
-	padding: 80px 0 55px;
-}
 .our-doctors-card {
 	background: rgba(232, 246, 255, 0.4);
 	border: 1px solid rgba(231, 237, 255, 0.5);
@@ -4004,11 +3976,6 @@ p.speciality {
     text-align: center;
     font-size: 12px;
 }
-.blogs-nav {
-	border: 1px solid #E8EEFF;
-    padding: 10px;
-    border-top: 0;
-}
 .slick-list {
 	height: fit-content !important;
 }
@@ -4036,62 +4003,6 @@ p.speciality {
 }
 .doctor-search {
     padding-bottom: 15px;
-}
-.slide-nav-1 button.owl-next,
-.slide-nav-1 button.owl-prev,
-.slide-nav-2 button.owl-next,
-.slide-nav-2 button.owl-prev,
-.slide-nav-3 button.owl-next,
-.slide-nav-3 button.owl-prev,
-.slide-nav-4 button.owl-next,
-.slide-nav-4 button.owl-prev  {
-	width: 34px;
-	height: 34px;
-	background: #373B7A;
-	text-shadow: none;
-	top: 4px;
-	cursor: pointer;
-	border: 0;
-	color: #fdfdfd;
-	margin-bottom: 15px;
-	border-radius: 8px;
-	transform: rotate(-44deg);
-}
-
-.owl-nav button.owl-next span,
-.owl-nav button.owl-prev span {
-	font-size: 34px;
-	line-height: 25px;
-	transform: rotate(44deg);
-	display: flex;
-	padding-left: 6px;
-	padding-bottom: 3px;
-}
-
-.owl-nav button.owl-next {
-	margin-left: 20px;
-}
-
-.owl-theme .owl-dots,
-.owl-nav button {
-	margin-top: 30px;
-}
-
-.owl-theme .owl-dots .owl-dot span {
-	width: 28px;
-	height: 6px;
-	margin: 5px 3px 0;
-	background: #F3F3F3;
-	display: block;
-	-webkit-backface-visibility: visible;
-	transition: opacity .2s ease;
-	border-radius: 30px;
-	position: relative;
-}
-
-.owl-theme .owl-dots .owl-dot.active span,
-.owl-theme .owl-dots .owl-dot:hover span {
-	background: #00825B;
 }
 .custom-arrow {
     transform: rotate(44deg);
@@ -9396,10 +9307,6 @@ ul.benifits-col li i{
 	}
 }
 @media only screen and (max-width: 1199px) {
-	.header-nav {
-		padding-left: 20px;
-		padding-right: 20px;
-	}
 	.container-fluid {
 		padding-left: 20px !important;
 		padding-right: 20px !important;
@@ -9431,9 +9338,6 @@ ul.benifits-col li i{
 	.circle-bar {
 		margin: 0 0 15px;
 	}
-	.header-navbar-rht li.contact-item {
-		display: none;
-	}
 	.map-right {
 		height: 450px;
 		position:relative;
@@ -9449,53 +9353,6 @@ ul.benifits-col li i{
 	}
 }
 @media only screen and (max-width: 991.98px) {
-	.main-nav {
-		padding: 0;
-		-ms-flex-direction: column;
-		flex-direction: column;
-		padding-left: 0;
-		margin-bottom: 0;
-		list-style: none;
-	}
-	.main-nav ul {
-		background-color: #3474ac;
-		display: none;
-		list-style: none;
-		margin: 0;
-		padding-left: 0;
-	}
-	.main-nav > li {
-		border-bottom: 1px solid #fdfdfd;
-		margin-left: 0;
-	}
-	.main-nav li + li {
-		margin-left: 0;
-	}
-	.main-nav > li > a {
-		line-height: 1.5;
-		padding: 15px 20px !important;
-		color: #fdfdfd;
-		font-size: 14px;
-		font-weight: 500;
-	}
-	.main-nav > li > a > i {
-		float: right;
-		margin-top: 5px;
-	}
-	.main-nav > li .submenu li a {
-		border-top: 0;
-		color: #fdfdfd;
-		padding: 10px 15px 10px 35px;
-	}
-	.main-nav > li .submenu ul li a {
-		padding: 10px 15px 10px 45px;
-	}
-	.main-nav .has-submenu.active > a {
-		color: #373B7A;
-	}
-	.main-nav .has-submenu.active .submenu li.active > a {
-		color: #373B7A;
-	}
 	.login-left {
 		display: none;
 	}
@@ -10113,9 +9970,6 @@ ul.benifits-col li i{
 	.section-heading {
 		margin-bottom: 15px;
 	}
-	.owl-theme .owl-dots, .owl-nav button {
-		margin-top: 10px;
-	}
 	.clinics-section {
 		padding: 30px 0 10px;
 	}
@@ -10133,17 +9987,6 @@ ul.benifits-col li i{
 	}
 	.section-heading h2 {
 		font-size: 20px;
-	}
-	.slide-nav-1 button.owl-next,
-	.slide-nav-1 button.owl-prev,
-	.slide-nav-2 button.owl-next,
-	.slide-nav-2 button.owl-prev,
-	.slide-nav-3 button.owl-next,
-	.slide-nav-3 button.owl-prev,
-	.slide-nav-4 button.owl-next,
-	.slide-nav-4 button.owl-prev {
-		width: 28px;
-		height: 28px;
 	}
 	.section-search-3 .banner-info {
 		padding: 20px 0 100px;
@@ -10632,18 +10475,7 @@ ul.benifits-col li i{
 	}
 	.card-footer {
 		padding: .75rem 1.25rem;
-	}
-	.header-nav {
-		padding-left: 15px;
-		padding-right: 15px;
-	}
-	.header-navbar-rht {
-		display: none;
-	}
-	.main-nav li.login-link {
-		display: block;
-	}
-	.section-p{
+	}.section-p{
 		padding-left: 8px;
 	}
 	.slick-track {
