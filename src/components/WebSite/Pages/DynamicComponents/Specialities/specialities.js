@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
 import './specialities.css'
-import { Link, withRouter } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import sFour from "../../../../assets/img/specialities/specialities-04.png";
 import sFive from "../../../../assets/img/specialities/specialities-05.png";
