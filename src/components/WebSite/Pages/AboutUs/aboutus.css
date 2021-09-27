@@ -1,0 +1,31 @@
+h1{
+    color: #4c4c7c;
+}
+.sectioncolor{
+  background-color: #e4ebfa73;
+}
+p{
+  text-align: left;
+}
+.container1{
+  padding: 3rem 0;
+}
+.sec-a3 {
+  padding-left: 8rem;
+}
+.sec-a3-h {
+  padding-top: 6rem;
+}
+.seclast-a {
+  padding-top: 8rem;
+}
+.seclast-a h5{
+  padding-top: 2rem;
+  font-size: 18px;
+}
+.sec-a2 {
+  background-image: url(../../../assets/img/about/one.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}

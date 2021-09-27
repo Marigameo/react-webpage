@@ -1,0 +1,134 @@
+.home-care-section img{
+    width: 60%;
+    height: auto;
+    margin: 2rem 2rem 1rem;
+    border-radius: .5rem;
+}
+.home-care-section:hover img:hover {
+    box-shadow: 0 4px 8px 0 rgba(1, 1, 37, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);
+}
+.home-care-section {
+    padding: 2rem 0;
+    margin: 2rem 0 0;
+    background-color: #eeeeee;
+}
+.disclaimer {
+    padding: 2rem 0;
+    background-color: #fdfdfd;
+}
+.home-care-banner {
+    background-image: url(../../../assets/img/home-care-banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-start;
+    padding: 6rem 0 2rem 8rem;
+    align-items: baseline;
+    margin: 0;
+    height: 64vh;
+    width: 100vw;
+}
+.home-care-header h1 {
+	font-size: 2rem !important;
+	color: #151515;
+	font-weight: 200 !important;
+    letter-spacing: .103rem;
+    line-break:strict;
+    padding-bottom: 1rem;
+}
+.c-express {
+    display: flex;
+    align-items: baseline;
+    padding-bottom: 1rem;
+    flex-direction: column;
+}
+.home-care-form {
+    border-radius: .6rem;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    padding: 1rem;
+    width: 20rem;
+    margin-bottom: 1rem;
+}
+.btn-input {
+    padding: .4rem 1rem;
+    width: 6rem;
+    border-radius: .3rem;
+}
+#number {
+    border-radius: .3rem;
+    border-color: #eeeeee;
+    width: 18.6vw;
+    padding: .5rem .2rem;
+}
+#name {
+    border-radius: .3rem;
+    border-color: #eeeeee;
+    width: 18.6vw;
+    padding: .5rem .2rem;
+    margin-bottom: .5rem;
+}
+#service {
+    border-radius: .3rem;
+    border: none;
+    width: 18.6vw;
+    padding: .5rem .2rem;
+}
+#locate {
+    border-radius: .3rem;
+    border-color: #eeeeee;
+    width: 18.6vw;
+    padding: .5rem .2rem;
+    margin-bottom: .5rem;
+}
+.hcare-special {
+    margin: 1rem 1rem;
+    padding:1rem;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 .6px .8px 0 rgba(117, 117, 117, 0.2), 0 1px 2px 0 rgba(138, 138, 138, 0.19);
+}
+.hcare-special:hover {
+    border: none;
+    box-shadow: 0 1px 2px 0 rgba(117, 117, 117, 0.2), 0 2px 4px 0 rgba(138, 138, 138, 0.19);
+}
+.hcare-special h5 {
+    padding-top: 1rem;
+}
+.hcare-special a {
+    padding-bottom: .06rem;
+}
+.hcare-special a:hover {
+    color: darkgreen !important;
+    border-bottom: 1px solid darkgreen;
+}
+.hcare-spec {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.hc-two {
+    background-image: url(../../../assets/img/hcare.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-start;
+    padding: 6rem 0 2rem 6.5rem;
+    align-items: baseline;
+    margin: 0;
+    height: 80vh;
+    width: 100vw;
+}
+.hc-two button{
+    margin-top: 22rem;
+}
+.hc-banner-design {
+    padding: 4rem;
+}
+.banner-search {
+    display: flex;
+    align-items: center;
+}

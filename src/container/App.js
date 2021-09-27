@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Navbar from '../components/Navbar/Navbar';
+import Navbar from '../components/WebSite/Navbar/Navbar';
 // import NavbarComp from '../components/Navbar'
 
 function App() {
