@@ -11,7 +11,7 @@
     font-size: 3rem;
   }
 .navbar {
-    background-color: #eceff3;
+    background-color: #fdfdfd;
     height: 80px;
     width: 100vw !important;
     display: flex;
@@ -22,6 +22,7 @@
     top: 30;
     z-index: 999;
     padding: 0;
+    border-bottom: #d3d3d3 solid 1px;
   }
   .navbar.active {
     background-color: rgb(232, 233, 247);
