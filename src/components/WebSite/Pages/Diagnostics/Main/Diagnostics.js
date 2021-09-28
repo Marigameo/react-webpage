@@ -8,7 +8,6 @@ import { Container } from 'react-bootstrap';
 import Search from '../../DynamicComponents/SearchBar/app/Search';
 import Carousel from '../Components/Carousel';
 import Space from '../../DynamicComponents/Space/Space';
-import Appointment from '../../Appointments/AppointmentD/Appointment';
 //images
 import iconOne from "../../../../assets/img/specialities/svg/1.svg";
 import iconTwo from "../../../../assets/img/specialities/svg/2.svg";
@@ -95,9 +94,7 @@ const Diagnostics = () => {
 				<button className="btn view-btn">View More</button>
 				</Link>
 			</section>
-
-	<Appointment/>
-	
+			
 	<section id="top-tests">
 	<article id="view-btn">
 		<div className="section-header text-center">

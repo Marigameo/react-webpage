@@ -10,7 +10,6 @@ import hThree from '../../../assets/img/home-care/03.jpg'
 import hFour from '../../../assets/img/home-care/04.jpg'
 import hFive from '../../../assets/img/home-care/05.jpg'
 import Disclaimer from './Disclaimer'
-import AppSection from '../DynamicComponents/AppSectionHC/AppSection'
 import Space from '../DynamicComponents/Space/Space'
 
 const data = [
@@ -64,8 +63,6 @@ const HomeCare = () => {
     </Container>
 
     <article className="row hc-two"></article>
-    
-<AppSection/>
 <Disclaimer/>
 </main>
     );
