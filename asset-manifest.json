@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/react-webpage/static/css/main.c2e91977.chunk.css",
-    "main.js": "/react-webpage/static/js/main.6808aa7e.chunk.js",
-    "main.js.map": "/react-webpage/static/js/main.6808aa7e.chunk.js.map",
+    "main.css": "/react-webpage/static/css/main.96da46cd.chunk.css",
+    "main.js": "/react-webpage/static/js/main.254345b2.chunk.js",
+    "main.js.map": "/react-webpage/static/js/main.254345b2.chunk.js.map",
     "runtime-main.js": "/react-webpage/static/js/runtime-main.f9b14af9.js",
     "runtime-main.js.map": "/react-webpage/static/js/runtime-main.f9b14af9.js.map",
     "static/css/2.f2512455.chunk.css": "/react-webpage/static/css/2.f2512455.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.53429ec9.chunk.js.map": "/react-webpage/static/js/3.53429ec9.chunk.js.map",
     "index.html": "/react-webpage/index.html",
     "static/css/2.f2512455.chunk.css.map": "/react-webpage/static/css/2.f2512455.chunk.css.map",
-    "static/css/main.c2e91977.chunk.css.map": "/react-webpage/static/css/main.c2e91977.chunk.css.map",
+    "static/css/main.96da46cd.chunk.css.map": "/react-webpage/static/css/main.96da46cd.chunk.css.map",
     "static/js/2.eed37a73.chunk.js.LICENSE.txt": "/react-webpage/static/js/2.eed37a73.chunk.js.LICENSE.txt",
     "static/media/01.3ffa3828.jpg": "/react-webpage/static/media/01.3ffa3828.jpg",
     "static/media/01.6fb98467.png": "/react-webpage/static/media/01.6fb98467.png",
@@ -60,7 +60,7 @@
     "static/media/book-doc-03.f553cfb0.jpg": "/react-webpage/static/media/book-doc-03.f553cfb0.jpg",
     "static/media/book-doc-04.2387de20.jpg": "/react-webpage/static/media/book-doc-04.2387de20.jpg",
     "static/media/book-doc-05.6caede9a.jpg": "/react-webpage/static/media/book-doc-05.6caede9a.jpg",
-    "static/media/dianostics.dbb8120a.jpg": "/react-webpage/static/media/dianostics.dbb8120a.jpg",
+    "static/media/dianostics.c668fbd3.jpg": "/react-webpage/static/media/dianostics.c668fbd3.jpg",
     "static/media/doctor-thumb-02.a916acec.jpg": "/react-webpage/static/media/doctor-thumb-02.a916acec.jpg",
     "static/media/FAQPage.css": "/react-webpage/static/media/f-banner.e9544d44.jpg",
     "static/media/feature-01.fe69ebac.jpg": "/react-webpage/static/media/feature-01.fe69ebac.jpg",
@@ -79,14 +79,14 @@
     "static/media/sec-2.0306a218.png": "/react-webpage/static/media/sec-2.0306a218.png",
     "static/media/slider.35189df1.png": "/react-webpage/static/media/slider.35189df1.png",
     "static/media/vbanner.f68d258d.jpg": "/react-webpage/static/media/vbanner.f68d258d.jpg",
-    "static/media/vc.3213e880.jpg": "/react-webpage/static/media/vc.3213e880.jpg",
+    "static/media/vc.230a14a5.jpg": "/react-webpage/static/media/vc.230a14a5.jpg",
     "static/media/woman-app.c78d22b8.jpg": "/react-webpage/static/media/woman-app.c78d22b8.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.f9b14af9.js",
     "static/css/2.f2512455.chunk.css",
     "static/js/2.eed37a73.chunk.js",
-    "static/css/main.c2e91977.chunk.css",
-    "static/js/main.6808aa7e.chunk.js"
+    "static/css/main.96da46cd.chunk.css",
+    "static/js/main.254345b2.chunk.js"
   ]
 }
