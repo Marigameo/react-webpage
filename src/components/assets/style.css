@@ -2488,7 +2488,7 @@ button.bg-danger:hover {
     background-repeat: repeat;
 } 
 .section-header {
-	padding: 4rem 0 2rem;
+	padding: 0 0 2rem;
 }
 .section-header h2 {
     font-size: 36px;

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import { Row } from 'react-bootstrap';
 import MultipleItems from '../Doctors/Doctors/doctors';
 import './VirtualCare.css'
@@ -10,6 +10,9 @@ import Space from '../DynamicComponents/Space/Space';
 import Appointment from '../Appointments/AppointmentVC/Appointment';
 
 function VirtualCare() {
+  useEffect(() => {
+    window.scroll(0,0)
+}, )
   return (
     <>
     <Space/>
