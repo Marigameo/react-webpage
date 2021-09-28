@@ -48,80 +48,83 @@ export default class Specialitites extends Component {
       ]
     };
     return (
-      <Container id="view-btn">
-      <div className="section-header text-center">
+      <Container>
+        <main id='view-btn'>
+        <div className="section-header text-center">
         <h2>Clinics and Specialities</h2>
         </div>
         <Slider {...settings}>
 
-          <article className='s-items'>
-            <aside className="speicality-item">
-              <Link to='/doctors'> 
-                <div id='img-spec'>
-                  <img src={sThirteen} alt="Speciality"/> 
-                </div>
-              </Link>
-              <p>General Physician</p>
-              </aside>
-          </article>
+  <article className='s-items'>
+    <aside className="speicality-item">
+      <Link to='/doctors'> 
+        <div id='img-spec'>
+          <img src={sThirteen} alt="Speciality"/> 
+        </div>
+      </Link>
+      <p>General Physician</p>
+      </aside>
+  </article>
 
-          <article className='s-items'>
-            <aside className="speicality-item">
-              <Link to='/doctors'> 
-                <div id='img-spec'>
-                  <img src={sSeven} alt="Speciality"/> 
-                </div>
-              </Link>
-              <p>Paediatrician</p>
-              </aside>
-          </article>
+  <article className='s-items'>
+    <aside className="speicality-item">
+      <Link to='/doctors'> 
+        <div id='img-spec'>
+          <img src={sSeven} alt="Speciality"/> 
+        </div>
+      </Link>
+      <p>Paediatrician</p>
+      </aside>
+  </article>
 
-          <article className='s-items'>
-            <aside className="speicality-item">
-              <Link to='/doctors'> 
-                <div id='img-spec'>
-                  <img src={sFive} alt="Speciality"/> 
-                </div>
-              </Link>
-              <p>Dentist</p>
-              </aside>
-          </article>
+  <article className='s-items'>
+    <aside className="speicality-item">
+      <Link to='/doctors'> 
+        <div id='img-spec'>
+          <img src={sFive} alt="Speciality"/> 
+        </div>
+      </Link>
+      <p>Dentist</p>
+      </aside>
+  </article>
 
-          <article className='s-items'>
-            <aside className="speicality-item">
-              <Link to='/doctors'> 
-                <div id='img-spec'>
-                  <img src={sFour} alt="Speciality"/> 
-                </div>
-              </Link>
-              <p>Orthopaedics</p>
-              </aside>
-          </article>
+  <article className='s-items'>
+    <aside className="speicality-item">
+      <Link to='/doctors'> 
+        <div id='img-spec'>
+          <img src={sFour} alt="Speciality"/> 
+        </div>
+      </Link>
+      <p>Orthopaedics</p>
+      </aside>
+  </article>
 
-          <article className='s-items'>
-            <aside className="speicality-item">
-              <Link to='/doctors'> 
-                <div id='img-spec'>
-                  <img src={sSix} alt="Speciality"/> 
-                </div>
-              </Link>
-              <p>Ophthalmology</p>
-              </aside>
-          </article>
+  <article className='s-items'>
+    <aside className="speicality-item">
+      <Link to='/doctors'> 
+        <div id='img-spec'>
+          <img src={sSix} alt="Speciality"/> 
+        </div>
+      </Link>
+      <p>Ophthalmology</p>
+      </aside>
+  </article>
 
-          <article className='s-items'>
-            <aside className="speicality-item">
-              <Link to='/doctors'> 
-                <div id='img-spec'>
-                  <img src={sTen} alt="Speciality"/> 
-                </div>
-              </Link>
-              <p>ENT Doctor</p>
-              </aside>
-          </article>
-        </Slider>
+  <article className='s-items'>
+    <aside className="speicality-item">
+      <Link to='/doctors'> 
+        <div id='img-spec'>
+          <img src={sTen} alt="Speciality"/> 
+        </div>
+      </Link>
+      <p>ENT Doctor</p>
+      </aside>
+  </article> 
 
-        <button className="btn view-btn">View More</button>
+</Slider>
+
+<button className="btn view-btn">View More</button>
+</main>
       </Container>
     );
   }
