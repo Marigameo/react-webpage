@@ -71,8 +71,9 @@
       font-size: 17px !important;
   }
   .nav-content p {
-    font-size: 12px !important;
+    font-size: 14px !important;
     margin-bottom: 0;
+    font-weight: 500;
   }
   .nav-item {
     height: 80px;

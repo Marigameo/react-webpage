@@ -2873,11 +2873,6 @@ p.speciality {
 	border: 1px solid #202020 !important;
 	color: #202020 !important;
 }
-.section-features {
-	background-image: url(../assets/img/app/banner.jpg);
-	background-position: center;
-	background-size: cover;
-}
 .feature-item img {
     border-radius: 100%;
     box-shadow: 1px 6px 14px rgba(0,0,0,0.2);

@@ -92,7 +92,7 @@ function Navbar() {
         <li className='nav-item'><Link to='/diagnostics' className='nav-links' onClick={closeMobileMenu}>
         <div className='nav-content'>
             <h6>Diagnostics</h6>
-            <p>Test and Checkups</p>
+            <p>Tests and Checkups</p>
         </div>
         </Link></li>
 
