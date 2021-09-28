@@ -1,7 +1,7 @@
 import { Container, Row } from "react-bootstrap";
 import aHome from '../../../../assets/img/app/dianostics.jpg';
 import AppointmentsData from "../AppointmentsData";
-import './Appointment.css'
+import '../Appointment.css'
 
 const Appointment = () => {
     return ( 
