@@ -2488,7 +2488,7 @@ button.bg-danger:hover {
     background-repeat: repeat;
 } 
 .section-header {
-	padding-top: 4rem;
+	padding: 4rem 0 2rem;
 }
 .section-header h2 {
     font-size: 36px;
@@ -2808,6 +2808,7 @@ p.speciality {
     justify-content: center !important;
     align-items: center !important;
     flex-direction: column !important;
+	margin-bottom: 3rem;
 }
 .view-btn {
     color: #373B7A !important;
@@ -11154,7 +11155,7 @@ font-size: 10px;
 }
 .s-items {
 	display: flex;
-	margin: 2rem;
+	margin: 0;
 }
 .speicality-item p {
 	font-size: 18px !important;

@@ -48,7 +48,7 @@ export default class Specialitites extends Component {
       ]
     };
     return (
-      <Container>
+      <Container id="view-btn">
       <div className="section-header text-center">
         <h2>Clinics and Specialities</h2>
         </div>
@@ -120,6 +120,8 @@ export default class Specialitites extends Component {
               </aside>
           </article>
         </Slider>
+
+        <button className="btn view-btn">View More</button>
       </Container>
     );
   }

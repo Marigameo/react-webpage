@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-webpage/static/css/main.c2e91977.chunk.css",
-    "main.js": "/react-webpage/static/js/main.e1082889.chunk.js",
-    "main.js.map": "/react-webpage/static/js/main.e1082889.chunk.js.map",
+    "main.js": "/react-webpage/static/js/main.6808aa7e.chunk.js",
+    "main.js.map": "/react-webpage/static/js/main.6808aa7e.chunk.js.map",
     "runtime-main.js": "/react-webpage/static/js/runtime-main.f9b14af9.js",
     "runtime-main.js.map": "/react-webpage/static/js/runtime-main.f9b14af9.js.map",
     "static/css/2.f2512455.chunk.css": "/react-webpage/static/css/2.f2512455.chunk.css",
@@ -60,7 +60,7 @@
     "static/media/book-doc-03.f553cfb0.jpg": "/react-webpage/static/media/book-doc-03.f553cfb0.jpg",
     "static/media/book-doc-04.2387de20.jpg": "/react-webpage/static/media/book-doc-04.2387de20.jpg",
     "static/media/book-doc-05.6caede9a.jpg": "/react-webpage/static/media/book-doc-05.6caede9a.jpg",
-    "static/media/dianostics.34d8b89e.jpg": "/react-webpage/static/media/dianostics.34d8b89e.jpg",
+    "static/media/dianostics.dbb8120a.jpg": "/react-webpage/static/media/dianostics.dbb8120a.jpg",
     "static/media/doctor-thumb-02.a916acec.jpg": "/react-webpage/static/media/doctor-thumb-02.a916acec.jpg",
     "static/media/FAQPage.css": "/react-webpage/static/media/f-banner.e9544d44.jpg",
     "static/media/feature-01.fe69ebac.jpg": "/react-webpage/static/media/feature-01.fe69ebac.jpg",
@@ -72,14 +72,14 @@
     "static/media/googleplay.0f101371.png": "/react-webpage/static/media/googleplay.0f101371.png",
     "static/media/VirtualCare.css": "/react-webpage/static/media/hcare-banner.d9f0c87a.jpg",
     "static/media/HomeCare.css": "/react-webpage/static/media/home-care-banner.4d193be1.jpg",
-    "static/media/home.d850d25a.jpg": "/react-webpage/static/media/home.d850d25a.jpg",
+    "static/media/home.ca69c127.jpg": "/react-webpage/static/media/home.ca69c127.jpg",
     "static/media/logo.f2967192.png": "/react-webpage/static/media/logo.f2967192.png",
     "static/media/aboutus.css": "/react-webpage/static/media/one.5f14b21f.jpg",
     "static/media/sec-1.72573bdd.png": "/react-webpage/static/media/sec-1.72573bdd.png",
     "static/media/sec-2.0306a218.png": "/react-webpage/static/media/sec-2.0306a218.png",
     "static/media/slider.35189df1.png": "/react-webpage/static/media/slider.35189df1.png",
     "static/media/vbanner.f68d258d.jpg": "/react-webpage/static/media/vbanner.f68d258d.jpg",
-    "static/media/vc.ca69c127.jpg": "/react-webpage/static/media/vc.ca69c127.jpg",
+    "static/media/vc.3213e880.jpg": "/react-webpage/static/media/vc.3213e880.jpg",
     "static/media/woman-app.c78d22b8.jpg": "/react-webpage/static/media/woman-app.c78d22b8.jpg"
   },
   "entrypoints": [
@@ -87,6 +87,6 @@
     "static/css/2.f2512455.chunk.css",
     "static/js/2.eed37a73.chunk.js",
     "static/css/main.c2e91977.chunk.css",
-    "static/js/main.e1082889.chunk.js"
+    "static/js/main.6808aa7e.chunk.js"
   ]
 }
