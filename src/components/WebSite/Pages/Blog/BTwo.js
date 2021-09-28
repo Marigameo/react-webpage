@@ -10,7 +10,7 @@ const BTwo = () => {
     }, )
     return ( 
         <div className="col-lg-6 col-md-6 col-sm-6">
-        <div className="doctor-blog profile-widget">
+        <div className="b-widget">
             <div className="doc-img">
                 <Link as={Link} to="/blog2">
                 <img className="img-fluid" alt="User" src={docTwo}/>

@@ -4,3 +4,27 @@
 .pro-content .title a {
     text-align: start;
 }
+.b-widget {
+    display: flex;
+    border-radius: .2rem;
+    margin: 1rem;
+    border: 1px solid #ebebeb;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 24vw ;
+    height: auto;
+}
+@media only screen and (max-width: 1275px){
+.b-widget {
+    margin: 0 !important;
+    width: 250px !important;
+}
+.b-header {
+    padding-top: 0;
+}
+.section-doctor #view-btn {
+    margin-bottom: 0;
+}
+}

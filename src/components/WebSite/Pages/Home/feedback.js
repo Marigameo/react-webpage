@@ -6,37 +6,63 @@ import Slider from "react-slick";
 
 export default class FeedBack extends Component {
   render() {
-    const settings = {
-        className: "slider variable-width",
-        variableWidth: true,
+    var settings = {
       dots: false,
       infinite: true,
       speed: 500,
-      slidesToShow: 3,
-      slidesToScroll: 3,
+      slidesToShow: 4,
+      slidesToScroll: 2,
+      initialSlide: 0,
       responsive: [
         {
-          breakpoint: 1026,
+          breakpoint: 1734,
           settings: {
-            slidesToShow: 4,
+            slidesToShow: 3,
             slidesToScroll: 4,
             infinite: true,
             dots: false
           }
         },
         {
-          breakpoint: 600,
+          breakpoint: 1324,
           settings: {
             slidesToShow: 3,
             slidesToScroll: 3,
-            initialSlide: 1
+            infinite: true,
+            dots: false
+          }
+        },
+        {
+          breakpoint: 1624,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 4,
+            infinite: true,
+            dots: false
+          }
+        },
+        {
+          breakpoint: 1144,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 4,
+            infinite: true,
+            dots: false
+          }
+        },
+        {
+          breakpoint: 660,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            initialSlide: 0
           }
         },
         {
           breakpoint: 480,
           settings: {
-            slidesToShow: 2,
-            slidesToScroll: 2
+            slidesToShow: 1,
+            slidesToScroll: 1
           }
         }
       ]

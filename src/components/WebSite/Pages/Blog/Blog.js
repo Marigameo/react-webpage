@@ -9,7 +9,7 @@ function Blog() {
 <div className="container">
 <div className="row">
     <div className="col-lg-4">
-        <div className="section-header">
+        <div className="b-header">
             <h2>Information for your health and wellness</h2>
         </div>
         <div className="about-content">

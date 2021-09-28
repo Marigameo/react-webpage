@@ -24,8 +24,8 @@ export default class Specialitites extends Component {
         {
           breakpoint: 1024,
           settings: {
-            slidesToShow: 4,
-            slidesToScroll: 4,
+            slidesToShow: 3,
+            slidesToScroll: 3,
             infinite: true,
             dots: false
           }
@@ -33,8 +33,8 @@ export default class Specialitites extends Component {
         {
           breakpoint: 600,
           settings: {
-            slidesToShow: 3,
-            slidesToScroll: 3,
+            slidesToShow: 2,
+            slidesToScroll: 2,
             initialSlide: 0
           }
         },
@@ -49,7 +49,7 @@ export default class Specialitites extends Component {
     };
     return (
       <Container>
-        <main id='view-btn'>
+      
         <div className="section-header text-center">
         <h2>Clinics and Specialities</h2>
         </div>
@@ -123,8 +123,12 @@ export default class Specialitites extends Component {
 
 </Slider>
 
-<button className="btn view-btn">View More</button>
-</main>
+<Link to='/doctors'>
+  <div id='view-btn'>
+  <button className="btn view-btn">View More</button>
+  </div>
+
+</Link>
       </Container>
     );
   }

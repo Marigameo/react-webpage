@@ -11,13 +11,11 @@ const BOne = () => {
     return ( 
         
         <div className="col-lg-6 col-md-6 col-sm-6">
-<div className="doctor-blog profile-widget">
+<div className=" b-widget">
     <div className="doc-img">
-        {/* <a href="/blog"> */}
         <Link as={Link} to="/blog">
         <img className="img-fluid" alt="User" src={docOne}/>
         </Link>
-        {/* </a> */}
         <a href={() => false} className="fav-btn">
             <FontAwesomeIcon icon={faBookmark}/>
         </a>

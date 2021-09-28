@@ -1,13 +1,13 @@
 import React,{useEffect} from 'react';
 import { Container } from 'react-bootstrap';
 import Specialitites from '../DynamicComponents/Specialities/specialities';
-import MultipleItems from '../Doctors/Doctors/doctors';
 import Search from '../DynamicComponents/SearchBar/app/Search';
 import Feedback from './feedback';
 import Blog from '../Blog/Blog';
 import Three from '../DynamicComponents/Three/Three';
 import Appointment from '../Appointments/Appointment/Appointment';
 import Space from '../DynamicComponents/Space/Space';
+import Docinfo from '../Doctors/Doctors/Docinfo';
 
 const Home = () => {
 
@@ -37,7 +37,7 @@ const Home = () => {
     <p className="section-p text-center">Top Health Care Professionals to Solve Your Health Issues.</p>
 </div>  
 <Container fluid>
-<MultipleItems/>
+    <Docinfo/>
 </Container>
 <section id="view-btn" style={{padding: '2rem'}}>
     <h3 style={{paddingTop: '2rem'}}>What People Say about Us</h3>

@@ -1,3 +1,24 @@
 .slick-list {
     height: 20rem !important;
 }
+@media only screen and (max-width: 1275px){
+.feedback {
+    box-shadow: none !important;
+}
+.slick-track {
+    height: fit-content !important;
+    margin-left: 1rem;
+}
+.slick-track h3 {
+    font-size: 14px;
+    padding-left: .5rem;
+}
+.slick-track h5 {
+    font-size: 16px;
+    padding-left: .5rem;
+}
+.slick-track p {
+    font-size: 12px;
+    padding-left: .5rem;
+}
+}

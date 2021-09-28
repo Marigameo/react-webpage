@@ -2844,7 +2844,6 @@ p.speciality {
 	color: #fdfdfd;
 }
 .section-doctor {
-    box-shadow: 2px 2px 13px rgba(0, 0, 0, 0.1);
     margin-bottom: 0;
 }
 .about-content p {
@@ -9716,7 +9715,7 @@ ul.benifits-col li i{
 		max-width: 100%;
 	}
 }
-@media only screen and (max-width: 767.98px) {
+@media only screen and (max-width: 967.98px) {
 	body {
 		font-size: 0.875rem;
 	}
@@ -10637,7 +10636,7 @@ ul.benifits-col li i{
 	background-image: none !important;
 }
 }
-	@media only screen and (max-width: 715px)  and (min-width: 480px){
+	@media only screen and (max-width: 915px)  and (min-width: 480px){
 		.slick-track {
 			height: 14rem !important;
 		}
