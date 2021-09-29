@@ -4,6 +4,7 @@
 .a-content p {
     font-size: 18px;
     font-weight: 400;
+    color: rgb(34, 34, 151);
 }
 .a-content {
     display: flex;
