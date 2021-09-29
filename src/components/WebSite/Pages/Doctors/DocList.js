@@ -1,5 +1,5 @@
 import {Link} from "react-router-dom";
-import React,{useEffect} from 'react';
+import React,{useState,useEffect} from 'react';
 import DocListFaq from "../DynamicComponents/FAQ/DocListFaq";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faStar, faStarHalf, faThLarge } from '@fortawesome/free-solid-svg-icons';
@@ -17,7 +17,8 @@ import iFour from '../../../assets/img/specialities/specialities-04.png'
 import iFive from '../../../assets/img/specialities/specialities-05.png'
 
 const DocList = () => {
-
+	
+const [ doctors, setDoctor ] = useState([]);
 const data = [
 	{
 		id:1,
@@ -52,7 +53,22 @@ const data = [
 ]
 
 	useEffect(() => {
-        window.scroll(0,0)
+        async function fetchData() {
+
+			const requestOptions = {
+				method: 'POST',
+				headers: {
+					'Accept': 'application/json',
+					'Content-Type': 'application/json'
+				  },
+				body: JSON.stringify({location: 'bangalore', longitude: 1, latitude: 1})
+			};
+			const response = await fetch('http://184.168.117.236/test/admin/api_doctor.php', requestOptions)
+			const data = await response.json();
+			setDoctor(data)
+		 }
+		  fetchData()  
+		  window.scroll(0,0) 
     }, )
     return ( 
 <main>

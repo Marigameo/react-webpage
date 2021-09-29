@@ -2,7 +2,7 @@ import '../../../../../assets/additional/css/styleTwo.css'
 import React,{useState,useEffect} from 'react';
 import './Doc.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBullseye, faGraduationCap, faLocationArrow, faNewspaper, faStar, faStarHalf, faTrophy, faUser } from '@fortawesome/free-solid-svg-icons';
+import { faBullseye, faGraduationCap, faLocationArrow, faNewspaper, faTrophy, faUser } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
 
 const DocA = () => {

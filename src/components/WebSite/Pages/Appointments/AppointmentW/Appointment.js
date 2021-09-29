@@ -16,12 +16,17 @@ const Appointment = () => {
                 </div>
                 <div className="col-lg-6 col-m-6 col-sm-6">
                 <section className='a-content'>
-                    <h2>Book a Telephonic Consultation</h2>
+                    <h2>Download Medatu App</h2>
                     <article className='con-content'>
-                    <p>Download Medatu App<br/>
-                    Get pregnancy care from the comfort of your home<br/>
-                    Enter your number to join the list</p>
-                    <PhoneInput placeholder="Enter your phone number" value={value} onChange={setValue}/>
+                    <p>Get pregnancy care from the comfort of your home</p>
+
+                   <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Join the list, now!" aria-label="Recipient's username" aria-describedby="basic-addon2"/>
+                    <div class="input-group-append">
+                        <button class="btn btn-outline-secondary" type="button">Join</button>
+                    </div>
+                    </div>
+
                 </article>
                 </section>
                 </div>

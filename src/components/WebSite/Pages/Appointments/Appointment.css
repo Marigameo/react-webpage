@@ -1,11 +1,6 @@
 .a-banner {
     margin: 4rem auto;
 }
-
-.a-content h2{
-    background-color: #fdfdfd;
-    padding: 1rem;
-}
 .a-content p {
     font-size: 18px;
     font-weight: 400;
@@ -19,7 +14,4 @@
     margin: 1rem;
     width: 40vw;
     height: 50vh;
-}
-.con-content {
-    padding-left: 5rem;
 }
