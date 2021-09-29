@@ -4,10 +4,10 @@ import { Link } from "react-router-dom";
 import Slider from "react-slick";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar,faStarHalfAlt } from '@fortawesome/free-solid-svg-icons';
-import bookDocOne from "../../../../assets/img/doctors/book-doc-01.jpg";
+// import bookDocOne from "../../../../assets/img/doctors/book-doc-01.jpg";
 // import bookDocTwo from "../../../../assets/img/doctors/book-doc-02.jpg";
-import bookDocThree from "../../../../assets/img/doctors/book-doc-03.jpg";
-import bookDocFour from "../../../../assets/img/doctors/book-doc-04.jpg";
+// import bookDocThree from "../../../../assets/img/doctors/book-doc-03.jpg";
+// import bookDocFour from "../../../../assets/img/doctors/book-doc-04.jpg";
 import { Container } from "react-bootstrap";
 
 export default class Docinfo extends Component {
@@ -20,8 +20,10 @@ export default class Docinfo extends Component {
             aThree: null,
             bOne: null,
             bTwo: null,
+            bThree: null,
             cOne: null,
             cTwo: null,
+            cThree: null,
         }
     }
 
@@ -36,19 +38,22 @@ export default class Docinfo extends Component {
         };
         const response = await fetch('http://184.168.117.236/test/admin/api_doctor.php', reqOptions)
         const data = await response.json();
+       
         this.setState({ aOne : data[0].name, aTwo : data[0].qualification, aThree : data[0].doctor_image })
-        this.setState({ bOne : data[1].name, bTwo : data[1].qualification})
-        this.setState({ cOne : data[2].name, cTwo : data[2].qualification})
+        this.setState({ bOne : data[1].name, bTwo : data[1].qualification, bThree : data[1].doctor_image })
+        this.setState({ cOne : data[2].name, cTwo : data[2].qualification, cThree : data[1].doctor_image })
     }
 
     render() {
         const { aOne } = this.state
         const { aTwo } = this.state
-        // const { aThree } = this.state
+        const { aThree } = this.state
         const { bOne } = this.state
         const { bTwo } = this.state
+        const { bThree } = this.state
         const { cOne } = this.state
         const { cTwo } = this.state
+        const { cThree } = this.state
 
         var settings = {
             dots: false,
@@ -90,9 +95,9 @@ export default class Docinfo extends Component {
             <Slider {...settings}>
           <article>
         <div className="profile-widget">
-        <a href="#/">
-            <img src={bookDocOne} alt="#/" id="doc-img" />
-        </a>
+
+        <Link to='/doc-a'>
+        <img src={aThree} alt="#/" id="doc-img"  />
         <div className="provider-info">
             <h3 id="pro-name"><a href="#/">{aOne}</a></h3>
             <div>
@@ -107,13 +112,15 @@ export default class Docinfo extends Component {
                 </div>
             </div>
         </div>
+        </Link>
+
         </div>
     </article>
 
     <article style={{width: 300}}>
         <div className="profile-widget">
         <a href="#/">
-            <img src={bookDocThree} alt="#/" id="doc-img" />
+            <img src={bThree} alt="#/" id="doc-img" />
         </a>
         <div className="provider-info">
             <h3 id="pro-name"><a href="#/">{bOne}</a></h3>
@@ -135,7 +142,7 @@ export default class Docinfo extends Component {
     <article style={{width: 300}}>
         <div className="profile-widget">
         <a href="#/">
-            <img src={bookDocFour} alt="#/" id="doc-img" />
+            <img src={cThree} alt="#/" id="doc-img" />
         </a>
         <div className="provider-info">
             <h3 id="pro-name"><a href="#/">{cOne}</a></h3>

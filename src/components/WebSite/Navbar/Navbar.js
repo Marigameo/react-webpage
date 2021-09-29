@@ -34,6 +34,7 @@ import {
 import './Navbar.css'
 import Footer from '../Pages/Footer';
 import logo from "../../assets/img/logo.png"
+import DocA from "../Pages/Doctors/Doctors/DocHome/DocA";
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -109,6 +110,7 @@ function Navbar() {
      </nav>
    
   <Switch>
+    <Route path='/doc-a'><DocA/></Route>
     <Route path="/home-care"><HomeCare/></Route>
     <Route path='/faq'><FAQPage/></Route>
     <Route path='/pop-test'><PopTests/></Route>

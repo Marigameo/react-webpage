@@ -20,18 +20,6 @@
     width: 40vw;
     height: 50vh;
 }
-@media screen and (max-width: 992px) {
-    .a-banner img {
-        width: 280px;
-        height: auto;
-    }
-    .a-banner h2 {
-        font-size: 18px;
-    }
-    .a-banner p {
-        font-size: 12px;
-    }
-    .a-banner button {
-        font-size: 12px;
-    }
+.con-content {
+    padding-left: 5rem;
 }
