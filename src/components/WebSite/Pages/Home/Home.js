@@ -7,7 +7,7 @@ import Blog from '../Blog/Blog';
 import Three from '../DynamicComponents/Three/Three';
 import Appointment from '../Appointments/Appointment/Appointment';
 import Space from '../DynamicComponents/Space/Space';
-import Docinfo from '../Doctors/Doctors/Docinfo';
+import DocHome from '../Doctors/Doctors/DocHome';
 
 const Home = () => {
 
@@ -37,7 +37,7 @@ const Home = () => {
     <p className="section-p text-center">Top Health Care Professionals to Solve Your Health Issues.</p>
 </div>  
 <Container fluid>
-    <Docinfo/>
+    <DocHome/>
 </Container>
 <section id="view-btn" style={{padding: '2rem'}}>
     <h3 style={{paddingTop: '2rem'}}>What People Say about Us</h3>
