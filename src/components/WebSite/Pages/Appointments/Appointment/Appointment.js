@@ -1,12 +1,9 @@
-import React, {useState} from "react";
-import 'react-phone-number-input/style.css'
-import PhoneInput from 'react-phone-number-input'
+import React from "react";
 import { Container, Row } from "react-bootstrap";
 import aHome from '../../../../assets/img/app/home.jpg';
 import '../Appointment.css'
 
 const Appointment = () => {
-    const [value, setValue] = useState()
     return ( 
         <>
         <Container className='a-banner'>

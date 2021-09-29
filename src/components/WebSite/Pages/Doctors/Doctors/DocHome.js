@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import './Docinfo.css'
 import { Link } from "react-router-dom";
-import Slider from "react-slick";
 import { Container } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar,faStarHalfAlt } from '@fortawesome/free-solid-svg-icons';

@@ -70,6 +70,7 @@ const data = [
 		  fetchData()  
 		  window.scroll(0,0) 
     }, )
+	console.log(doctors)
     return ( 
 <main>
 <div className="main-wrapper">
