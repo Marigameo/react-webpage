@@ -30,8 +30,26 @@
 }
 @media only screen and (max-width: 1290px) {
   .a-img img {
-    width: 30rem !important;
-    height: auto !important;
-    background-color: aqua;
+    width: 30rem;
+    height: auto;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .a-banner {
+    flex-direction: column;
+  }
+  .a-content {
+    margin-top: 1rem;
+  }
+  .a-img img {
+    width: 20rem;
+  }
+  .num-list {
+    margin-right: 0.5rem;
+  }
+  .input-num {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
   }
 }

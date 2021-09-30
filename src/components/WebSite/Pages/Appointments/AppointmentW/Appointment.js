@@ -16,7 +16,7 @@ const Appointment = () => {
         <aside className='con-content'>
         <p>Book an Appointment</p>
         
-        <div>
+        <div className='input-num'>
         <input className='num-list' type="text" placeholder="Enter your number to join the list" />
         <button type="button" class="btn btn-success">Join</button>
         </div>

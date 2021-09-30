@@ -41,14 +41,14 @@ export default class Specialitites extends Component {
         {
           breakpoint: 480,
           settings: {
-            slidesToShow: 2,
-            slidesToScroll: 2
+            slidesToShow: 3,
+            slidesToScroll: 3
           }
         }
       ]
     };
     return (
-      <Container>
+      <Container className='speciality'>
       
         <div className="section-header text-center">
         <h2>Clinics and Specialities</h2>
