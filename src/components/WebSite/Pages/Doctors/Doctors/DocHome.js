@@ -26,7 +26,6 @@ async function fetchData() {
 }
 fetchData();
     }, )
-console.log(doctors)
     return (
         <Container>
             <article id='view-btn'>
@@ -35,9 +34,9 @@ console.log(doctors)
 {doctors.map((item, index) => {
     return(
        
-        <div className="profile-widget">
+        <div className="profile-widget" key={item.name}>
 
-        <Link to='/doc-a'>
+        <Link to='/doctors'>
         <img src={item.doctor_image} alt="#/" id="doc-img" width={160} height={300}/>
         <div className="provider-info">
             <h3 id="pro-name"><a href="#/">{item.name}</a></h3>

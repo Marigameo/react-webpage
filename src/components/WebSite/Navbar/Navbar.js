@@ -7,9 +7,7 @@ import HomeCare from '../Pages/HomeCare/HomeCare';
 import AboutUs from '../Pages/AboutUs/AboutUs';
 import Blog1 from '../Pages/Blogs/BlogPage'
 import Blog2 from '../Pages/Blogs/BlogPageTwo'
-import DocList from '../Pages/Doctors/DocList';
 import FAQPage from '../Pages/FAQPage/FAQPage';
-import DocDescription from '../Pages/Doctors/DocDescription';
 import Payment from '../Pages/Payment/Payment';
 import PaymentSuccess from '../Pages/Payment/PaymentSuccess';
 import PharmacySearch from '../Pages/Pharmacy/PharmacySearch';
@@ -110,7 +108,7 @@ function Navbar() {
      </nav>
    
   <Switch>
-    <Route path='/doc-a'><DocA/></Route>
+    <Route path='/doctors'><DocA/></Route>
     <Route path="/home-care"><HomeCare/></Route>
     <Route path='/faq'><FAQPage/></Route>
     <Route path='/pop-test'><PopTests/></Route>
@@ -125,8 +123,6 @@ function Navbar() {
     <Route path="/for-women"><ForWoman/></Route>
     <Route path="/blog"><Blog1 /></Route>
     <Route path="/blog2"><Blog2 /></Route>
-    <Route path="/doctors"><DocList/></Route>
-    <Route path="/doctor"><DocDescription/></Route>
     <Route path="/diagnostics"><Diagnostics /></Route>
     <Route path="/payment"><Payment/></Route>
     <Route path="/success"><PaymentSuccess/></Route>

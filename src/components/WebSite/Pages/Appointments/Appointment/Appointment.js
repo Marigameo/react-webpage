@@ -17,10 +17,10 @@ const Appointment = () => {
                     <article className='con-content'>
                     <p>Book an Appointment</p>
                    
-                    <div class="input-group mb-3">
-                    <input type="text" class="form-control" placeholder="Join the list, now!" aria-label="Recipient's username" aria-describedby="basic-addon2"/>
-                    <div class="input-group-append">
-                        <button class="btn btn-outline-secondary" type="button">Join</button>
+                    <div className="input-group mb-3">
+                    <input type="text" className="form-control" placeholder="Enter your number to join the list" />
+                    <div className="input-group-append">
+                        <button className="btn btn-outline-secondary" type="button">Join</button>
                     </div>
                     </div>
 

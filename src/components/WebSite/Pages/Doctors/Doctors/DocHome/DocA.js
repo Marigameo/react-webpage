@@ -27,14 +27,14 @@ const DocA = () => {
       fetchData()  
       window.scroll(0,0)   
     }, [])
-console.log(doctors)
+
     return ( 
     
 <main>
     <div style={{paddingTop: '6rem'}}></div>
 {doctors.map((item, index) => {
     return(
-<div className="container margin_60" key={item.id}>
+<div className="container margin_60" key={item.name}>
 			<div className="row">
 				<aside className="col-xl-3 col-lg-4" id="sidebar">
 					<div className="box_profile">

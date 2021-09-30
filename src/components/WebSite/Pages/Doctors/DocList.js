@@ -3,54 +3,12 @@ import React,{useState,useEffect} from 'react';
 import DocListFaq from "../DynamicComponents/FAQ/DocListFaq";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faStar, faStarHalf, faThLarge } from '@fortawesome/free-solid-svg-icons';
+import Docgallery from "./Docgallery";
 
-//images
-import docOne from '../../../assets/img/doctors/book-doc-01.jpg'
-import docTwo from '../../../assets/img/doctors/book-doc-02.jpg'
-import docThree from '../../../assets/img/doctors/book-doc-03.jpg'
-import docFour from '../../../assets/img/doctors/book-doc-04.jpg'
-import docFive from '../../../assets/img/doctors/book-doc-05.jpg'
-import iOne from '../../../assets/img/specialities/specialities-01.png'
-import iTwo from '../../../assets/img/specialities/specialities-02.png'
-import iThree from '../../../assets/img/specialities/specialities-03.png'
-import iFour from '../../../assets/img/specialities/specialities-04.png'
-import iFive from '../../../assets/img/specialities/specialities-05.png'
 
 const DocList = () => {
 	
 const [ doctors, setDoctor ] = useState([]);
-const data = [
-	{
-		id:1,
-		dImg: docOne,
-		iImg: iOne 
-	},
-	{
-		id:2,
-		dImg: docTwo,
-		iImg: iTwo 
-	},
-	{
-		id:1,
-		dImg: docOne,
-		iImg: iOne 
-	},
-	{
-		id:1,
-		dImg: docThree,
-		iImg: iThree 
-	},
-	{
-		id:1,
-		dImg: docFour,
-		iImg: iFour 
-	},
-	{
-		id:1,
-		dImg: docFive,
-		iImg: iFive 
-	}
-]
 
 	useEffect(() => {
         async function fetchData() {
@@ -69,8 +27,7 @@ const data = [
 		 }
 		  fetchData()  
 		  window.scroll(0,0) 
-    }, )
-	console.log(doctors)
+    }, [])
     return ( 
 <main>
 <div className="main-wrapper">
@@ -119,15 +76,16 @@ const data = [
 </div>
 </div>
 <DocListFaq/>
-{data.map((item, index) => {
+
+{doctors.map((item, index) => {
 	return (
-<div className="card" key={item.id}>
+<div className="card" key={item.registration_no}>
 <div className="card-body">
 <div className="doctor-widget">
 <div className="doc-info-left">
 <div className="doctor-img">
 <a href="doctor-profile.html">
-<img src={item.dImg} className="img-fluid" alt="userImg"/>
+<img src={item.doctor_image} className="img-fluid" alt="userImg"/>
 </a>
 </div>
 <div className="doc-info-cont">
@@ -145,28 +103,7 @@ const data = [
 </div>
 <div className="clinic-details">
 <p className="doc-location"><i className="fas fa-map-marker-alt"></i> Florida, USA</p>
-<ul className="clinic-gallery">
-<li>
-<a href={docTwo} data-fancybox="gallery">
-<img src={docTwo} alt="Feature"/>
-</a>
-</li>
-<li>
-<a href={docFive} data-fancybox="gallery">
-<img  src={docFive} alt="Feature"/>
-</a>
-</li>
-<li>
-<a href={docThree} data-fancybox="gallery">
-<img src={docThree} alt="Feature"/>
-</a>
-</li>
-<li>
-<a href={docFour} data-fancybox="gallery">
-<img src={docFour} alt="Feature"/>
-</a>
-</li>
-</ul>
+<Docgallery/>
 </div>
 <div className="clinic-services">
 <span>Dental Fillings</span>
@@ -186,7 +123,7 @@ const data = [
 </div>
 <div className="clinic-booking">
 <a className="view-pro-btn" href="doctor-profile.html">Video Call</a>
-<Link to="/doctor" className="apt-btn">Book Appointment</Link>
+<Link to="/doctors" className="apt-btn">Book Appointment</Link>
 </div>
 </div>
 </div>
