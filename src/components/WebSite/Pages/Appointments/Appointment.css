@@ -1,18 +1,37 @@
 .a-banner {
-    margin: 4rem auto;
+  margin: 4rem 0;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding: 0;
 }
 .a-content p {
-    font-size: 18px;
-    font-weight: 400;
-    color: rgb(34, 34, 151);
+  font-size: 18px;
+  font-weight: 400;
+  color: rgb(34, 34, 151);
+}
+.num-list {
+  padding: 0.4rem;
+  outline: none;
+  border: 0.2px solid #b3b3b3;
+  margin-right: 1rem;
+  border-radius: 0.2rem;
+  width: 18rem !important;
 }
 .a-content {
-    display: flex;
-    align-items: baseline;
-    justify-content: center;
-    flex-direction: column;
-    padding: 0;
-    margin: 1rem;
-    width: 40vw;
-    height: 50vh;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0;
+  margin: 1rem;
+}
+@media only screen and (max-width: 1290px) {
+  .a-img img {
+    width: 30rem !important;
+    height: auto !important;
+    background-color: aqua;
+  }
 }

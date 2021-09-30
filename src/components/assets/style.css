@@ -10460,12 +10460,12 @@ ul.benifits-col li i {
     height: fit-content;
   }
 
-  .banner-header h1 {
+  /* .banner-header h1 {
     font-weight: 0;
     height: 0;
     width: 0;
     opacity: 0;
-  }
+  } */
 
   .s-btns {
     align-content: space-around;
@@ -10699,13 +10699,13 @@ ul.benifits-col li i {
     height: fit-content;
   }
 
-  .banner-header h1 {
+  /* .banner-header h1 {
     font-weight: 0;
     height: 0;
     width: 0;
     opacity: 0;
     margin-top: 3rem;
-  }
+  } */
   .pharmacy-home-slider img {
     opacity: 0;
   }
@@ -10717,7 +10717,6 @@ ul.benifits-col li i {
 
 @media only screen and (max-width: 575.98px) {
   .banner-home {
-    background-image: none !important;
     height: 40vh !important;
   }
   body {
