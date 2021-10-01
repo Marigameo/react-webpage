@@ -49,10 +49,11 @@
     flex-direction: column;
   }
   .banner-home {
-    background-position: center;
-    background-size: cover;
+    background-position: bottom;
+    background-size: contain;
     background-repeat: no-repeat;
     margin-bottom: 3rem;
+    height: 48vh !important;
   }
   .dropdown .selected-value input {
     width: 80vw;
