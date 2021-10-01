@@ -25,13 +25,28 @@
 @media only screen and (max-width: 400px) {
   .profile-widget {
     padding: 0;
-    background-color: aqua;
+    /* background-color: aqua; */
   }
   .profile-widget img {
     width: 80px !important;
     height: fit-content !important;
   }
-  .provider-info h3 {
-    font-size: 12px !important;
+  .section-header {
+    padding: 0;
+  }
+  #pro-sub {
+    height: 0;
+    width: 0;
+    margin: 0%;
+    opacity: 0;
+    padding: 0;
+  }
+  #pro-name {
+    margin: 0;
+    font-size: 8px !important;
+  }
+  .rating {
+    padding: 0;
+    font-size: 8px;
   }
 }
