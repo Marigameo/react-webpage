@@ -25,7 +25,7 @@ async function fetchData() {
     setDoctor(data)
 }
 fetchData();
-    }, )
+    }, [])
     return (
         <Container>
             <article id='view-btn'>

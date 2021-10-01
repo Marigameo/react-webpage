@@ -22,11 +22,16 @@
     padding-left: 0.5rem;
   }
 }
-@media only screen and (max-width: 48px) {
-  .slick-track {
-    background-color: aqua !important;
-  }
-  .feedback {
-    background-color: blue;
+@media only screen and (max-width: 490px) {
+  .feedback,
+  .feedback p,
+  .feedback h3,
+  .feedback h5,
+  .feedback-box {
+    padding: 0 !important;
+    margin: 0 !important;
+    opacity: 0 !important;
+    height: 0 !important;
+    width: 0 !important;
   }
 }

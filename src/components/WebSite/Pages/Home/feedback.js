@@ -40,15 +40,6 @@ export default class FeedBack extends Component {
             infinite: true,
             dots: false
           }
-        },
-        {
-          breakpoint: 1144,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            infinite: true,
-            dots: false
-          }
         }
       ]
     };
