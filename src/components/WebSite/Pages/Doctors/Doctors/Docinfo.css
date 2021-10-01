@@ -14,13 +14,22 @@
   border: none;
   box-shadow: 2px 2px 13px #e6e6e6;
 }
+.profile-widget img {
+  width: 160px;
+  height: 300px;
+}
 .pro-content {
   text-align: center;
 }
 
 @media only screen and (max-width: 400px) {
   .profile-widget {
+    padding: 0;
     background-color: aqua;
+  }
+  .profile-widget img {
+    width: 80px !important;
+    height: fit-content !important;
   }
   .provider-info h3 {
     font-size: 12px !important;

@@ -37,7 +37,7 @@ fetchData();
         <div className="profile-widget" key={item.name}>
 
         <Link to='/doctors'>
-        <img src={item.doctor_image} alt="#/" id="doc-img" width={160} height={300}/>
+        <img src={item.doctor_image} alt="#/" id="doc-img"/>
         <div className="provider-info">
             <h3 id="pro-name"><a href="#/">{item.name}</a></h3>
             <div>
