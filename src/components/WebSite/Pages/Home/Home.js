@@ -8,6 +8,7 @@ import Three from '../DynamicComponents/Three/Three';
 import Appointment from '../Appointments/Appointment/Appointment';
 import Space from '../DynamicComponents/Space/Space';
 import DocHome from '../Doctors/Doctors/DocHome';
+import './FormDesign.css'
 
 const Home = () => {
 

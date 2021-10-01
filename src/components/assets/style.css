@@ -10449,11 +10449,6 @@ ul.benifits-col li i {
 }
 
 @media only screen and (max-width: 280px) and (min-width: 499px) {
-  .form-design {
-    width: 90vw;
-    height: fit-content;
-  }
-
   /* .banner-header h1 {
     font-weight: 0;
     height: 0;
@@ -10466,18 +10461,6 @@ ul.benifits-col li i {
   }
 }
 
-.banner-home {
-  padding-top: 1rem !important;
-}
-.dropdown .selected-value input {
-  width: 420px !important;
-  padding-right: 0 !important;
-  margin-bottom: 0.8rem !important;
-}
-.location-search-input {
-  width: 420px !important;
-  margin-bottom: 0.8rem !important;
-}
 .feature-text {
   padding-left: 0 !important;
 }
@@ -10487,12 +10470,6 @@ ul.benifits-col li i {
 }
 #app-num {
   margin-bottom: 2rem;
-}
-.form-design {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
 }
 .dropdown .arrow {
   padding: 0;
@@ -10655,12 +10632,6 @@ ul.benifits-col li i {
 }
 
 @media only screen and (max-width: 500px) {
-  .form-design {
-    box-shadow: none;
-    width: 90vw;
-    height: fit-content;
-  }
-
   /* .banner-header h1 {
     font-weight: 0;
     height: 0;
@@ -10678,9 +10649,6 @@ ul.benifits-col li i {
 }
 
 @media only screen and (max-width: 575.98px) {
-  .banner-home {
-    height: 40vh !important;
-  }
   body {
     font-size: 0.8125rem;
   }
@@ -10863,11 +10831,6 @@ ul.benifits-col li i {
 }
 
 @media only screen and (max-width: 600px) and (min-width: 450px) {
-  .form-design {
-    box-shadow: none;
-    width: 90vw;
-    height: fit-content;
-  }
   .banner-header h1 {
     font-weight: 0;
     height: 0;
@@ -10877,24 +10840,12 @@ ul.benifits-col li i {
   .s-btns {
     align-content: space-around;
   }
-  .banner-home {
-    background-image: none !important;
-  }
 }
 @media only screen and (max-width: 915px) and (min-width: 480px) {
   .slick-track {
     height: 14rem !important;
   }
-  .dropdown .selected-value input {
-    width: 420px !important;
-    padding-right: 0 !important;
-    padding-top: 10px !important;
-    margin-bottom: 1rem !important;
-    height: inherit !important;
-  }
-  .banner-home {
-    background-image: none !important;
-  }
+
   .dropdown .arrow {
     opacity: 0;
     height: 0;
@@ -10902,31 +10853,12 @@ ul.benifits-col li i {
     padding: 0;
     margin: 0;
   }
-  .location-search-input {
-    padding-right: 0 !important;
-    width: 420px !important;
-    margin-bottom: 1rem !important;
-  }
-  .form-design {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
+
 }
 
 @media only screen and (max-width: 1022px) and (min-width: 600px) {
-  .form-design {
-    width: 70vw !important;
-    display: flex;
-    justify-content: space-around;
-  }
-
   .search-info {
     max-width: 420px !important;
-  }
-  .banner-home {
-    max-height: 50vh !important;
   }
   .banner-header h1 {
     font-weight: 0;
@@ -10948,14 +10880,6 @@ ul.benifits-col li i {
 }
 
 @media only screen and (max-width: 1026px) and (min-width: 499px) {
-  .form-design {
-    width: 70vw !important;
-  }
-  .banner-home {
-    padding-top: 1rem !important;
-    height: 40vh !important;
-    background-image: none !important;
-  }
   .section-specialities {
     margin-top: 8rem;
     padding: 2rem 0;
@@ -10971,7 +10895,6 @@ ul.benifits-col li i {
     margin: 10px;
     font-size: 14px;
   }
-
 }
 
 .dropdown {
@@ -10997,21 +10920,6 @@ ul.benifits-col li i {
 .dropdown .arrow.open {
   border-color: transparent transparent #999;
   border-width: 0 5px 5px;
-}
-
-.dropdown .selected-value input {
-  background: #fdfdfd url(img/search.png) no-repeat 10px center;
-  line-height: 1.5;
-  font-size: 1rem;
-  background-color: #fff;
-  border: 1px solid #ccc;
-  border-radius: 0.3rem;
-  box-sizing: border-box;
-  cursor: default;
-  outline: none;
-  padding: 10px 52px 10px 40px;
-  transition: all 200ms ease;
-  width: 420px;
 }
 
 .dropdown .options {
@@ -11283,28 +11191,10 @@ ul.benifits-col li i {
   margin-bottom: 1rem;
   font-weight: 700 !important;
 }
-.form-design {
-  display: flex;
-  width: 50vw;
-  margin-bottom: 1rem;
-}
 .search-info {
   max-width: 420px !important;
 }
-.location-search-input {
-  background: #fdfdfd url(img/location.png) no-repeat 10px center;
-  line-height: 1.5;
-  font-size: 1rem;
-  background-color: #fff;
-  border: 1px solid #ccc;
-  border-radius: 0.3rem;
-  box-sizing: border-box;
-  cursor: default;
-  outline: none;
-  padding: 10px 52px 10px 40px;
-  transition: all 200ms ease;
-  width: 22rem;
-}
+
 #diag-search {
   background: #fdfdfd url(img/location.png) no-repeat 10px center;
   line-height: 1.5;
