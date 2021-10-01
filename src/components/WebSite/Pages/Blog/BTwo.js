@@ -9,7 +9,7 @@ const BTwo = () => {
         window.scroll(0,0)
     }, )
     return ( 
-        <div className="col-lg-6 col-md-6 col-sm-6">
+        <div className="col-lg-6 col-md-6">
         <div className="b-widget">
             <div className="doc-img">
                 <Link as={Link} to="/blog2">
@@ -21,9 +21,7 @@ const BTwo = () => {
                 </a>
             </div>
             <div className="pro-content">
-                <h3 className="title">
-                    <a href="#/">10 Common COVID-19 Myths You Shouldn’t believe</a> 
-                </h3>
+                <h3 className="title">10 Common COVID-19 Myths You Shouldn’t believe</h3>
                 <p>It is time to separate fact from fiction.</p>
             </div>
         </div>	

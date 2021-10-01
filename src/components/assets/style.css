@@ -2827,16 +2827,6 @@ button.bg-danger:hover {
   background-color: #fb1612;
   color: #fdfdfd;
 }
-.pro-content {
-  padding: 15px 0 0;
-}
-.pro-content .title {
-  font-size: 17px;
-  font-weight: 500;
-}
-.pro-content .title a {
-  display: inline-block;
-}
 .verified {
   color: #28a745;
   margin-left: 3px;
@@ -4617,7 +4607,7 @@ body .multi-optn {
   width: 100%;
   border-radius: 10px 10px 0px 0px;
 }
-.book-slider .pro-content {
+.book-slider {
   padding: 0;
   position: absolute;
   top: 0;
@@ -4627,7 +4617,7 @@ body .multi-optn {
   padding: 10px;
   border-radius: 10px 10px 0px 0px;
 }
-.book-slider .pro-content .amt {
+.book-slider .amt {
   background-color: #ff8a8e;
   padding: 3px 8px;
   border-radius: 30px;
@@ -4641,7 +4631,7 @@ body .multi-optn {
   -ms-transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
 }
-.book-slider .pro-content .star {
+.book-slider .star {
   background-color: #373b7a;
   width: 30px;
   height: 30px;
@@ -5154,7 +5144,7 @@ body .multi-optn {
 .doc-booking .book-slider {
   padding-top: 0;
 }
-.doc-booking .book-slider .pro-content .amt {
+.doc-booking .book-slider .amt {
   opacity: 1;
   position: absolute;
   left: -7px;
@@ -5168,7 +5158,7 @@ body .multi-optn {
   text-align: left;
 }
 .doc-booking .book-slider a img,
-.doc-booking .book-slider .pro-content {
+.doc-booking .book-slider {
   border-radius: 10px;
 }
 .doc-booking .book-slider .provider-info {
@@ -10853,7 +10843,6 @@ ul.benifits-col li i {
     padding: 0;
     margin: 0;
   }
-
 }
 
 @media only screen and (max-width: 1022px) and (min-width: 600px) {

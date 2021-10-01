@@ -20,12 +20,14 @@ function Blog() {
         <button className="btn view-btn">Read More</button>
         </div>
     </div>
-<div className="col-lg-8">
-<div className="row">
-<BOne/>
-<BTwo/>
-</div>
-</div>
+    <div className="col-lg-8">
+        <div className="row">
+            <div className="s-blog">
+                <BOne/>
+                <BTwo/>
+            </div>
+        </div>
+    </div>
 </div>
 </div>
 </section>

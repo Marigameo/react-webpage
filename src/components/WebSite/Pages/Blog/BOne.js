@@ -3,6 +3,7 @@ import docOne from "../../../assets/img/blog/blog-1.jpg"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBookmark } from '@fortawesome/free-solid-svg-icons';
 import {Link} from "react-router-dom";
+import './Blog.css'
 
 const BOne = () => {
     useEffect(() => {
@@ -10,7 +11,7 @@ const BOne = () => {
     }, )
     return ( 
         
-        <div className="col-lg-6 col-md-6 col-sm-6">
+        <div className="col-lg-6 col-md-6">
 <div className=" b-widget">
     <div className="doc-img">
         <Link as={Link} to="/blog">
@@ -21,9 +22,7 @@ const BOne = () => {
         </a>
     </div>
     <div className="pro-content">
-        <h3 className="title">
-            <a href="/blog">10 foods for Healthy Heart</a> 
-        </h3>
+        <h3 className='title'>10 foods for Healthy Heart</h3>
         
         <p>Eating healthy diet might help minimize the risk of heart diseases.</p>
     </div>
