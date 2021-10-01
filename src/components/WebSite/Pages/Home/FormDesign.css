@@ -1,3 +1,37 @@
+.dropdown .selected-value input {
+  background: #fdfdfd url(../../../assets/img/search.png) no-repeat 10px center;
+  background-repeat: no-repeat;
+  line-height: 1.5;
+  font-size: 1rem;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 0.3rem;
+  box-sizing: border-box;
+  cursor: default;
+  outline: none;
+  padding: 10px 52px 10px 40px;
+  transition: all 200ms ease;
+  width: 24rem;
+}
+.form-design {
+  display: flex;
+}
+.location-search-input {
+  background: #fdfdfd url(../../../assets/img/location.png) no-repeat 10px
+    center;
+  line-height: 1.5;
+  font-size: 1rem;
+  background-color: #fdfdfd;
+  border: 1px solid #ccc;
+  border-radius: 0.3rem;
+  box-sizing: border-box;
+  cursor: default;
+  outline: none;
+  padding: 10px 52px 10px 40px;
+  transition: all 200ms ease;
+  width: 14rem;
+  margin-bottom: 0.5rem;
+}
 @media only screen and (max-width: 490px) {
   .form-design {
     display: flex;
@@ -21,35 +55,9 @@
     background-repeat: no-repeat;
   }
   .dropdown .selected-value input {
-    background: #fdfdfd url(../../../assets/img/search.png) no-repeat 10px
-      center;
-    background-repeat: no-repeat;
-    line-height: 1.5;
-    font-size: 1rem;
-    background-color: #fff;
-    border: 1px solid #ccc;
-    border-radius: 0.3rem;
-    box-sizing: border-box;
-    cursor: default;
-    outline: none;
-    padding: 10px 52px 10px 40px;
-    transition: all 200ms ease;
     width: 80vw;
   }
   .location-search-input {
-    background: #fdfdfd url(../../../assets/img/location.png) no-repeat 10px
-      center;
-    line-height: 1.5;
-    font-size: 1rem;
-    background-color: #fdfdfd;
-    border: 1px solid #ccc;
-    border-radius: 0.3rem;
-    box-sizing: border-box;
-    cursor: default;
-    outline: none;
-    padding: 10px 52px 10px 40px;
-    transition: all 200ms ease;
     width: 80vw;
-    margin-bottom: 0.5rem;
   }
 }
