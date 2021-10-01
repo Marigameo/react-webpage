@@ -33,10 +33,10 @@ export default class FeedBack extends Component {
           }
         },
         {
-          breakpoint: 1624,
+          breakpoint: 1200,
           settings: {
-            slidesToShow: 3,
-            slidesToScroll: 4,
+            slidesToShow: 2,
+            slidesToScroll: 2,
             infinite: true,
             dots: false
           }
@@ -44,25 +44,10 @@ export default class FeedBack extends Component {
         {
           breakpoint: 1144,
           settings: {
-            slidesToShow: 2,
-            slidesToScroll: 4,
-            infinite: true,
-            dots: false
-          }
-        },
-        {
-          breakpoint: 660,
-          settings: {
             slidesToShow: 1,
             slidesToScroll: 1,
-            initialSlide: 0
-          }
-        },
-        {
-          breakpoint: 480,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1
+            infinite: true,
+            dots: false
           }
         }
       ]
@@ -71,7 +56,7 @@ export default class FeedBack extends Component {
       <Container fluid>
         <Slider {...settings}>
           <div>
-            <div className="feedback" style={{ width: 400 }}>
+            <div className="feedback">
             <p>" Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium culpa numquam vero fugiat placeat error animi ipsam quos perspiciatis itaque? "</p>
             <h3>Lorem ipsum dolor sit amet.</h3>
             <h5>Lorem, ipsum.</h5>

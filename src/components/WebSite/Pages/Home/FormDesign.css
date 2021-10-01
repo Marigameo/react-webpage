@@ -41,12 +41,24 @@
     width: 50vw;
     margin-bottom: 1rem;
   }
+  .banner-design {
+    align-items: center;
+  }
   .banner-search {
     width: 90vw;
     align-items: center;
     flex-direction: column;
     justify-content: center;
     flex-direction: column;
+  }
+  .banner-header {
+    padding: 0 22%;
+  }
+  .banner-header h1 {
+    font-size: 24px !important;
+  }
+  .banner-header p {
+    font-size: 16px !important;
   }
   .banner-home {
     background-position: bottom;
