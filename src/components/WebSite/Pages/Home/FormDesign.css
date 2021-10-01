@@ -52,7 +52,7 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    margin-bottom: 0;
+    margin-bottom: 3rem;
   }
   .dropdown .selected-value input {
     width: 80vw;
