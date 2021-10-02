@@ -29,7 +29,8 @@
     display: none;
   }
   .footer-bottom {
-    padding: 0.8rem;
+    margin-top: 2rem;
+    padding: 1rem;
     background-color: rgb(221, 222, 235);
   }
 }
