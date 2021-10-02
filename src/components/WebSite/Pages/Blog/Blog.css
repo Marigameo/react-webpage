@@ -39,6 +39,9 @@
   .pro-content p {
     display: none;
   }
+  .b-header h2 {
+    font-size: 18px;
+  }
   .s-blog {
     display: flex;
     justify-content: space-around;
@@ -53,5 +56,10 @@
   }
   .doc-img {
     width: 8rem;
+  }
+  .about-content a {
+    width: 80vw;
+    font-size: 8px;
+    padding: 0.2rem;
   }
 }

@@ -40,10 +40,12 @@ const Home = () => {
 <Container fluid>
     <DocHome/>
 </Container>
-<section id="view-btn" style={{padding: '2rem'}} className='feedback-box'>
+<Container>
+    <article id='f-box'>
     <h3 style={{paddingTop: '2rem'}}>What People Say about Us</h3>
     <Feedback/>
-</section>
+    </article>
+</Container>
 <Blog/>
 </main>
 </>

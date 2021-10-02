@@ -23,11 +23,7 @@
   }
 }
 @media only screen and (max-width: 490px) {
-  .feedback,
-  .feedback p,
-  .feedback h3,
-  .feedback h5,
-  .feedback-box {
-    display: none;
+  #f-box {
+    display: none !important;
   }
 }
