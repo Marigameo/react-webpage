@@ -29,7 +29,7 @@
     display: none;
   }
   .footer-bottom {
-    padding-top: 0.4rem;
-    background-color: rgb(165, 168, 233);
+    padding: 0.8rem;
+    background-color: rgb(221, 222, 235);
   }
 }
