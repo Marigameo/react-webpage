@@ -5,6 +5,10 @@
   text-align: start;
   padding-top: 12px;
 }
+.s-blog {
+  display: flex;
+  flex-direction: row;
+}
 .b-widget {
   display: flex;
   border-radius: 0.2rem;
