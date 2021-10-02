@@ -14,7 +14,7 @@ const Appointment = () => {
     <section className='a-content'>
         <h2>Download Medatu App</h2>
         <aside className='con-content'>
-        <p>Book an Appointment</p>
+        <p>Talk to an health expert online</p>
         
         <div className='input-num'>
         <input className='num-list' type="text" placeholder="Enter your number to join the list" />
