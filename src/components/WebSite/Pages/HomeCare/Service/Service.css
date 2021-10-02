@@ -1,0 +1,26 @@
+@media only screen and (max-width: 490px) {
+  .hcare-special {
+    padding: 0.2rem;
+    margin: 0 !important;
+    height: 6rem;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .hcare-special img {
+    width: 80px;
+    height: auto;
+  }
+  .hcare-special h5 {
+    font-size: 12px;
+    text-align: start;
+    padding: 0.6rem 3px;
+  }
+  .h5-service:hover {
+    color: blue;
+  }
+  .kmore {
+    display: none;
+  }
+}
