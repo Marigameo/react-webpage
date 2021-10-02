@@ -114,21 +114,22 @@ const Footer = () => {
             
                 <div className="copyright">
                     <div className="row">
+
                         <div className="col-md-6 col-lg-6">
                             <div className="copyright-text">
                                 <p className="mb-0">&copy; 2021 Medatu. All rights reserved.</p>
                             </div>
                         </div>
+
                         <div className="col-md-6 col-lg-6">
-                        
-                            <div className="copyright-menu">
+                         <div className="copyright-menu">
                                 <ul className="policy-menu">
                                     <li><Link to="/term-condition">Terms of Use</Link></li>
                                     <li><Link to="/privacy-policy">Privacy Policy</Link></li>
                                 </ul>
                             </div>
-                            
                         </div>
+
                     </div>
                 </div>
                 
