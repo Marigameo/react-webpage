@@ -4,6 +4,7 @@
 .pro-content .title {
   text-align: start;
   padding-top: 12px;
+  font-size: 18px;
 }
 .s-blog {
   display: flex;
@@ -36,11 +37,7 @@
 @media only screen and (max-width: 490px) {
   .about-content p,
   .pro-content p {
-    opacity: 0;
-    height: 0;
-    width: 0;
-    padding: 0;
-    margin: 0;
+    display: none;
   }
   .s-blog {
     display: flex;

@@ -33,6 +33,7 @@ import './Navbar.css'
 import Footer from '../Pages/Footer';
 import logo from "../../assets/img/logo.png"
 import DocA from "../Pages/Doctors/Doctors/DocHome/DocA";
+import RFooter from "../Pages/RFooter/RFooter";
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -129,7 +130,9 @@ function Navbar() {
     <Route path="/about"><AboutUs/></Route>
     <Route path="/"><Home /></Route>
 </Switch>
+<RFooter/>
 <Footer/>
+
       </Router>
      );
 }

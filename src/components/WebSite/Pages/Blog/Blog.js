@@ -14,11 +14,11 @@ function Blog() {
         </div>
         <div className="about-content">
             <p style={{width: 'fit-content'}}>Easy-to-Read health information from our medical experts enables people to live in a better way as per health is concerned.</p>					
-            {/* <a href={() => false}>Read More</a> */}
+            <a href={() => false}>Read More</a>
         </div>
-        <div id="view-btn">
+        {/* <div id="view-btn">
         <button className="btn view-btn">Read More</button>
-        </div>
+        </div> */}
     </div>
     <div className="col-lg-8">
         <div className="row">
