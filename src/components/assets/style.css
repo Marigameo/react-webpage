@@ -10690,6 +10690,7 @@ ul.benifits-col li i {
   }
   .section-header h2 {
     font-size: 1.5rem;
+    padding-bottom: 0.8rem !important;
   }
   .section-header .sub-title {
     font-size: 0.875rem;
