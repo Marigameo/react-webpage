@@ -36,7 +36,7 @@
 }
 @media only screen and (max-width: 380px) {
   .a-banner {
-    flex-direction: column;
+    flex-direction: column !important;
     margin-bottom: 0.3rem;
   }
   .a-content {
