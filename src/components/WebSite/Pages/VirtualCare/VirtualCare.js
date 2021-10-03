@@ -28,6 +28,7 @@ function VirtualCare() {
         </article>
     </section>
     <Specialitites/>
+    <FAQ/>
 <Appointment/>
     <div className="section-header text-center">
       <p className="section-p text-center">Top Online Doctors to Solve Your Health Issues.</p>
@@ -36,7 +37,7 @@ function VirtualCare() {
       <Row>
         <img src={vBanner} alt="v-banner" />
       </Row>
-    <FAQ/>
+  
     </>
   );
 }

@@ -11108,25 +11108,6 @@ ul.benifits-col li i {
   font-weight: 200;
   margin-bottom: 1rem;
 }
-.work-section h2 {
-  padding: 2rem 6rem;
-  font-size: 26px !important;
-}
-.work-section {
-  padding: 4rem;
-}
-.work-section p {
-  margin: 1rem auto 4rem auto;
-}
-.work-section img {
-  width: 30%;
-  height: auto;
-  padding: 0.5rem;
-  border-radius: 50%;
-}
-.work-section h6 {
-  margin: 0.3rem 3rem;
-}
 #browse-section {
   padding: 2rem;
 }

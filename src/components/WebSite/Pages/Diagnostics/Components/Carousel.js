@@ -9,22 +9,22 @@ export default class SimpleSlider extends Component {
       dots: false,
       infinite: true,
       autoplay: true,
-      speed: 4000,
-      autoplaySpeed: 4000,
+      speed: 6000,
+      autoplaySpeed: 6000,
       slidesToShow: 1,
       slidesToScroll: 1
     };
     return (
-      <div className='d-carousel'>
+      <div>
         <Slider {...settings}>
           <div>
-          <img src={slider} alt="slider" />
+          <img src={slider} alt="slider" className='d-carousel'/>
             </div>
             <div>
-          <img src={slider} alt="slider" />  
+          <img src={slider} alt="slider" className='d-carousel'/>  
           </div>
           <div>
-          <img src={slider} alt="slider" />  
+          <img src={slider} alt="slider" className='d-carousel'/>  
           </div>
         </Slider>
         </div>
