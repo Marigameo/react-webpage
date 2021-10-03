@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Container } from "react-bootstrap";
 import Slider from "react-slick";
 import './Service.css'
 

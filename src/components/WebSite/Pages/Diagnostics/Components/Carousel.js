@@ -1,6 +1,7 @@
 import React, { Component } from "react";
-import CarouselData from './CarouselData';
+import slider from '../../../../assets/img/slider.png'
 import Slider from "react-slick";
+import './Carousel.css'
 
 export default class SimpleSlider extends Component {
   render() {
@@ -15,13 +16,13 @@ export default class SimpleSlider extends Component {
       <div>
         <Slider {...settings}>
           <div>
-            <CarouselData/>
+          <img src={slider} alt="slider" />
             </div>
             <div>
-            <CarouselData/>  
+          <img src={slider} alt="slider" />  
           </div>
           <div>
-            <CarouselData/>  
+          <img src={slider} alt="slider" />  
           </div>
         </Slider>
         </div>
