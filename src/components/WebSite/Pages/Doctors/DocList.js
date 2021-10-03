@@ -21,7 +21,7 @@ const [ doctors, setDoctor ] = useState([]);
 				  },
 				body: JSON.stringify({location: 'bangalore', longitude: 1, latitude: 1})
 			};
-			const response = await fetch('http://184.168.117.236/test/admin/api_doctor.php', requestOptions)
+			const response = await fetch('https://184.168.117.236/test/admin/api_doctor.php', requestOptions)
 			const data = await response.json();
 			setDoctor(data)
 		 }
