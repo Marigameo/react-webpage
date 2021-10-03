@@ -8,12 +8,14 @@ export default class SimpleSlider extends Component {
     const settings = {
       dots: false,
       infinite: true,
-      speed: 500,
+      autoplay: true,
+      speed: 4000,
+      autoplaySpeed: 4000,
       slidesToShow: 1,
       slidesToScroll: 1
     };
     return (
-      <div>
+      <div className='d-carousel'>
         <Slider {...settings}>
           <div>
           <img src={slider} alt="slider" />
