@@ -10688,12 +10688,18 @@ ul.benifits-col li i {
   .slick-next {
     right: 0px;
   }
+  .pop-header {
+    height: 50px !important;
+  }
   .section-header h2 {
     font-size: 1.5rem;
-    padding-bottom: 0.8rem !important;
+    padding-bottom: 0 !important;
   }
   .section-header .sub-title {
-    font-size: 0.875rem;
+    font-size: 12px;
+    padding-bottom: 1rem;
+    margin-top: 0 !important;
+    line-height: 15px;
   }
   .section-header p {
     font-size: 0.9375rem;
@@ -11109,7 +11115,7 @@ ul.benifits-col li i {
   margin-bottom: 1rem;
 }
 #browse-section {
-  padding: 2rem;
+  padding: 1rem;
 }
 .feedback {
   padding: 2rem;

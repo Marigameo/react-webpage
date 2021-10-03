@@ -1,17 +1,19 @@
 import React, {useEffect} from 'react';
 import './Diagnostics.css'
 import { DiagTop } from '../DiagData/Icons/DiagTop';
-import { DiagPop } from '../DiagData/Icons/DiagPop';
 import PosterCard from '../Poster/PosterCard';
 import { Link } from 'react-router-dom';
 import { Container } from 'react-bootstrap';
 import Search from '../../DynamicComponents/SearchBar/app/Search';
 import Carousel from '../Components/Carousel';
+import PopC from './PopC/PopC';
 import Space from '../../DynamicComponents/Space/Space';
+
 //images
 import iconOne from "../../../../assets/img/specialities/svg/1.svg";
 import iconTwo from "../../../../assets/img/specialities/svg/2.svg";
 import iconThree from "../../../../assets/img/specialities/svg/3.svg";
+
 
 
 
@@ -74,27 +76,10 @@ const Diagnostics = () => {
 			<section id="view-btn" >
 				<div id="browse-section">
 				<div className="container">
-					<div className="section-header text-center">
+					<div className="section-header pop-header text-center">
 						<h2>Popular Categories</h2><br/><br/>
 					</div>
-					<div className="row">
-					
-								{DiagPop.map((item, index) => {
-									return(
-									<div className="col-lg-4 col-md-4">
-										<Link to='/pop-test'>
-										<div className="pop-box">
-											<div className='popper-design' key={item.id}>
-											<img width={64} height={64} src={item.img} alt=""/>
-											<h5>{item.text}</h5>
-										
-											</div>
-										</div>
-										</Link>
-									</div>
-									)
-								})}
-					</div>
+					<PopC/>
 				</div>
 				</div>
 				<Link to='/pop-test'>
