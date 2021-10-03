@@ -67,6 +67,10 @@
 .work-section {
   padding: 1rem 0;
 }
+.work-section h2 {
+  text-align: center;
+  padding: 1rem 9rem;
+}
 .work-img {
   width: 24rem;
 }
