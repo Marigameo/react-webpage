@@ -6,4 +6,7 @@
     width: 100vw !important;
     height: auto;
   }
+  .form-design {
+    align-items: baseline;
+  }
 }

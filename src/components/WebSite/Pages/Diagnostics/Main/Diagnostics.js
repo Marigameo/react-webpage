@@ -23,8 +23,9 @@ const Diagnostics = () => {
     }, )
 	return ( 
 		<>
+		<Space/>
 		<Container>
-			<Space/>
+			
 		<section style={{paddingTop: '2rem'}}><Search/></section>
   		<Carousel/>
 		</Container>
