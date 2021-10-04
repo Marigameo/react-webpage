@@ -5,9 +5,9 @@ import { Link } from 'react-router-dom';
 
 function RFooter() {
     return (
-        <main id='r-footer'>
+        <main>
             
-        <Dropdown>
+        <Dropdown id='r-footer'>
             <Dropdown.Toggle id='r-btn'>
             Company
             </Dropdown.Toggle>

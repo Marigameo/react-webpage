@@ -1,6 +1,9 @@
 .slick-list {
   height: 20rem !important;
 }
+.slick-slide {
+  height: fit-content;
+}
 @media only screen and (max-width: 1275px) {
   .feedback {
     box-shadow: none !important;

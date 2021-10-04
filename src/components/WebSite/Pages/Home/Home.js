@@ -2,7 +2,7 @@ import React,{useEffect} from 'react';
 import { Container } from 'react-bootstrap';
 import Specialitites from '../DynamicComponents/Specialities/specialities';
 import Search from '../DynamicComponents/SearchBar/app/Search';
-import Feedback from './feedback';
+import Feedback from './FeedBack';
 import Blog from '../Blog/Blog';
 import Three from '../DynamicComponents/Three/Three';
 import Appointment from '../Appointments/Appointment/Appointment';

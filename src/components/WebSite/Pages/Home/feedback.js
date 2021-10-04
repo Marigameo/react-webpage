@@ -1,101 +1,39 @@
-import './feedback.css'
-import { Container } from 'react-bootstrap';
-
 import React, { Component } from "react";
 import Slider from "react-slick";
+import './FeedBack.css'
 
 export default class FeedBack extends Component {
   render() {
-    var settings = {
+    const settings = {
       dots: false,
       infinite: true,
       speed: 500,
-      slidesToShow: 4,
-      slidesToScroll: 2,
-      initialSlide: 0,
-      responsive: [
-        {
-          breakpoint: 1734,
-          settings: {
-            slidesToShow: 3,
-            slidesToScroll: 4,
-            infinite: true,
-            dots: false
-          }
-        },
-        {
-          breakpoint: 1324,
-          settings: {
-            slidesToShow: 3,
-            slidesToScroll: 3,
-            infinite: true,
-            dots: false
-          }
-        },
-        {
-          breakpoint: 1200,
-          settings: {
-            slidesToShow: 2,
-            slidesToScroll: 2,
-            infinite: true,
-            dots: false
-          }
-        }
-      ]
+      slidesToShow: 1,
+      slidesToScroll: 1
     };
     return (
-      <Container fluid>
+      <div className='text-center'>
         <Slider {...settings}>
           <div>
-            <div className="feedback">
-            <p>" Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium culpa numquam vero fugiat placeat error animi ipsam quos perspiciatis itaque? "</p>
-            <h3>Lorem ipsum dolor sit amet.</h3>
-            <h5>Lorem, ipsum.</h5>
-            </div>
+            <h3>1</h3>
           </div>
-
           <div>
-            <div className="feedback" style={{ width: 400 }}>
-            <p>" Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium culpa numquam vero fugiat placeat error animi ipsam quos perspiciatis itaque? "</p>
-            <h3>Lorem ipsum dolor sit amet.</h3>
-            <h5>Lorem, ipsum.</h5>
-            </div>
+            <h3>2</h3>
           </div>
-
           <div>
-            <div className="feedback" style={{ width: 400 }}>
-            <p>" Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium culpa numquam vero fugiat placeat error animi ipsam quos perspiciatis itaque? "</p>
-            <h3>Lorem ipsum dolor sit amet.</h3>
-            <h5>Lorem, ipsum.</h5>
-            </div>
+            <h3>3</h3>
           </div>
-
           <div>
-            <div className="feedback" style={{ width: 400 }}>
-            <p>" Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium culpa numquam vero fugiat placeat error animi ipsam quos perspiciatis itaque? "</p>
-            <h3>Lorem ipsum dolor sit amet.</h3>
-            <h5>Lorem, ipsum.</h5>
-            </div>
+            <h3>4</h3>
           </div>
-
           <div>
-            <div className="feedback" style={{ width: 400 }}>
-            <p>" Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium culpa numquam vero fugiat placeat error animi ipsam quos perspiciatis itaque? "</p>
-            <h3>Lorem ipsum dolor sit amet.</h3>
-            <h5>Lorem, ipsum.</h5>
-            </div>
+            <h3>5</h3>
           </div>
-
           <div>
-            <div className="feedback" style={{ width: 400 }}>
-            <p>" Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium culpa numquam vero fugiat placeat error animi ipsam quos perspiciatis itaque? "</p>
-            <h3>Lorem ipsum dolor sit amet.</h3>
-            <h5>Lorem, ipsum.</h5>
-            </div>
+            <h3>6</h3>
           </div>
-          
-          </Slider>
-      </Container>
+        </Slider>
+      </div>
     );
   }
 }
