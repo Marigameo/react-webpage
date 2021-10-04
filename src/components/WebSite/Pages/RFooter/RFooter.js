@@ -52,7 +52,7 @@ function RFooter() {
             </Dropdown.Menu>
         </Dropdown>
 
-        <div className="footer-bottom">
+        <div className="footer-bottom vanish-footer">
             <div className="container-fluid">
             
                 <div className="copyright">

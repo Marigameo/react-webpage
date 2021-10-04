@@ -3,6 +3,9 @@
   align-items: center;
   justify-content: center;
 }
+.vanish-footer {
+  display: none;
+}
 #r-btn {
   background-color: #fdfdfd !important;
   padding: 1rem;
@@ -23,6 +26,9 @@
 }
 @media only screen and (max-width: 490px) {
   #r-footer {
+    display: flex;
+  }
+  .vanish-footer {
     display: flex;
   }
   .footer {
