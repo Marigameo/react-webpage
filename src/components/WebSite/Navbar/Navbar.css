@@ -61,7 +61,7 @@
 .nav-content {
   display: flex;
   justify-content: center;
-  flex-direction: row;
+  flex-direction: column;
 }
 .nav-content h6 {
   margin: 0 !important;
@@ -73,7 +73,7 @@
   font-size: 14px !important;
   margin-bottom: 0;
   font-weight: 500;
-  padding-left: 1rem;
+  padding-left: 0;
 }
 .nav-item {
   height: 40px;
@@ -107,8 +107,12 @@
   .nav-content h6 {
     font-size: 14px !important;
   }
+  .nav-content {
+    flex-direction: row;
+  }
   .nav-content p {
     font-size: 12px !important;
+    padding-left: 1rem;
   }
 }
 @media screen and (max-width: 1250px) {
@@ -117,6 +121,7 @@
   }
   .nav-content p {
     font-size: 10px !important;
+    padding-left: 1rem;
   }
 }
 
@@ -126,6 +131,7 @@
   }
   .nav-content p {
     font-size: 9px !important;
+    padding-left: 1rem;
   }
 }
 
