@@ -4,6 +4,15 @@
 .slick-slide {
   height: fit-content;
 }
+.f-text p {
+  text-align: end !important;
+}
+.f-box {
+  padding: 4rem 9rem;
+}
+.f-content h3 {
+  padding-bottom: 1rem;
+}
 @media only screen and (max-width: 1275px) {
   .feedback {
     box-shadow: none !important;
