@@ -41,7 +41,7 @@ const Home = () => {
 
 <DocHome/>
 <Container>
-    <article id='f-box'>
+    <article id='f-box' className='text-center'>
     <h3 style={{paddingTop: '2rem'}}>What People Say about Us</h3>
     <Feedback/>
     </article>
