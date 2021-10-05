@@ -1,10 +1,14 @@
 .l-a {
-    width: fit-content;
-    color: #8176c4;
+  width: fit-content;
+  color: #8176c4;
 }
 .l-a:hover {
-    color: darkgreen !important;
+  color: darkgreen !important;
 }
 .pro-content {
-    text-align: center;
+  text-align: center;
+}
+.profile-img img {
+  width: 64px;
+  height: 64px;
 }

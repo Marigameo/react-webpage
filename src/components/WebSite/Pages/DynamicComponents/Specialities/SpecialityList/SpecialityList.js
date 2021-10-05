@@ -114,7 +114,7 @@ const SpecialityList = () => {
                 
         <div className="col-md-12 col-lg-4 col-xl-4 product-custom">
         <Link to='doctors'>
-                <div className="profile-widget">
+                <div className="profile-widget profile-img">
                   <div className="doc-img">
                     <a href="#/" tabIndex="-1">
                       <img className="img-fluid" alt="ProductImage" src={item.img} width={60}/>
