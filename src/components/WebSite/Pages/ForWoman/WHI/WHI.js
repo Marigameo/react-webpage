@@ -5,7 +5,7 @@ const WHI = () => {
     return ( 
         <>
         <Container fluid className='whi'>
-        <h2>Women Health Issues</h2>
+        {/* <h2>Women Health Issues</h2> */}
         <h4>Consult with an experienced doctor today!</h4>
         <article className='whi-con'>
             {WHIData.map((item, index) => {
