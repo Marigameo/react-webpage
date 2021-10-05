@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
+import {Container} from 'react-bootstrap'
 import Slider from "react-slick";
 import './Service.css'
 
@@ -8,7 +10,6 @@ import hTwo from '../../../../assets/img/home-care/02.jpg'
 import hThree from '../../../../assets/img/home-care/03.jpg'
 import hFour from '../../../../assets/img/home-care/04.jpg'
 import hFive from '../../../../assets/img/home-care/05.jpg'
-import { Link } from "react-router-dom";
 
 export default class Service extends Component {
   render() {
@@ -16,9 +17,10 @@ export default class Service extends Component {
         dots: false,
         infinite: true,
         speed: 500,
-        slidesToShow: 6,
+        slidesToShow: 5,
         slidesToScroll: 0,
         initialSlide: 0,
+        variableWidth: true,
         responsive: [
           {
             breakpoint: 1024,
@@ -47,7 +49,7 @@ export default class Service extends Component {
       ]
     };
     return (
-        <div>
+        <Container fluid>
         <Slider {...settings}>
             <div className='hcare-special'>
                 <img src={hOne} alt="iImg" width={180} height={120}/>
@@ -75,7 +77,7 @@ export default class Service extends Component {
                 <h5 className='h5-service'>Physical Therapy</h5> <Link to='s-km' className='kmore'>Know More</Link>
             </div>
         </Slider>
-        </div>
+        </Container>
     );
   }
 }

@@ -28,7 +28,7 @@ const Diagnostics = () => {
 			
 		<section style={{paddingTop: '2rem'}}><Search/></section>
   		<Carousel/>
-		</Container>
+		</Container>	
 		
 		  <section className="container-fluid">
 		  <div className="work-section">
