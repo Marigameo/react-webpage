@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/react-webpage/static/css/main.770d3b81.chunk.css",
-    "main.js": "/react-webpage/static/js/main.78d0c748.chunk.js",
-    "main.js.map": "/react-webpage/static/js/main.78d0c748.chunk.js.map",
+    "main.css": "/react-webpage/static/css/main.4e58c2a9.chunk.css",
+    "main.js": "/react-webpage/static/js/main.fbad5334.chunk.js",
+    "main.js.map": "/react-webpage/static/js/main.fbad5334.chunk.js.map",
     "runtime-main.js": "/react-webpage/static/js/runtime-main.d2c7a767.js",
     "runtime-main.js.map": "/react-webpage/static/js/runtime-main.d2c7a767.js.map",
     "static/css/2.f2512455.chunk.css": "/react-webpage/static/css/2.f2512455.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.31d2e07b.chunk.js.map": "/react-webpage/static/js/3.31d2e07b.chunk.js.map",
     "index.html": "/react-webpage/index.html",
     "static/css/2.f2512455.chunk.css.map": "/react-webpage/static/css/2.f2512455.chunk.css.map",
-    "static/css/main.770d3b81.chunk.css.map": "/react-webpage/static/css/main.770d3b81.chunk.css.map",
+    "static/css/main.4e58c2a9.chunk.css.map": "/react-webpage/static/css/main.4e58c2a9.chunk.css.map",
     "static/js/2.9d0da00f.chunk.js.LICENSE.txt": "/react-webpage/static/js/2.9d0da00f.chunk.js.LICENSE.txt",
     "static/media/01.3ffa3828.jpg": "/react-webpage/static/media/01.3ffa3828.jpg",
     "static/media/01.6fb98467.png": "/react-webpage/static/media/01.6fb98467.png",
@@ -48,7 +48,7 @@
     "static/media/4.d081b205.png": "/react-webpage/static/media/4.d081b205.png",
     "static/media/style.css": "/react-webpage/static/media/tick-icon.6da4654e.svg",
     "static/media/appstore.292c3537.png": "/react-webpage/static/media/appstore.292c3537.png",
-    "static/media/ForWoman.css": "/react-webpage/static/media/banner.29105f82.jpg",
+    "static/media/ForWoman.css": "/react-webpage/static/media/banner.e6fde3b1.jpg",
     "static/media/blog-01.9bbda6c8.jpg": "/react-webpage/static/media/blog-01.9bbda6c8.jpg",
     "static/media/blog-02.6ab82e81.jpg": "/react-webpage/static/media/blog-02.6ab82e81.jpg",
     "static/media/blog-03.6c0dbed2.jpg": "/react-webpage/static/media/blog-03.6c0dbed2.jpg",
@@ -65,7 +65,7 @@
     "static/media/footer-logo.40c41be2.png": "/react-webpage/static/media/footer-logo.40c41be2.png",
     "static/media/googleplay.0f101371.png": "/react-webpage/static/media/googleplay.0f101371.png",
     "static/media/VirtualCare.css": "/react-webpage/static/media/hcare-banner.d9f0c87a.jpg",
-    "static/media/HomeCare.css": "/react-webpage/static/media/home-care-banner.4d193be1.jpg",
+    "static/media/HomeCare.css": "/react-webpage/static/media/home-care-banner.452c16d2.jpg",
     "static/media/home.ca69c127.jpg": "/react-webpage/static/media/home.ca69c127.jpg",
     "static/media/logo.f2967192.png": "/react-webpage/static/media/logo.f2967192.png",
     "static/media/aboutus.css": "/react-webpage/static/media/one.5f14b21f.jpg",
@@ -74,13 +74,13 @@
     "static/media/slider.35189df1.png": "/react-webpage/static/media/slider.35189df1.png",
     "static/media/vbanner.f68d258d.jpg": "/react-webpage/static/media/vbanner.f68d258d.jpg",
     "static/media/vc.230a14a5.jpg": "/react-webpage/static/media/vc.230a14a5.jpg",
-    "static/media/woman-app.c78d22b8.jpg": "/react-webpage/static/media/woman-app.c78d22b8.jpg"
+    "static/media/woman-app.15f10599.jpg": "/react-webpage/static/media/woman-app.15f10599.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.d2c7a767.js",
     "static/css/2.f2512455.chunk.css",
     "static/js/2.9d0da00f.chunk.js",
-    "static/css/main.770d3b81.chunk.css",
-    "static/js/main.78d0c748.chunk.js"
+    "static/css/main.4e58c2a9.chunk.css",
+    "static/js/main.fbad5334.chunk.js"
   ]
 }
