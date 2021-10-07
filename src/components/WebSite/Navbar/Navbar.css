@@ -49,6 +49,7 @@
 }
 
 .nav-menu {
+  padding-left: 0;
   display: grid;
   grid-template-columns: repeat(5, auto);
   grid-gap: 10px;
@@ -107,12 +108,8 @@
   .nav-content h6 {
     font-size: 14px !important;
   }
-  .nav-content {
-    flex-direction: row;
-  }
   .nav-content p {
     font-size: 12px !important;
-    padding-left: 1rem;
   }
 }
 @media screen and (max-width: 1250px) {
@@ -121,7 +118,6 @@
   }
   .nav-content p {
     font-size: 10px !important;
-    padding-left: 1rem;
   }
 }
 
@@ -131,7 +127,6 @@
   }
   .nav-content p {
     font-size: 9px !important;
-    padding-left: 1rem;
   }
 }
 

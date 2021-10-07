@@ -103,17 +103,3 @@
     margin: 0.3rem 3rem;
   }
 }
-@media only screen and (max-width: 499px) {
-  .work-section h2 {
-    font-size: 12px;
-    text-align: center;
-    padding: 0;
-  }
-  .work-box h6 {
-    font-size: 6px;
-    text-align: start;
-  }
-  .work-box .row {
-    background-color: aqua;
-  }
-}
