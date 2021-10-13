@@ -11,7 +11,40 @@ class Search extends React.Component {
     this.state = { address: ''};
   }
   
+  componentDidMount() {
+    this.getGeoLocation()
+  }
+
+  getGeoLocation() {
+    if (navigator.geolocation) {
+      navigator.geolocation.getCurrentPosition(({ coords }) => {
+        const { latitude, longitude } = coords
+        console.log('latlong', latitude, longitude)
+        this.getApproxAddress(latitude, longitude)
+      })
+    } else {
+      console.log("Geolocation is not supported by this browser.");
+    }
+  }
+
+  getApproxAddress = async (lat, long) => {
+    return await fetch(
+      `https://maps.googleapis.com/maps/api/geocode/json?latlng=${lat},${long}&result_type=street_address|political|locality|sublocality|neighborhood|premise|subpremise&key=AIzaSyCvxiUM4shn9Zd3WzBQUVbxpQhLeMgA6BE&libraries=places`
+    )
+      .then((response) => response.json())
+      .then(async (data) => {
+        console.log('Map Response: ', data)
+        if (data.status === 'OK' && data.results.length > 0) {
+          return data.results[0]
+        }
+   
+        return null
+        
+      })
+  }
+
   handleChange = address => {
+    console.log('address', address)
     this.setState({ address });
   };
  
