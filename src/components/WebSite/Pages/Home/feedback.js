@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Container } from "react-bootstrap";
 import Slider from "react-slick";
-import './FeedBack.css'
+import './feedback.css'
 
 export default class FeedBack extends Component {
   render() {
