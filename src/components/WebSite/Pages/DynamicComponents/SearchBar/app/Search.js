@@ -20,6 +20,13 @@ class Search extends React.Component {
   
   componentDidMount() {
     this.getGeoLocation()
+    let _this = this
+    document.addEventListener('click', function (e) {
+      console.log('e', e.target.className)
+      if(!e.target.className.includes('location-search-input')){
+         _this.setState({isChanged: true})
+      }
+    }, false);
   }
 
   getGeoLocation() {
